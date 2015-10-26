@@ -1,5 +1,5 @@
 publish : typo
-	@ wget -O - http://withglee.org/update.cgi > /dev/null
+	wget -O - http://withglee.org/update.cgi 
 
 typo: ready
 	@- git status
