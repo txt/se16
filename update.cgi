@@ -2,6 +2,6 @@
 echo "Content-Type: text/html"
 echo ""
 
-echo "<pre>"
+echo "<p>$(date)</p><pre>"
 git pull origin master
 echo "</pre>"
