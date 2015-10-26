@@ -13,7 +13,7 @@ EOF
 date
 git pull origin master
 
-date >> logs
+ls -lsa
 
 cat<<EOF
 </pre>
