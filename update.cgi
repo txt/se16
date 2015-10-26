@@ -13,9 +13,11 @@ $(date;git pull origin master)
 
 $(ls -lsa)
 
+$(chmod 755 *.cgi)
+
 </pre>
 </body>
 </html>
 EOF
 
-chmod 755 *.cgi
+
