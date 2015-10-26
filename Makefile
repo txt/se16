@@ -1,5 +1,7 @@
-publish : typo
-	wget -O - http://withglee.org/update.cgi 
+publish : typo updatecgi
+
+updatecgi:
+	wget -O -  http://withglee.org/update.cgi 
 
 typo: ready
 	@- git status

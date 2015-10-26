@@ -7,9 +7,15 @@ Content-Type: text/html
 <title>Updating</title>
 </head>
 <body>
-<p>$(date)
+<p>
+END
+
+date
+git pull origin master
+
+cat<<EOF
 <pre>
-$(git pull origin master)
 </pre>
 </body>
 </html>
+EOF
