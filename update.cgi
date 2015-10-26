@@ -17,3 +17,5 @@ $(ls -lsa)
 </body>
 </html>
 EOF
+
+chmod 755 *.cgi
