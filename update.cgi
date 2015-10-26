@@ -8,7 +8,7 @@ Content-Type: text/html
 </head>
 <body>
 <p>
-END
+EOF
 
 date
 git pull origin master
