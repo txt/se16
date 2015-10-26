@@ -8,14 +8,11 @@ Content-Type: text/html
 </head>
 <body>
 <pre>
-EOF
 
-date
-git pull origin master
+$(date;git pull origin master)
 
-ls -lsa
+$(ls -lsa)
 
-cat<<EOF
 </pre>
 </body>
 </html>
