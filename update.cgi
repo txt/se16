@@ -13,6 +13,8 @@ END
 date
 git pull origin master
 
+date >> logs
+
 cat<<EOF
 <pre>
 </pre>
