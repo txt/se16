@@ -1,23 +1,7 @@
 #!/bin/bash
-cat<<EOF
-Content-Type: text/html
+echo "Content-Type: text/html"
+echo ""
 
-<html>
-<head>
-<title>Updating</title>
-</head>
-<body>
-<pre>
-
-$(date;git pull origin master)
-
-$(ls -lsa)
-
-$(chmod 755 *.cgi)
-
-</pre>
-</body>
-</html>
-EOF
-
-
+date
+git pull origin master
+ls -lsa
