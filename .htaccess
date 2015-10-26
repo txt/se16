@@ -4,6 +4,6 @@ ReadmeName README.html
 ErrorDocument 404 /.worksite/404.html
 AddIcon           /.worksite/img/dir.png ^^DIRECTORY^^
 DefaultIcon       /.worksite/img/arrow.gif
-IndexIgnore header.html footer.html 403.html favicon.ico *.cgi favicon.* robots.txt .htaccess .ftpquota .DS_Store icons *.log *,v *,t .??* *~ *#
+IndexIgnore header.html footer.html  Makefile favicon.ico *.cgi favicon.* robots.txt .htaccess .ftpquota .DS_Store icons *.log *,v *,t .??* *~ *#
 IndexOptions NameWidth=20 DescriptionWidth=50 ScanHtmlTitles FoldersFirst FancyIndexing IconHeight=16 IconWidth=16 SuppressSize
 RewriteRule ^(.*)(.py)$ /.worksite/render.cgi?$1.py
