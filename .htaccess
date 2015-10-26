@@ -1,6 +1,6 @@
 HeaderName /HEADER.html
 ReadmeName README.html
-ErrorDocument 404 /404.html
+ErrorDocument 404 /.worksite/404.html
 AddIcon /.worksite/img/dir.png ^^DIRECTORY^^
 DefaultIcon /.worksite/img/arrow.gif
 IndexIgnore header.html footer.html 404.html favicon.ico *.cgi favicon.* robots.txt .htaccess .ftpquota .DS_Store icons *.log *,v *,t .??* *~ *#
