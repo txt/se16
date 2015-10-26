@@ -7,7 +7,7 @@ Content-Type: text/html
 <title>Updating</title>
 </head>
 <body>
-<p>
+<pre>
 EOF
 
 date
@@ -16,7 +16,6 @@ git pull origin master
 date >> logs
 
 cat<<EOF
-<pre>
 </pre>
 </body>
 </html>

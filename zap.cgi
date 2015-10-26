@@ -7,9 +7,17 @@ Content-Type: text/html
 <title>Updating</title>
 </head>
 <body>
-<p>$(date)
 <pre>
-$(rm -rf .htaccess *; git clone https://github.com/txt/se16.git .)
+EOF
+
+date
+rm -rf .htaccess *
+git clone https://github.com/txt/se16.git .
+
+date >> logs.del
+
+cat<<EOF
 </pre>
 </body>
 </html>
+EOF
