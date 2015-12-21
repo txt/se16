@@ -1,3 +1,9 @@
+# editor
+
+tinymce
+
+or not: html, two column frame
+
 ## On methodologies
 
 new world of dev ops: need a primer on auto deployment, autimated unit test, autoomated system texting, coe review,
