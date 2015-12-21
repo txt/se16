@@ -12,6 +12,11 @@ Just about 20% of the features implemented in a software product are often or al
 
 aslo that thing with ms windows where mot functions not used
 
+https://blogs.msdn.microsoft.com/b8/2011/08/29/improvements-in-windows-explorer/
+
+
+Gail C. Murphy, Mik Kersten, Leah Findlater: How Are Java Software Developers Using the Eclipse IDE? IEEE Software 23(4): 76-83 (2006)
+attached 
 
 ## on the value of code reviews
 
