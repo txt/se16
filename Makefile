@@ -1,4 +1,4 @@
-url=se16.unbox.org#
+url=se16.unbox.org
 
 publish : typo updatecgi
 
