@@ -3,7 +3,7 @@ url="http://se16.unbox.org"
 publish : typo updatecgi
 
 site:
-	@- wget -O -  $(url)/update.cgi  
+	wget -O -  $(url)/update.cgi  
 
 typo: ready
 	@- git status

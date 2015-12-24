@@ -10,7 +10,6 @@ else
 fi
 
 echo '<html><head>'
-echo '<link rel="stylesheet" type="text/css" href="'$css'">'
 
 echo '</head><body>'
 
