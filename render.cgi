@@ -2,14 +2,16 @@
 echo "Content-Type: text/html"
 echo ""
 
+css="pygment_pastie.css"
 if [ -n "$HOME" ]; then
   md=markdown_py
 else
   md="/home/stuff/env1/bin/markdown_py"
 fi
 
-echo '<htm><head>'
-echo '<link rel="stylesheet" type="text/css" href="pygment_pastie.css">'
+echo '<html><head>'
+echo '<link rel="stylesheet" type="text/css" href="'$css'">'
+
 echo '</head><body>'
 
 cat _tmp/test.md | $md -x tables  \
