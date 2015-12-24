@@ -2,16 +2,13 @@ url="http://withglee.org"
 
 publish : typo updatecgi
 
-updatecgi:
-	@- wget -O -  http://withglee.org/update.cgi  > /dev/null
+site:
+	@- wget -O -  $(url)/update.cgi  
 
 typo: ready
 	@- git status
 	@- git commit -am "saving"
 	@- git push origin master 
-	- echo 111
-        - echo "wget -O - $(url)/update.cgi"
-        wget -O - $(url)/update.cgi
 
 commit: ready
 	@- git status
