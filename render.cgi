@@ -6,7 +6,7 @@ css="pygment_pastie.css"
 if [ -n "$HOME" ]; then
   md=markdown_py
 else
-  md="/home/stuff/env1/bin/markdown_py"
+  md="/home/tunn/env/bin/markdown_py"
 fi
 
 echo '<html><head>'
