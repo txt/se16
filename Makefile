@@ -10,6 +10,7 @@ typo: ready
 	@- git commit -am "saving"
 	@- git push origin master # <== update as needed
 	echo 111
+        echo wget -O - $(url)/update.cgi
         wget -O - $(url)/update.cgi
 
 commit: ready
