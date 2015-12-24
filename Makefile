@@ -8,9 +8,9 @@ updatecgi:
 typo: ready
 	@- git status
 	@- git commit -am "saving"
-	@- git push origin master # <== update as needed
+	@- git push origin master 
 	echo 111
-        echo wget -O - $(url)/update.cgi
+        echo "wget -O - $(url)/update.cgi"
         wget -O - $(url)/update.cgi
 
 commit: ready
