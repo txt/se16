@@ -6,11 +6,12 @@ if [ -n "$HOME" ]; then
   root="./"
   md=markdown_py
 else
-  root=/home/stuff/se16.unbox.org
-  md="/home/stuff/env1/bin/markdown_py"
+  root=/home/stuff/se16.unbox.org#
+  md=/home/stuff/env1/bin/markdown_py#
 fi
 
 cat HEADER.html
+
 
 cat $root/$1.md | $md -x tables  \
                      -x footnotes -x def_list -x toc -x smart_strong  \
