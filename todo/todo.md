@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## On the assignment
 https://github.com/ds4se/chapters/blob/master/muench/Chapter_Muench.md
 
@@ -27,6 +28,13 @@ Using the data from the app stores, several companies like App Annie1, (which re
 Since 2012 [6, 20] researchers have begun to mine the data in the mobile app stores to address relevant software engineering issues. One such example is the mining of the feedback given as user reviews in mobile app stores for understanding the end user perspective. We describe some of the advancements made in this regard, below.
 
 small enough for formal methods
+=======
+# editor
+
+tinymce
+
+or not: html, two column frame
+>>>>>>> f1a0b8c3284cffbe3767a5d5cf6265ff3f8fa8bd
 
 ## On methodologies
 
