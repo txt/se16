@@ -8,15 +8,4 @@ else
   md="/home/stuff/env1/bin/markdown_py"
 fi
 
-$md <<EOF
-
-asdas
-====
-
-+ asd
-+ asd
-+ asda
-
-asdaasasd
-
-EOF
+cat _tmp/test.md | $md
