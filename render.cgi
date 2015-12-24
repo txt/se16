@@ -13,7 +13,7 @@ fi
 cat HEADER.html
 
 
-cat $root/$1.md | $md -x tables  \
+cat $(QUERY_STRING).md | $md -x tables  \
                      -x footnotes -x def_list -x toc -x smart_strong  \
                      -x attr_list -x sane_lists  -x  fenced_code  \
                      -x "codehilite(linenums=True)"

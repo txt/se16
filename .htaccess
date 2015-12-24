@@ -8,4 +8,4 @@ IndexIgnore HEADER.html FOOTER.html  _tmp _img *.css  todo Makefile favicon.ico 
 IndexOptions NameWidth=20 DescriptionWidth=50 ScanHtmlTitles FoldersFirst FancyIndexing IconHeight=16 IconWidth=16 SuppressHTMLPreamble  SuppressSize
 ######
 RewriteRule ^(.*)(.py)$ /.worksite/render.cgi?$1.py
-RewriteRule ^(.*)(.md)$ /render.cgi $1
+RewriteRule ^(.*)(.md)$ /render.cgi?$1
