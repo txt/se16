@@ -9,7 +9,7 @@ typo: ready
 	@- git status
 	@- git commit -am "saving"
 	@- git push origin master # <== update as needed
-        @- wget -O - $(url)/update.cgi
+        - wget -O - $(url)/update.cgi
 
 commit: ready
 	@- git status
