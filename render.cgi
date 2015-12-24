@@ -6,8 +6,8 @@ if [ -n "$HOME" ]; then
   root="./"
   md=markdown_py
 else
-  root=/home/stuff/se16.unbox.org#
-  md=/home/stuff/env1/bin/markdown_py#
+  root=/home/stuff/se16.unbox.org
+  md=/home/stuff/env1/bin/markdown_py
 fi
 
 cat HEADER.html
