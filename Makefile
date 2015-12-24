@@ -1,9 +1,9 @@
-url="http://se16.unbox.org"
+url=se16.unbox.org#
 
 publish : typo updatecgi
 
 site:
-	wget -O -  $(url)/update.cgi  
+	wget -O -  http://$(url)/update.cgi  
 
 typo: ready
 	@- git status
@@ -14,7 +14,7 @@ commit: ready
 	@- git status
 	@- git commit -a
 	@- git push origin master
-        @- wget -O - $(url)/update.cgi
+	@- wget -O - http://$(url)/update.cgi
 
 update: ready
 	@- git pull origin master
