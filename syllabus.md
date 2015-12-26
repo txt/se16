@@ -48,9 +48,22 @@ engineering.
 
 + [Software Engineering: A Practitioner's Approach, 7th International edition](http://www.amazon.com/Software-Engineering-Practitioners-Approach-International/dp/0071267824/ref=sr_1_2?s=books&ie=UTF8&qid=1451098592&sr=1-2&keywords=Software+Engineering%3A+A+Practitioner%27s+Approach++international+edition) by Roger Pressman (optional).
 
+### Assessment
 
+Student will sit exams to gauge their understanding of lecture material.
 
-### Grading
+Students will work in groups of three to test their ability to work in groups to deliver software.
+
+Grades will be added together using:
+
++ Mid-term: Tuesday, March15, 20 marks
++ Final exam: 30 marks
++ Project: due Feb1, Mar1, Apr1, May1, for grades 5,5,25,15 marks
+   + The Feb, Mar reports will be short progress statements towards the April, May deliverables.
+   + The Apr1 work will be:
+        + A talk to the class (10 marks) and
+        + And a report document (15 marks);
+   + The May1 deliverable (worth 15 marks) will be a report of the form shown [here](https://github.com/CSC510-2015-Axitron/project2)
 
 The following grade scale will be used: 
 
@@ -59,12 +72,6 @@ The following grade scale will be used:
      C+ (77-79),   C (73-76),   C-(70-72)
      D+ (67-69),   D (63-66),   D-(60-62)
      F (below 60).
-
-Grades will be added together using:
-
-+ Mid-term: Tuesday, March15, 20 marks
-+ Final exam: 20 marks
-+ Project: due Feb1, Mar1, Apr1, May1, for grades 10,15,15,20 marks
 
 ### Group mailing list
 
