@@ -41,11 +41,11 @@ engineering.
 
 ### Prerequisite
 
-CSC 316 and CSC 226
++ CSC 316 and CSC 226
 
 ### Textbook
 
-[Software Engineering: A Practitioner's Approach, 7th International edition](http://www.amazon.com/Software-Engineering-Practitioners-Approach-International/dp/0071267824/ref=sr_1_2?s=books&ie=UTF8&qid=1451098592&sr=1-2&keywords=Software+Engineering%3A+A+Practitioner%27s+Approach++international+edition) by Roger Pressman (optional).
++ [Software Engineering: A Practitioner's Approach, 7th International edition](http://www.amazon.com/Software-Engineering-Practitioners-Approach-International/dp/0071267824/ref=sr_1_2?s=books&ie=UTF8&qid=1451098592&sr=1-2&keywords=Software+Engineering%3A+A+Practitioner%27s+Approach++international+edition) by Roger Pressman (optional).
 
 ### Group mailing list
 
@@ -55,7 +55,7 @@ It is each student's responsibility to join the following news group:
 + Which you can email at [csc510@googlegroups.com](mailto:csc510@googlegroups.com). Students are strongly encouraged to contribute their questions and answers to that shared resource.
 + Note that, for communication of a more private nature, contact the lecturer on the email shown below.
 
-
+All class communication will be via this news group.
 
 
 ## Staff
@@ -78,15 +78,15 @@ width=100>
 ### Tutor
 
 
-Rahul Krishna <img
-src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/1/005/0a4/3d6/04b9ea9.jpg"
+Shaown Sarker <img
+src="_img/shawon.png"
 align=right
 width=100>
 
-+ E-mail: rkrish11@ncsu.edu
++ E-mail: ssarker@ncsu.edu
   + Only use this email for private matters. All other class communication should be via the class news group,    listed below.
-+ Office mours: Friday 12pm to 2pm
-+ Office location: rm 3231, EE II
++ Office hours: XXX
++ Office location: XXX
 
 ## Topics
 
