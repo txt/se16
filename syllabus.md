@@ -59,10 +59,10 @@ Grades will be added together using:
 + Mid-term: Tuesday, March15, 20 marks
 + Final exam: 30 marks
 + Project: due Feb1, Mar1, Apr1, May1, for grades 5,5,25,15 marks
-   + The Feb, Mar reports will be short progress statements towards the April, May deliverables.
-   + The Apr1 work will be:
-        + A talk to the class (10 marks) and
-        + And a report document (15 marks);
+      + The Feb, Mar reports will be short progress statements towards the April, May deliverables.
+      + The Apr1 work will be:
+             + A talk to the class (10 marks) and
+             + And a report document (15 marks);
    + The May1 deliverable (worth 15 marks) will be a report of the form shown [here](https://github.com/CSC510-2015-Axitron/project2)
 
 The following grade scale will be used: 
