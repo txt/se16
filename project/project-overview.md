@@ -85,9 +85,9 @@ Note how this is a profound change in how we develop systems:
      + E.g In Microsoft Windows Explorer[^sino11], a mere 10 commands make up 81% of the commands actually ever used.
      + Ditto with Eclipse[^murp06].
 
-[^sino11]: $SINO11
+[^sino11]: _SINO11
 
-[^murph06]: $MURP06
+[^murph06]: _MURP06
 
 This means that substantial development effort is wasted. But even worse
 
