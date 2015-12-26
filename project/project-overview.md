@@ -5,7 +5,7 @@
 Good news: Your start-up has been bought out by the
 very large software company Microoglebook and you
 and your entire team has been acq-hired (at very
-large salaries, with shares that vest in two years).
+large salaries, with shares that vest[:vest] in three years).
 
 Bad news: now you are the newbies working on new
 projects with new people in long-established teams.
@@ -19,6 +19,10 @@ Therefore, in this project you must:
 - Make a case that one of those ways should be adopted.
 
 ## How to do this project
+
+Start now and form groups today. Your first major technical deliverable is due in 24 days-- and
+this is a report that requires some research and (perhaps) some experimentation.
+So [read about the deliverables, tonight](.)
 
 All work will be in Github. Students are encouraged to
 meet weekly then, otherwise, communicate regularly via Github issue reports.
@@ -37,6 +41,7 @@ In part2, due  May1:
 support tool that generates "reports of interest"
 about patterns in the Github issues seen for the
 work Jan to April.
+
 
 ## Why This Project?
 
@@ -99,24 +104,22 @@ telemetry first
 
 ## Notes
 
-
 [^murp06]: Gail Murphy, Mik Kersten,
 [How are java software developers using the eclipse IDE](https://github.com/txt/se16/blob/master/todo/howDevelopersUseEclipseIDE.pdf).
 IEEE Software, July 2006.
+
+[^rach14]: May 19, 2014 Andy Rachleff,
+[What You Need To Know About Vesting Stock](https://blog.wealthfront.com/vesting-stock-options/). Wealthfront
+blog, May 19, 2014.
 
 [^sino11]: Steven Sinofsky,
 [Improvements in Windows Explorer](https://blogs.msdn.microsoft.com/b8/2011/08/29/improvements-in-windows-explorer).
 Microsoft Developer Blog, August 29, 2011.
 
-
-[^rach14]:
-May 19, 2014 Andy Rachleff,
-[What You Need To Know About Vesting Stock](https://blog.wealthfront.com/vesting-stock-options/). Wealthfront blog, May 19, 2014.
-
 [^vest]: _Vesting_ refers to the process by which an
-employee earns her shares over time; e.g. monthly over
-four years with a one-year _cliff_. That means you
-earn the right to 1/48th of the shares you were
+employee earns her shares over time; e.g. monthly
+over four years with a one-year _cliff_. That means
+you earn the right to 1/48th of the shares you were
 originally granted per month over four years (48
 months), but you don’t get anything if you leave
 prior to your one-year anniversary (and go over the
@@ -128,4 +131,5 @@ would earn the right to exercise 1/2 your
 options. The one-year cliff was created to protect
 companies against issuing stock to bad hires, which
 typically are not recognized at least until at least
-a few months into their tenure. For more on vesting, see[^rach14].
+a few months into their tenure. For more on vesting,
+see[^rach14].
