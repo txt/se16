@@ -113,7 +113,7 @@ Microsoft Developer Blog, August 29, 2011.
 May 19, 2014 Andy Rachleff,
 [What You Need To Know About Vesting Stock](https://blog.wealthfront.com/vesting-stock-options/). Wealthfront blog, May 19, 2014.
 
-[^vest] _Vesting_ refers to the process by which an
+[^vest]: _Vesting_ refers to the process by which an
 employee earns her shares over time; e.g. monthly over
 four years with a one-year _cliff_. That means you
 earn the right to 1/48th of the shares you were
