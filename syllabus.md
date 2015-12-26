@@ -1,5 +1,5 @@
 
-<img align=right width=300 src="http://2qeyae30zrn91lya8t3kudic.wpengine.netdna-cdn.com/wp-content/uploads/2015/09/school-of-rock-660x400.jpg">
+<img align=right width=450 src="http://2qeyae30zrn91lya8t3kudic.wpengine.netdna-cdn.com/wp-content/uploads/2015/09/school-of-rock-660x400.jpg">
 
 # Syllabus
 
