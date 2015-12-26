@@ -15,8 +15,10 @@ what="$QUERY_STRING"
 [ -z "$what" ] && what="$1"
 
 
-cat HEADER.html $what.md |
-python _etc/xpand.py     |
+cat HEADER.html
+
+cat $what.md |
+python _etc/xpand.py |
 $md -x tables  \
     -x footnotes -x def_list -x toc -x smart_strong  \
     -x attr_list -x sane_lists  -x  fenced_code  \
