@@ -31,11 +31,12 @@ In part1:
 - Mar1 will be all your ideas coded up
 - Apr1 will be a talk to the class (15 mins, sometime in April) as well as a 2000 word report (due  Apr1).
 
-In part2, due  May1, you will write a  decision
+In part2, due  May1:
+
++ You will write a  decision
 support tool that generates "reports of interest"
 about patterns in the Github issues seen for the
 work Jan to April.
-
 
 ## Why This Project?
 
