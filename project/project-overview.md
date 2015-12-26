@@ -8,7 +8,8 @@ and your entire team has been acq-hired (at very
 large salaries, with shares that vest[:vest] in three years).
 
 Bad news: now you are the newbies working on new
-projects with new people in long-established teams.
+projects with new people in long-established teams. And all those
+old-timers and looking at you with that "so... what have you got?" expression.
 To gain some credibility in those teams, you have to do something _impressive_.
 
 Therefore, in this project you must:
