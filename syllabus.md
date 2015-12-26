@@ -20,6 +20,8 @@ Tues,Thurs 4:30PM - 5:45PM
 
 [TOC]
 
+____
+
 ## Overview
 
 ### Topics
@@ -89,7 +91,7 @@ It is each student's responsibility to join the following news group:
 + Which you can email at [csc510@googlegroups.com](mailto:csc510@googlegroups.com). Students are strongly encouraged to contribute their questions and answers to that shared resource.
 + Note that, for communication of a more private nature, contact the lecturer on the email shown below.
 
-All class communication will be via this news group.
+All class communication from staff to students will be via this news group.
 
 ## Staff
 
