@@ -264,8 +264,11 @@ One year, a student was joking around with
 his buddy in a Github issue report. Then he was
 rude enough and stupid enough to 
 add a remark about how the rest of the
-team was &#9632;&#9632;&#9632;&#9632 &#9632;&#9632;&#9632;&#9632&;#9632;&#9632;&#9632;&#9632;.
-The rest of the team took great
+team was just so
+&#9632;&#9632;&#9632;&#9632;
+&#9632;&#9632;&#9632;&#9632;&#9632;&#9632;&#9632;&#9632;.
+Needless to say,
+the rest of the team took great
 offense at this remark and invoked the University's
 non-discrimination policies. As a result, everyone
 lost much time that semester, as well as grades. 
