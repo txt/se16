@@ -149,12 +149,69 @@ a:link, a:visited,
 .vc { color: #336699 } /* Name.Variable.Class */
 .vg { color: #dd7700 } /* Name.Variable.Global */
 .vi { color: #3333bb } /* Name.Variable.Instance */
-.il { color: #0000DD; font-weight: bold } /* Literal.Number.Integer.Long */
+      .il { color: #0000DD; font-weight: bold } /* Literal.Number.Integer.Long */
+
+ul#navlist
+{
+font: bold 11px verdana, arial, sans-serif;
+list-style-type: none;
+padding-bottom: 24px;
+border-bottom: 1px solid #6c6;
+margin: 0;
+}
+
+ul#navlist li
+{
+float: left;
+height: 21px;
+background-color: #cfc;
+margin: 2px 2px 0 2px;
+border: 1px solid #6c6;
+}
+
+ul#navlist li#active
+{
+border-bottom: 1px solid #fff;
+background-color: #fff;
+}
+
+li#active a { color: #000; }
+
+#navlist a
+{
+float: left;
+display: block;
+color: #666;
+text-decoration: none;
+padding: 4px;
+}
+
+      #navlist a:hover { background: #fff; }
+      
     </style>
   </head>
   <body>
     <div id="wrap">     
 
+      <div id="navcontainer">
+<ul id="navlist">
+<li id="active"><a href="#" id="current">Item one</a></li>
+<li><a href="#">Item two</a></li>
+<li><a href="#">Item three</a></li>
+<li><a href="#">Item four</a></li>
+<li><a href="#">Item five</a></li>
+</ul>
+      </div>
+      
+      <a href="/"><img
+		     src="/_img/banner.png"></a><br>
+     <p id="topline">
+	  <a href="http://unlicense.org/">&copy; 2016</a>,
+	  <a href="http://menzies.us">Tim Menzies</a>,
+	  <a href="https://www.csc.ncsu.edu">cs@ncstate</a>
+     </p>
+
+     
       <p >
 	&nbsp; <a href="/">Home</a> |
 	<a href="/syllabus.md">Syllabus</a> |
@@ -163,13 +220,7 @@ a:link, a:visited,
 	<a href="/review">Review</a>  | 
 	<a href="/resources">Resources</a> |
 	<a href="https://groups.google.com/forum/#!forum/csc510">
-	      News</a>
-      <a href="/"><img
-		     src="/_img/banner.png"></a><br>
-     <p id="topline">
-	  <a href="http://unlicense.org/">&copy; 2016</a>,
-	  <a href="http://menzies.us">Tim Menzies</a>,
-	  <a href="https://www.csc.ncsu.edu">cs@ncstate</a>
+	  News</a>
 	</p>
       </span>
 
