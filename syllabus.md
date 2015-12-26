@@ -4,7 +4,7 @@
 <ximg align=right width=300 src="http://sd.keepcalm-o-matic.co.uk/i/keep-calm-and-read-the-syllabus.png">
 
 <img align=right width=300
-     src="https://com400fall2015.files.wordpress.com/2015/08/keep-calm-and-read-the-syllabus-26.png">
+src="http://static.wixstatic.com/media/4dd769_4d5b81bff32144c78704b68a9da103c0.jpg/v1/fill/w_350,h_352,al_c,q_75,usm_0.50_1.20_0.00,lg_1/4dd769_4d5b81bff32144c78704b68a9da103c0.jpg">
 
 # Syllabus
 
