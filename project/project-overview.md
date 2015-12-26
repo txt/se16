@@ -5,7 +5,7 @@
 Good news: Your start-up has been bought out by the
 very large software company Microoglebook and you
 and your entire team has been acq-hired (at very
-large salaries, with shares that vest[:vest] in three years).
+large salaries, with shares that vest[^vest] in three years).
 
 
 
