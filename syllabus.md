@@ -1,8 +1,10 @@
-# Syllabus
+
 
 <img width=250
      src="https://e-gmat.com/blogs/wp-content/uploads/2013/01/Syllabus.png"
      align=right>
+
+# Syllabus
 
 CSC 510-001 (2502)  
 NcState, ComSci  
