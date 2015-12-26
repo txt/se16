@@ -239,30 +239,7 @@ state and federal law and/or NC State University
 policy and will not be tolerated.
 
 + Note that, as a lecturer, I am legally required to
-  **report** all such acts to the campus policy[^warn].
-
-Retaliation
-against any person who complains about
-discrimination is also prohibited. NC State's
-policies and regulations covering discrimination,
-harassment, and retaliation may be accessed at
-http://policies.ncsu.edu/policy/pol-04-25-05 or
-http://www.ncsu.edu/equal_op/. Any person who feels
-that he or she has been the subject of prohibited
-discrimination, harassment, or retaliation should
-contact the Office for Equal Opportunity (OEO) at
-919-515-3148.
-
-
-### Other Information
-
-Non-scheduled class time for field trips or
-out-of-class activities are NOT required for this
-class. No such trips are currently planned. However,
-if they do happen then students are required to
-purchase liability insurance. For more information,
-see http://www2.acs.ncsu.edu/insurance/
-
+**report** all such acts to the campus policy[^warn].
 
 [^warn]: Note that any remark you make
 in some on-line comment tracking system like Github
@@ -280,5 +257,32 @@ the rest of the team took great
 offense at this remark and invoked the University's
 non-discrimination policies. As a result, everyone
 lost much time that semester, as well as grades. 
+
+Retaliation
+against any person who complains about
+discrimination is also prohibited. NC State's
+policies and regulations covering discrimination,
+harassment, and retaliation may be accessed at
+http://policies.ncsu.edu/policy/pol-04-25-05 or
+http://www.ncsu.edu/equal_op/. Any person who feels
+that he or she has been the subject of prohibited
+discrimination, harassment, or retaliation should
+contact the Office for Equal Opportunity (OEO) at
+919-515-3148.
+
+
+### Liability Insurance.
+
+Non-scheduled class time for field trips or
+out-of-class activities are NOT required for this
+class. No such trips are currently planned.
+
+However,
+if they do happen then students are required to
+purchase liability insurance. For more information,
+see http://www2.acs.ncsu.edu/insurance/
+
+
+
 
 
