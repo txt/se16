@@ -17,6 +17,8 @@ Tues,Thurs 4:30PM - 5:45PM
 
 ## Overview
 
+### Topics
+
 An introduction to software life cycle models; size
 estimation; cost and schedule estimation; project
 management; risk management; formal technical
@@ -28,7 +30,7 @@ projects. An individual project required following
 good software engineering practices throughout the
 semester.
 
-## Objectives
+### Objectives
 
 Students are expected to gain practical exposure to
 tools, processes, and principles of software
@@ -37,7 +39,6 @@ able to explain empirical and theoretical evidence,
 technical mechanisms, and models supporting software
 engineering.
 
-## Details
 
 ### Prerequisite
 
@@ -46,6 +47,24 @@ engineering.
 ### Textbook
 
 + [Software Engineering: A Practitioner's Approach, 7th International edition](http://www.amazon.com/Software-Engineering-Practitioners-Approach-International/dp/0071267824/ref=sr_1_2?s=books&ie=UTF8&qid=1451098592&sr=1-2&keywords=Software+Engineering%3A+A+Practitioner%27s+Approach++international+edition) by Roger Pressman (optional).
+
+
+
+### Grading
+
+The following grade scale will be used: 
+
+     A+ (97-100),  A (93-96),   A-(90-92)
+     B+ (87-89),   B (83-86),   B-(80-82)
+     C+ (77-79),   C (73-76),   C-(70-72)
+     D+ (67-69),   D (63-66),   D-(60-62)
+     F (below 60).
+
+Grades will be added together using:
+
++ Mid-term: Tuesday, March15, 20 marks
++ Final exam: 20 marks
++ Project: due Feb1, Mar1, Apr1, May1, for grades 10,15,15,20 marks
 
 ### Group mailing list
 
@@ -57,15 +76,11 @@ It is each student's responsibility to join the following news group:
 
 All class communication will be via this news group.
 
-
 ## Staff
 
 ### Lecturer
 
-Tim Menzies <img
-src="http://www.csc.ncsu.edu/enews/images/1770.jpg"
-align=right
-width=100>
+Tim Menzies <img src="http://www.csc.ncsu.edu/enews/images/1770.jpg" align=right width=100>
 
 + Office Hours: Thursday, 3:00-4:30 and by request
 + Location of Office Hours: EE II room 3298 
@@ -77,107 +92,19 @@ width=100>
 
 ### Tutor
 
-
-Shaown Sarker <img
-src="_img/shawon.png"
-align=right
-width=100>
+Shaown Sarker <img src="_img/shawon.png" align=right width=100>
 
 + E-mail: ssarker@ncsu.edu
-  + Only use this email for private matters. All other class communication should be via the class news group,    listed below.
+  + Only use this email for private matters.
+  + All other class communication should be via the class news group, listed after.
 + Office hours: XXX
 + Office location: XXX
 
-## Topics
-
-Introduction, Configuration Management,
-Software Process and Planning (including management
-issues), Software Costs and Schedules, Software
-Specification and Requirements, Software Design,
-Implementation, Software Testing (methods, metrics,
-and tools), Verification and Validation,
-Maintenance, Security, and other topics.
 
 
 
 
-
-**Project:** Students will implement and reason about a large model of their own choosing (ideally, some model relating to software engineering). Note that:
-
-+ CSC 791 Ph.d. student will each develop a   large model-based  SE application.
-+ CSC 591 masters students will work in groups of three and may either do a large SE model-based app or
-  three not-so-small mini-projects.
-
-**Prerequisite:** Note that this is a
-**programming-intensive** subject. A programming
-background is required in a contemporary language
-such as Java or C/C++ or Python. Hence,he
-prerequisite for this class is 510, Software
-Engineering. Significant software industry
-experience may be substituted, at the instructor’s
-discretion.  Students in this class will work in
-Python, but no background knowledge of that language
-will be assumed.
-
-**Suggested texts:** (optional)
-  [Think Python: How to Think Like a Computer Scientist](http://www.greenteapress.com/thinkpython/html/index.html)
-
-+ Note: for low-level systems reasons, we will use
-  Python 2.7 for this subject. So do not get the
-  absolute latest version of this book.
-
-**Expected Workload:** Some lectures will be pre-recorded, then discussed in the class
-room. It is the responsibility of each student to:
-
-+ View those recordings;
-+ Come to class with notes on 
-  + The concepts in those lecturers;
-  + Plus their questions that arise from that material.
-
-Sometimes, the lecturer/tutor will require you to attend a review session during their consultation  time. There, students may be asked to review
-code, concepts, or comment on the structure of the course. Those sessions are mandatory and failure to attend will result in marks being deducted.
-
-Also, this is tools-based subject
-and it is required that students learn and use those
-tools (Python, repositories, etc).  Students MUST be
-prepared to dedicate AT LEAST 5-8 working hours a
-week to this class (excluding the time spent in the
-classroom). Laboratory instruction is not included
-in this subject (but the first three weeks will be
-spent on some in-depth programming tutorials). Note
-that the workload for masters and Ph.D. students
-will be different (see above).
-
-**Grading:** The following grade scale will be used: 
-
-+ A+  (97-100), A (93-96), A-(90-92)
-+ B+ (87-89), B (83-86), B-(80-82)
-+ C+ (77-79), C (73-76), C-(70-72)
-+ D+ (67-69), D (63-66), D-(60-62)
-+ F (below 60).
-
-Grades will be added together using:
-
-+ Homeworks: 18
-+ Mid-term/final exam: 22/25
-+ Paper (on the ASE literature): 15
-+ Big programming project (on model-based SE): 20
-
-### Homeworks 
-
-+ All deliverables are group-based (one deliverable per group)
-  + 591 students: groups of three
-  + 791 students: groups of one
-+ Homeworks will be written into a public Github repo which students will create.
-+ Students will shorten the url (using something like goo.gl) of the the main file of each homework submission
-    + That url wull be pasted into the spreadsheet https://goo.gl/qj3Akp. 
-+ All homeworks will be marked ``1'', or ``0'';
-+ Students cannot do homework <em>i+1</em> till  homework <em>i</em> gets at least a ``1''.
-+ Homeworks can be submitted multiple times
-  + No late penalties
-  + No points taken off for repeat submissions
-+ We will not mark more than four (coding) homeworks plus four (lit review) homeworks per month.
-
+## Other Information
 
 ### Attendance
 
@@ -185,6 +112,37 @@ Attendance is extremely important for your learning
 experience in this class. Once you reach three
 unexcused absences, each additional absence will
 reduce your attendance grade by 10%.
+
+#### Attendance in Week1
+
+Regarding attendance in week one,
+material will be presented
+n the first week  that
+is important for the course, assignments, and exams.
+Groups will be formed for project(s).
+It will be each student's
+ responsibility to make up any missed lecture
+material or sort out group membership after your
+return, and you should not expect the instructor or
+TAs to offer any make up or other supplemental
+material for the days that you miss.
+
+### Expected Workload
+
+ Students must be
+prepared to dedicate AT LEAST 5-8 working hours a
+week to this class (excluding the time spent in the
+classroom). Laboratory instruction is not included
+in this subject.
+
+Sometimes, the lecturer/tutor will require you to
+attend a review session during their consultation
+time. There, students may be asked to review code,
+concepts, or comment on the structure of the
+course. Those sessions are mandatory and failure to
+attend will result in marks being deducted.
+
+
 
 ### Academic Integrity
 
@@ -214,7 +172,7 @@ You should be aware of the University policy on
 academic integrity found in the Code of Student
 Conduct.
  
-The  exams will be done individually.  Academic integrity is important.  Do not work together on the exams: cheating on either will be punished to the full extent permitted.  
+The  exams will be done individually.  Academic integrity is important.  Do not work together on the exams: cheating on either will be punished to the full extent permitted.
 
 ### Disabilities
 
