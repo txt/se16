@@ -1,5 +1,5 @@
 
-<img align=right width=450 src="http://2qeyae30zrn91lya8t3kudic.wpengine.netdna-cdn.com/wp-content/uploads/2015/09/school-of-rock-660x400.jpg">
+<img align=right width=500 src="http://2qeyae30zrn91lya8t3kudic.wpengine.netdna-cdn.com/wp-content/uploads/2015/09/school-of-rock-660x400.jpg">
 
 # Syllabus
 
@@ -7,7 +7,7 @@ CSC 510-001 (2502)
 NcState, ComSci  
 Spring 2015
 
-EE-III room 2207
+EE-III room 2207  
 Tues,Thurs 4:30PM - 5:45PM
 
 [TOC]
