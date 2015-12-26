@@ -40,7 +40,7 @@ technical mechanisms, and models supporting software
 engineering.
 
 
-### Prerequisite
+### Prerequisites
 
 + CSC 316 and CSC 226
 
