@@ -10,7 +10,7 @@ else
   md=/home/stuff/env1/bin/markdown_py
 fi
 
-what="$QUERY_STRING"
+what=$QUERY_STRING
 
 [ -z "$what" ] && what="$1"
 
