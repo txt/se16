@@ -54,7 +54,10 @@ Student will sit exams to gauge their understanding of lecture material.
 
 Students will work in groups of three to test their ability to work in groups to deliver software.
 
-Grades will be added together using:
+Students will use Github to develop their software and Github issues to document their communications
+between each other for that project.
+
+Grades will be assigned as follows:
 
 + Mid-term: Tuesday, March15, 20 marks
 + Final exam: 30 marks
