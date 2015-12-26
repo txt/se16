@@ -93,6 +93,8 @@ It is each student's responsibility to join the following news group:
 
 All class communication from staff to students will be via this news group.
 
+____
+
 ## Staff
 
 ### Lecturer
@@ -119,7 +121,7 @@ Shaown Sarker <img src="_img/shawon.png" align=right width=100>
 
 
 
-
+____
 
 ## Other Information
 
