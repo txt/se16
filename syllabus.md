@@ -245,6 +245,7 @@ discrimination, harassment, or retaliation should
 contact the Office for Equal Opportunity (OEO) at
 919-515-3148.
 
+
 ### Other Information
 
 Non-scheduled class time for field trips or
@@ -255,17 +256,16 @@ purchase liability insurance. For more information,
 see http://www2.acs.ncsu.edu/insurance/
 
 
-## Notes
-
 [^warn]: Note that any remark you make
-in some on-line issue tracking system like Github
+in some on-line comment tracking system like Github
 is a public document.
-Take heed of the following cautionary tale.
+So take heed of the following cautionary tale.
 One year, a student was joking around with
-his buddy on a Github issue report. Then he was
+his buddy in a Github issue report. Then he was
 rude enough and stupid enough to 
-add a remark about how &#9632;&#9632;&#9632;&#9632; were the
-rest of the team. The rest of the team took great
+add a remark about how the rest of the
+team was &#9632;&#9632;&#9632;&#9632 &#9632;&#9632;&#9632;&#9632&#9632;&#9632;&#9632;&#9632.
+The rest of the team took great
 offense at this remark and invoked the University's
 non-discrimination policies. As a result, everyone
 lost much time that semester, as well as grades. 

@@ -7,6 +7,29 @@ very large software company Microoglebook and you
 and your entire team has been acq-hired (at very
 large salaries, with shares that vest[:vest] in three years).
 
+
+
+[^vest]: _Vesting_ refers to the process by which an
+employee earns her shares over time; e.g. monthly
+over four years with a one-year _cliff_. That means
+you earn the right to 1/48th of the shares you were
+originally granted per month over four years (48
+months), but you don’t get anything if you leave
+prior to your one-year anniversary (and go over the
+cliff). In other words on your one-year anniversary
+you earn 1/4th of your stock and then vest an
+additional 1/48th per month thereafter. For example
+if you leave two years into your employment, you
+would earn the right to exercise 1/2 your
+options. The one-year cliff was created to protect
+companies against issuing stock to bad hires, which
+typically are not recognized at least until at least
+a few months into their tenure. For more on vesting,
+see[^rach14].
+
+[^rach14]: $RACH14
+
+
 Bad news: now you are the newbies working on new
 projects with new people in long-established teams. And all those
 old-timers and looking at you with that "so... what have you got?" expression.
@@ -62,6 +85,10 @@ Note how this is a profound change in how we develop systems:
      + E.g In Microsoft Windows Explorer[^sino11], a mere 10 commands make up 81% of the commands actually ever used.
      + Ditto with Eclipse[^murp06].
 
+[^sino11]: $SINO11
+
+[^murph06]: $MURP06
+
 This means that substantial development effort is wasted. But even worse
 
 + It means that maintenance cost of the product (constituting the majority of the total product effort) is higher than needed.
@@ -100,37 +127,3 @@ enhancement would be deployed to users who place movies in queues, but do not wa
 + Finally, with enough evidence collected, several hypotheses about customer behavior validated,
 a feature can successfully proceed with wider development and deployment. 
 
-XXXX
-telemetry first
-
-## Notes
-
-[^murp06]: Gail Murphy, Mik Kersten,
-[How are java software developers using the eclipse IDE](https://github.com/txt/se16/blob/master/todo/howDevelopersUseEclipseIDE.pdf).
-IEEE Software, July 2006.
-
-[^rach14]: May 19, 2014 Andy Rachleff,
-[What You Need To Know About Vesting Stock](https://blog.wealthfront.com/vesting-stock-options/). Wealthfront
-blog, May 19, 2014.
-
-[^sino11]: Steven Sinofsky,
-[Improvements in Windows Explorer](https://blogs.msdn.microsoft.com/b8/2011/08/29/improvements-in-windows-explorer).
-Microsoft Developer Blog, August 29, 2011.
-
-[^vest]: _Vesting_ refers to the process by which an
-employee earns her shares over time; e.g. monthly
-over four years with a one-year _cliff_. That means
-you earn the right to 1/48th of the shares you were
-originally granted per month over four years (48
-months), but you don’t get anything if you leave
-prior to your one-year anniversary (and go over the
-cliff). In other words on your one-year anniversary
-you earn 1/4th of your stock and then vest an
-additional 1/48th per month thereafter. For example
-if you leave two years into your employment, you
-would earn the right to exercise 1/2 your
-options. The one-year cliff was created to protect
-companies against issuing stock to bad hires, which
-typically are not recognized at least until at least
-a few months into their tenure. For more on vesting,
-see[^rach14].
