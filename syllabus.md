@@ -65,11 +65,11 @@ Maintenance, Security, and other topics.
 **Group mailing list:** During term time, a group
 mailing list will be established:
 
-+ [https://groups.google.com/forum/#!forum/csx91](https://groups.google.com/forum/#!forum/csx91)
-+ Which you can email at [csx91@googlegroups.comcsx91](mailto:csx91@googlegroups.com). Students are strongly encouraged to contribute their questions and answers to that shared resource.
++ [https://groups.google.com/forum/#!forum/csc510](https://groups.google.com/forum/#!forum/csc510)
++ Which you can email at [csc510@googlegroups.com](mailto:csc510@googlegroups.com). Students are strongly encouraged to contribute their questions and answers to that shared resource.
 + Note that, for communication of a more private nature, contact the lecturer on the email shown above.
 
-**Topics:** Overview, state of the research, automated software engineering; AI and software engineering; principles of model-based reasoning with a heavy focus on models about software engineering; search-based and evolutionary inference; representing and reasoning about models; handling uncertainty; decision making and model-based reasoning.
+
 
 
 
