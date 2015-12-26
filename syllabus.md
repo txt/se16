@@ -1,5 +1,7 @@
 
-<img align=right width=500 src="http://2qeyae30zrn91lya8t3kudic.wpengine.netdna-cdn.com/wp-content/uploads/2015/09/school-of-rock-660x400.jpg">
+<ximg align=right width=500 src="http://2qeyae30zrn91lya8t3kudic.wpengine.netdna-cdn.com/wp-content/uploads/2015/09/school-of-rock-660x400.jpg">
+
+<img align=right width=400 src="http://sd.keepcalm-o-matic.co.uk/i/keep-calm-and-read-the-syllabus.png">
 
 # Syllabus
 
