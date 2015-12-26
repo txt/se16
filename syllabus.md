@@ -1,5 +1,4 @@
-An h1 header
-============
+# Syllabus
 
 [TOC]
 
