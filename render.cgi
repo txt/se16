@@ -14,19 +14,9 @@ what="$QUERY_STRING"
 
 [ -z "$what" ] && what="$1"
 
-apply_shell_expansion() {
-    declare file="$1"
-    declare data=$(< "$file")
-    declare delimiter="__apply_shell_expansion_delimiter__"
-    declare command="cat <<$delimiter"$'\n'"$data"$'\n'"$delimiter"
-    eval "$command"
-}
 
-. _etc/references.bib
-
-cat HEADER.html
-
-apply_shell_expansion $what.md |
+cat HEADER.html $what.md |
+python _etc/xpand.py     |
 $md -x tables  \
     -x footnotes -x def_list -x toc -x smart_strong  \
     -x attr_list -x sane_lists  -x  fenced_code  \

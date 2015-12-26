@@ -27,7 +27,7 @@ typically are not recognized at least until at least
 a few months into their tenure. For more on vesting,
 see[^rach14].
 
-[^rach14]: $RACH14
+[^rach14]: _RACH14
 
 
 Bad news: now you are the newbies working on new
