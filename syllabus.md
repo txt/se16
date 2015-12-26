@@ -15,7 +15,7 @@ Tues,Thurs 4:30PM - 5:45PM
 
 [TOC]
 
-### Overview
+## Overview
 
 An introduction to software life cycle models; size
 estimation; cost and schedule estimation; project
@@ -28,16 +28,41 @@ projects. An individual project required following
 good software engineering practices throughout the
 semester.
 
-_Prerequisite:_ CSC 316 and CSC 226
+## Objectives
 
-_Textbook:_ [Software Engineering: A Practitioner's Approach, 7th International edition](http://www.amazon.com/Software-Engineering-Practitioners-Approach-International/dp/0071267824/ref=sr_1_2?s=books&ie=UTF8&qid=1451098592&sr=1-2&keywords=Software+Engineering%3A+A+Practitioner%27s+Approach++international+edition) by Roger Pressman (optional).
+Students are expected to gain practical exposure to
+tools, processes, and principles of software
+engineering through hands-on projects while being
+able to explain empirical and theoretical evidence,
+technical mechanisms, and models supporting software
+engineering.
 
-**Objectives:** By the end of the course, students should be able to:
+## Details
 
-Students are expected to gain practical exposure to tools, processes, and principles of software engineering through hands-on projects while being able to explain empirical and theoretical evidence, technical mechanisms, and models supporting software engineering.
+### Prerequisite
+
+CSC 316 and CSC 226
+
+### Textbook
+
+[Software Engineering: A Practitioner's Approach, 7th International edition](http://www.amazon.com/Software-Engineering-Practitioners-Approach-International/dp/0071267824/ref=sr_1_2?s=books&ie=UTF8&qid=1451098592&sr=1-2&keywords=Software+Engineering%3A+A+Practitioner%27s+Approach++international+edition) by Roger Pressman (optional).
+
+### Group mailing list
+
+It is each student's responsibility to join the following news group:
+
++ [https://groups.google.com/forum/#!forum/csc510](https://groups.google.com/forum/#!forum/csc510)
++ Which you can email at [csc510@googlegroups.com](mailto:csc510@googlegroups.com). Students are strongly encouraged to contribute their questions and answers to that shared resource.
++ Note that, for communication of a more private nature, contact the lecturer on the email shown below.
 
 
-**Lecturer:** Tim Menzies <img
+
+
+## Staff
+
+### Lecturer
+
+Tim Menzies <img
 src="http://www.csc.ncsu.edu/enews/images/1770.jpg"
 align=right
 width=100>
@@ -50,7 +75,10 @@ width=100>
        + **Do not use** this number, except in the most dire of 
           circumstances (best way to contact me is via email).
 
-**GTA:** Rahul Krishna <img
+### Tutor
+
+
+Rahul Krishna <img
 src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/1/005/0a4/3d6/04b9ea9.jpg"
 align=right
 width=100>
@@ -60,20 +88,15 @@ width=100>
 + Office mours: Friday 12pm to 2pm
 + Office location: rm 3231, EE II
 
-**Topic** Introduction, Configuration Management,
+## Topics
+
+Introduction, Configuration Management,
 Software Process and Planning (including management
 issues), Software Costs and Schedules, Software
 Specification and Requirements, Software Design,
 Implementation, Software Testing (methods, metrics,
 and tools), Verification and Validation,
 Maintenance, Security, and other topics.
-
-**Group mailing list:** During term time, a group
-mailing list will be established:
-
-+ [https://groups.google.com/forum/#!forum/csc510](https://groups.google.com/forum/#!forum/csc510)
-+ Which you can email at [csc510@googlegroups.com](mailto:csc510@googlegroups.com). Students are strongly encouraged to contribute their questions and answers to that shared resource.
-+ Note that, for communication of a more private nature, contact the lecturer on the email shown above.
 
 
 
