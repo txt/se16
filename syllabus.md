@@ -231,7 +231,7 @@ state and federal law and/or NC State University
 policy and will not be tolerated.
 
 + Note that, as a lecturer, I am legally required to
-  **report** all such acts to the campus policy.
+  **report** all such acts to the campus policy[^warn].
 
 Retaliation
 against any person who complains about
@@ -253,5 +253,21 @@ class. No such trips are currently planned. However,
 if they do happen then students are required to
 purchase liability insurance. For more information,
 see http://www2.acs.ncsu.edu/insurance/
+
+
+## Notes
+
+[^warn]: Note that any remark you make
+in some on-line issue tracking system like Github
+is a public document.
+Take heed of the following cautionary tale.
+One year, a student was joking around with
+his buddy on a Github issue report. Then he was
+rude enough and stupid enough to 
+add a remark about how &#9632;&#9632;&#9632;&#9632; were the
+rest of the team. The rest of the team took great
+offense at this remark and invoked the University's
+non-discrimination policies. As a result, everyone
+lost much time that semester, as well as grades. 
 
 
