@@ -3,6 +3,14 @@ from __future__ import print_function
 import re,sys
 d=dict(
 
+
+_FERU10="""
+David Ferrucci, Eric Brown, Jennifer Chu-Carroll, James Fan, David Gondek, Aditya A. Kalyanpur, Adam Lally, J. William Murdock, Eric Nyberg, John Prager, Nico Schlaefer, and Chris Welty, 
+[THE AI BEHIND WATSON](http://www.aaai.org/Magazine/Watson/watson.php).
+AI Magazine, 
+Fall, 2010
+""",
+
 _MURP06 ="""
 Gail Murphy, Mik Kersten, 
 [How are java software developers using the eclipse IDE](https://github.com/txt/se16/blob/master/todo/howDevelopersUseEclipseIDE.pdf)
@@ -25,7 +33,6 @@ Microsoft Developer Blog, August 29, 2011.
 )
 
 pattern = re.compile(r'\b(' + '|'.join(d.keys()) + r')\b')
-print( pattern.sub(lambda x: d[x.group()],
-                   sys.stdin.read()))
+print( pattern.sub(lambda x: d[x.group()], sys.stdin.read()))
 
 
