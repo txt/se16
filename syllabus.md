@@ -1,7 +1,7 @@
 
 <ximg align=right width=500 src="http://2qeyae30zrn91lya8t3kudic.wpengine.netdna-cdn.com/wp-content/uploads/2015/09/school-of-rock-660x400.jpg">
 
-
+<img align=right width=300 src="http://sd.keepcalm-o-matic.co.uk/i/keep-calm-and-read-the-syllabus.png">
 
 # Syllabus
 
@@ -12,7 +12,7 @@ Spring 2015
 EE-III room 2207  
 Tues,Thurs 4:30PM - 5:45PM
 
-<img align=right width=300 src="http://sd.keepcalm-o-matic.co.uk/i/keep-calm-and-read-the-syllabus.png">
+
 
 [TOC]
 
@@ -51,9 +51,9 @@ engineering.
 
 ### Assessment
 
-Student will sit exams to gauge their understanding of lecture material.
+Student will sit exams to determine their understanding of lecture material.
 
-Students will work in groups of three to test their ability to work in groups to deliver software.
+Students will work in groups of four to test their ability to work in groups to deliver software.
 
 Students will use Github to develop their software and Github issues to document their communications
 between each other for that project.
@@ -62,11 +62,12 @@ Grades will be assigned as follows:
 
 + Mid-term: Tuesday, March15, 20 marks
 + Final exam: 30 marks
-+ Project: due Feb1, Mar1, Apr1, May1, for grades 5,5,25,15 marks
-      + The Feb, Mar reports will be short progress statements towards the April, May deliverables.
++ Project: due Feb1, Mar1, Apr1, May1, for grades 5,10,20,15 marks (respectively)
+      + The Feb, Mar reports will be progress statements towards the April deliverables.
       + The Apr1 work will be (1) a talk to the class (10 marks) and
-        (2) a report document (15 marks);
-   + The May1 deliverable (worth 15 marks) will be a report of the form shown [here](https://github.com/CSC510-2015-Axitron/project2)
+        (2) a report document (10 marks);
+	  + The May1 deliverable (worth 15 marks) will be a report
+		of the form shown [here](https://github.com/CSC510-2015-Axitron/project2)
 
 The following grade scale will be used: 
 
