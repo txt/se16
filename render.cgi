@@ -12,7 +12,7 @@ fi
 
 cat HEADER.html
 
-cat $QUERY_STRING.md $root/_etc/references.bib |
+cat $QUERY_STRING.md |
 $md -x tables  \
     -x footnotes -x def_list -x toc -x smart_strong  \
     -x attr_list -x sane_lists  -x  fenced_code  \
