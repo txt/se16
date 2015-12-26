@@ -31,8 +31,8 @@ Note how this is a profound change in how we develop systems:
 
 + About 20% of the features implemented in a software product are often or always used;
 + 64% of the features get rarely or never used.
-   + E.g In Microsoft Windows Explorer[^sino11], a mere 10 commands make up 81% of the commands actually ever used.
-   + Ditto with Eclipse[^^murp06].
+     + E.g In Microsoft Windows Explorer[^sino11], a mere 10 commands make up 81% of the commands actually ever used.
+     + Ditto with Eclipse[^murp06].
 
 This means that substantial development effort is wasted. But even worse
 
@@ -71,6 +71,9 @@ queues in order to validate that the enhancement can improve watch frequency.
 enhancement would be deployed to users who place movies in queues, but do not watch them.
 + Finally, with enough evidence collected, several hypotheses about customer behavior validated,
 a feature can successfully proceed with wider development and deployment. 
+
+XXXX
+telemetry first
 
 ## Notes
 
