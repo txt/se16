@@ -17,9 +17,11 @@ which is generated from
 
 
 [^sharelatex]: (A) Open a Sharelatex.com account
-using your Github id.  (B) Create a "New Project"
+using your Github id.
+(B) Create a "New Project"
 from template "Journal > ACM SIG Proceedings
-Templates".  (C) Link that to Github (which will
+Templates".
+(C) Link that to Github (which will
 create a new repo, just for that paper)
 
 Remember that all figures need captions and should
