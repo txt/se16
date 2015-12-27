@@ -4,6 +4,8 @@
 
 [TOC]
 
+____
+
 ## Background
 
 ### Introduction to Data-Driven Development
@@ -98,6 +100,8 @@ to manage (goals,collection,data) so most of this
 project's effort will be on goals,collection,data
 (but we'll do a little analytics).
 
+_____
+
 ## So Here's the Set Up
 
 Good news: Your start-up has been bought out by the
@@ -140,6 +144,8 @@ Therefore, in this project you must:
 - Propose two or three different ways to fix that problem;
 - Implement those two or three different ways;
 - Make a case that one of those ways should be adopted.
+
+____
 
 ## How to do this project
 
@@ -188,7 +194,7 @@ work Jan to April
 
 **(IMPORTANT NOTE: You get _more_ marks by finding bad smells in other projects. That said,  you won't get  _less_ marks if someone finds bad smells in your project.)**
 
-## Notes on Report Generation
+### Notes on Report Generation
 
 Note that reports must be professionally prepared
 using
