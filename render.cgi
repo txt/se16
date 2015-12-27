@@ -24,7 +24,7 @@ else
 	 echo "Content-Type: text/html"
 	 echo ""
 	 cat HEADER.html |
-	 sed "s?<title>Se'16</title>?<title>Se'16: ${Title}</title>?g" 
+	 sed "s/<title>Se'16<\/title>/<title>Se'16: ${Title}<\/title>/g" 
     fi
     
     cat $what.md |
@@ -32,6 +32,5 @@ else
     $md -x tables  \
       -x footnotes -x def_list -x toc -x smart_strong  \
       -x attr_list -x sane_lists  -x  fenced_code  \
-      -x "codehilite(linenums=True)" |
-    sed "s?<li>.*${Title}.*\$??" 
+      -x "codehilite(linenums=True)" 
 fi
