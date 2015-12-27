@@ -1,4 +1,4 @@
-<img align=right  src="http://sirteddybertie.com/wp-content/uploads/2013/07/5ScienceExperiments1-300x270.jpg">
+_GIRLBOT
 
 
 # Feb1 Project 

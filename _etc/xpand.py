@@ -3,6 +3,14 @@ from __future__ import print_function
 import re,sys
 d=dict(
 
+_GIRLBOT="""
+<img size=300 align=right   src="/_img/girlbot.jpg">
+""",
+
+_UNDER400="""
+<center><img size=400   src="https://www.lahc.edu/pageunderconstruction.png"></center>
+""",
+
 
 _FERU10="""
 David Ferrucci, Eric Brown, Jennifer Chu-Carroll, 
