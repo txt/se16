@@ -7,9 +7,52 @@ _GIRLBOT
 
 ____
 
-## Background
+## Context
 
-### Introduction to Data-Driven Development
+Good news: Your start-up has been bought out by the
+very large software company Microoglebook and you
+and your entire team has been acq-hired (at very
+large salaries, with shares that vest[^vest] in
+three years).
+
+
+[^vest]: _Vesting_ refers to the process by which an
+employee earns her shares over time; e.g. monthly
+over four years with a one-year _cliff_. That means
+you earn the right to 1/48th of the shares you were
+originally granted per month over four years (48
+months), but you don't get anything if you leave
+prior to your one-year anniversary (and go over the
+cliff). In other words on your one-year anniversary
+you earn 1/4th of your stock and then vest an
+additional 1/48th per month thereafter. For example
+if you leave two years into your employment, you
+would earn the right to exercise 1/2 your
+options. The one-year cliff was created to protect
+companies against issuing stock to bad hires, which
+typically are not recognized at least until at least
+a few months into their tenure. For more on vesting,
+see[^rach14].
+
+[^rach14]: _RACH14
+
+Bad news: now you are the newbies working on new
+projects with new people in long-established
+teams. And all those old-timers and looking at you
+with that "so... what have you got?" expression.  To
+gain some credibility in those teams, you have to do
+something _impressive_.
+
+Therefore, in this project you must:
+
+- Document a problem with some user group doing some task;
+- Propose two or three different ways to fix that problem;
+- Implement those two or three different ways;
+- Make a case that one of those ways should be adopted.
+
+
+
+## Why This Project?
 
 Increasingly, well-engineered software is being used
  by policy makers and researchers to better
@@ -100,52 +143,6 @@ So this project we walk from goals to collection to data to analytics.
   to manage (goals,collection,data) so most of this
   project's effort will be on goals,collection,data
 + But we'll do a little analytics.
-
-_____
-
-## So Here's the Set Up
-
-Good news: Your start-up has been bought out by the
-very large software company Microoglebook and you
-and your entire team has been acq-hired (at very
-large salaries, with shares that vest[^vest] in
-three years).
-
-
-[^vest]: _Vesting_ refers to the process by which an
-employee earns her shares over time; e.g. monthly
-over four years with a one-year _cliff_. That means
-you earn the right to 1/48th of the shares you were
-originally granted per month over four years (48
-months), but you don't get anything if you leave
-prior to your one-year anniversary (and go over the
-cliff). In other words on your one-year anniversary
-you earn 1/4th of your stock and then vest an
-additional 1/48th per month thereafter. For example
-if you leave two years into your employment, you
-would earn the right to exercise 1/2 your
-options. The one-year cliff was created to protect
-companies against issuing stock to bad hires, which
-typically are not recognized at least until at least
-a few months into their tenure. For more on vesting,
-see[^rach14].
-
-[^rach14]: _RACH14
-
-Bad news: now you are the newbies working on new
-projects with new people in long-established
-teams. And all those old-timers and looking at you
-with that "so... what have you got?" expression.  To
-gain some credibility in those teams, you have to do
-something _impressive_.
-
-Therefore, in this project you must:
-
-- Document a problem with some user group doing some task;
-- Propose two or three different ways to fix that problem;
-- Implement those two or three different ways;
-- Make a case that one of those ways should be adopted.
-
 ____
 
 ## How to do this project

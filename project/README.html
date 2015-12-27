@@ -3,12 +3,11 @@
 <div class="toc">
 <ul>
 <li><a href="#term-project">Term Project</a><ul>
-<li><a href="#background">Background</a><ul>
-<li><a href="#introduction-to-data-driven-development">Introduction to Data-Driven Development</a></li>
+<li><a href="#context">Context</a></li>
+<li><a href="#why-this-project">Why This Project?</a><ul>
 <li><a href="#pragmatics">Pragmatics</a></li>
 </ul>
 </li>
-<li><a href="#so-heres-the-set-up">So Here's the Set Up</a></li>
 <li><a href="#how-to-do-this-project">How to do this project</a></li>
 <li><a href="#what-to-hand-in">What to Hand in</a></li>
 </ul>
@@ -16,8 +15,26 @@
 </ul>
 </div>
 <hr />
-<h2 id="background">Background</h2>
-<h3 id="introduction-to-data-driven-development">Introduction to Data-Driven Development</h3>
+<h2 id="context">Context</h2>
+<p>Good news: Your start-up has been bought out by the
+very large software company Microoglebook and you
+and your entire team has been acq-hired (at very
+large salaries, with shares that vest<sup id="fnref:vest"><a class="footnote-ref" href="#fn:vest" rel="footnote">1</a></sup> in
+three years).</p>
+<p>Bad news: now you are the newbies working on new
+projects with new people in long-established
+teams. And all those old-timers and looking at you
+with that "so... what have you got?" expression.  To
+gain some credibility in those teams, you have to do
+something <em>impressive</em>.</p>
+<p>Therefore, in this project you must:</p>
+<ul>
+<li>Document a problem with some user group doing some task;</li>
+<li>Propose two or three different ways to fix that problem;</li>
+<li>Implement those two or three different ways;</li>
+<li>Make a case that one of those ways should be adopted.</li>
+</ul>
+<h2 id="why-this-project">Why This Project?</h2>
 <p>Increasingly, well-engineered software is being used
  by policy makers and researchers to better
  understand the world.  For example, in 2013 a Nobel
@@ -42,8 +59,8 @@ This is especially true in
 <ul>
 <li>Key performance metrics are carefully monitored
   and analyzed to judge the progress of a
-  feature<sup id="fnref:facebook1"><a class="footnote-ref" href="#fn:facebook1" rel="footnote">1</a></sup><sub>,</sub><sup id="fnref:facebook2"><a class="footnote-ref" href="#fn:facebook2" rel="footnote">2</a></sup>.</li>
-<li>Even simple design decisions such as the color of a link<sup id="fnref:lina15"><a class="footnote-ref" href="#fn:lina15" rel="footnote">3</a></sup>
+  feature<sup id="fnref:facebook1"><a class="footnote-ref" href="#fn:facebook1" rel="footnote">3</a></sup><sub>,</sub><sup id="fnref:facebook2"><a class="footnote-ref" href="#fn:facebook2" rel="footnote">4</a></sup>.</li>
+<li>Even simple design decisions such as the color of a link<sup id="fnref:lina15"><a class="footnote-ref" href="#fn:lina15" rel="footnote">5</a></sup>
   are chosen by the outcome of software experiments.</li>
 </ul>
 <p>Note that <em>data-driven</em> approach
@@ -51,8 +68,8 @@ solves a major problem in software engineering:</p>
 <ul>
 <li>The historical record is that about 20% of the features implemented in a software product are often or always used;</li>
 <li>For example, 64% of the features get rarely or never used.<ul>
-<li>E.g In Microsoft Windows Explorer<sup id="fnref:sino11"><a class="footnote-ref" href="#fn:sino11" rel="footnote">4</a></sup>, a mere 10 commands make up 81% of the commands actually ever used.</li>
-<li>Ditto with Eclipse<sup id="fnref:murp06"><a class="footnote-ref" href="#fn:murp06" rel="footnote">5</a></sup>.</li>
+<li>E.g In Microsoft Windows Explorer<sup id="fnref:sino11"><a class="footnote-ref" href="#fn:sino11" rel="footnote">6</a></sup>, a mere 10 commands make up 81% of the commands actually ever used.</li>
+<li>Ditto with Eclipse<sup id="fnref:murp06"><a class="footnote-ref" href="#fn:murp06" rel="footnote">7</a></sup>.</li>
 </ul>
 </li>
 </ul>
@@ -81,26 +98,6 @@ effort is wasted. But even worse</p>
   to manage (goals,collection,data) so most of this
   project's effort will be on goals,collection,data</li>
 <li>But we'll do a little analytics.</li>
-</ul>
-<hr />
-<h2 id="so-heres-the-set-up">So Here's the Set Up</h2>
-<p>Good news: Your start-up has been bought out by the
-very large software company Microoglebook and you
-and your entire team has been acq-hired (at very
-large salaries, with shares that vest<sup id="fnref:vest"><a class="footnote-ref" href="#fn:vest" rel="footnote">6</a></sup> in
-three years).</p>
-<p>Bad news: now you are the newbies working on new
-projects with new people in long-established
-teams. And all those old-timers and looking at you
-with that "so... what have you got?" expression.  To
-gain some credibility in those teams, you have to do
-something <em>impressive</em>.</p>
-<p>Therefore, in this project you must:</p>
-<ul>
-<li>Document a problem with some user group doing some task;</li>
-<li>Propose two or three different ways to fix that problem;</li>
-<li>Implement those two or three different ways;</li>
-<li>Make a case that one of those ways should be adopted.</li>
 </ul>
 <hr />
 <h2 id="how-to-do-this-project">How to do this project</h2>
@@ -155,55 +152,6 @@ work Jan to April</li>
 <div class="footnote">
 <hr />
 <ol>
-<li id="fn:facebook1">
-<p>For example, on Netflix.com if not enough people
-even hovered over a new feature, then a new
-experiment might move the element to a new location
-on the screen. If all experiments showed a lack of
-interest, the new feature would ultimately be
-deleted.&#160;<a class="footnote-backref" href="#fnref:facebook1" rev="footnote" title="Jump back to footnote 1 in the text">&#8617;</a></p>
-</li>
-<li id="fn:facebook2">
-<p>For example: if a developer at Netflix
-wanted to make improvements to the queue feature, a
-developer might first gather data related to how
-many people use queues. The developer would first
-try increasing clicks on the queue by performing
-several A/B experiments.  After some initial
-prototyping, the developer would next start
-targeting a small segment of users who currently are
-watching movies put into queues in order to validate
-that the enhancement can improve watch frequency.
-Then, the new enhancement would be deployed to users
-who place movies in queues, but do not watch them.
-Finally, with enough evidence collected, several
-hypotheses about customer behavior validated, a
-feature can successfully proceed with wider
-development and deployment.&#160;<a class="footnote-backref" href="#fnref:facebook2" rev="footnote" title="Jump back to footnote 2 in the text">&#8617;</a></p>
-</li>
-<li id="fn:lina15">
-<p>Mario Linares-Vasquez, Gabriele Bavota,
-Carlos Eduardo Bernal Cardenas, Rocco Oliveto, 
-Massimiliano Di Penta, Denys Poshyvanyk,
-<a href="http://www.cs.wm.edu/~denys/pubs/FSE15-GEMMA-CRC.pdf">Optimizing energy consumption of guis in android apps: 
-A multi-objective approach</a>.
-Proceedings of the 2015 10th Joint Meeting on 
-Foundations of Software Engineering,
-page 143-154, 2015&#160;<a class="footnote-backref" href="#fnref:lina15" rev="footnote" title="Jump back to footnote 3 in the text">&#8617;</a></p>
-</li>
-<li id="fn:sino11">
-<p>Steven Sinofsky, 
-<a href="https://blogs.msdn.microsoft.com/b8/2011/08/29/improvements-in-windows-explorer">Improvements in Windows 
-Explorer</a>.
-Microsoft Developer Blog, August 29, 2011.&#160;<a class="footnote-backref" href="#fnref:sino11" rev="footnote" title="Jump back to footnote 4 in the text">&#8617;</a></p>
-</li>
-<li id="fn:murp06">
-<p>Gail Murphy, Mik Kersten, 
-<a href="https://github.com/txt/se16/blob/master/todo/howDevelopersUseEclipseIDE.pdf">How are java software developers using the eclipse 
-IDE</a>
-IEEE Software, 
-July 2006.&#160;<a class="footnote-backref" href="#fnref:murp06" rev="footnote" title="Jump back to footnote 5 in the text">&#8617;</a></p>
-</li>
 <li id="fn:vest">
 <p><em>Vesting</em> refers to the process by which an
 employee earns her shares over time; e.g. monthly
@@ -221,13 +169,62 @@ options. The one-year cliff was created to protect
 companies against issuing stock to bad hires, which
 typically are not recognized at least until at least
 a few months into their tenure. For more on vesting,
-see<sup id="fnref:rach14"><a class="footnote-ref" href="#fn:rach14" rel="footnote">7</a></sup>.&#160;<a class="footnote-backref" href="#fnref:vest" rev="footnote" title="Jump back to footnote 6 in the text">&#8617;</a></p>
+see<sup id="fnref:rach14"><a class="footnote-ref" href="#fn:rach14" rel="footnote">2</a></sup>.&#160;<a class="footnote-backref" href="#fnref:vest" rev="footnote" title="Jump back to footnote 1 in the text">&#8617;</a></p>
 </li>
 <li id="fn:rach14">
 <p>Andy Rachleff,
 <a href="https://blog.wealthfront.com/vesting-stock-options/">What You Need To Know About Vesting 
 Stock</a>. 
-Wealthfront blog, May 19, 2014.&#160;<a class="footnote-backref" href="#fnref:rach14" rev="footnote" title="Jump back to footnote 7 in the text">&#8617;</a></p>
+Wealthfront blog, May 19, 2014.&#160;<a class="footnote-backref" href="#fnref:rach14" rev="footnote" title="Jump back to footnote 2 in the text">&#8617;</a></p>
+</li>
+<li id="fn:facebook1">
+<p>For example, on Netflix.com if not enough people
+even hovered over a new feature, then a new
+experiment might move the element to a new location
+on the screen. If all experiments showed a lack of
+interest, the new feature would ultimately be
+deleted.&#160;<a class="footnote-backref" href="#fnref:facebook1" rev="footnote" title="Jump back to footnote 3 in the text">&#8617;</a></p>
+</li>
+<li id="fn:facebook2">
+<p>For example: if a developer at Netflix
+wanted to make improvements to the queue feature, a
+developer might first gather data related to how
+many people use queues. The developer would first
+try increasing clicks on the queue by performing
+several A/B experiments.  After some initial
+prototyping, the developer would next start
+targeting a small segment of users who currently are
+watching movies put into queues in order to validate
+that the enhancement can improve watch frequency.
+Then, the new enhancement would be deployed to users
+who place movies in queues, but do not watch them.
+Finally, with enough evidence collected, several
+hypotheses about customer behavior validated, a
+feature can successfully proceed with wider
+development and deployment.&#160;<a class="footnote-backref" href="#fnref:facebook2" rev="footnote" title="Jump back to footnote 4 in the text">&#8617;</a></p>
+</li>
+<li id="fn:lina15">
+<p>Mario Linares-Vasquez, Gabriele Bavota,
+Carlos Eduardo Bernal Cardenas, Rocco Oliveto, 
+Massimiliano Di Penta, Denys Poshyvanyk,
+<a href="http://www.cs.wm.edu/~denys/pubs/FSE15-GEMMA-CRC.pdf">Optimizing energy consumption of guis in android apps: 
+A multi-objective approach</a>.
+Proceedings of the 2015 10th Joint Meeting on 
+Foundations of Software Engineering,
+page 143-154, 2015&#160;<a class="footnote-backref" href="#fnref:lina15" rev="footnote" title="Jump back to footnote 5 in the text">&#8617;</a></p>
+</li>
+<li id="fn:sino11">
+<p>Steven Sinofsky, 
+<a href="https://blogs.msdn.microsoft.com/b8/2011/08/29/improvements-in-windows-explorer">Improvements in Windows 
+Explorer</a>.
+Microsoft Developer Blog, August 29, 2011.&#160;<a class="footnote-backref" href="#fnref:sino11" rev="footnote" title="Jump back to footnote 6 in the text">&#8617;</a></p>
+</li>
+<li id="fn:murp06">
+<p>Gail Murphy, Mik Kersten, 
+<a href="https://github.com/txt/se16/blob/master/todo/howDevelopersUseEclipseIDE.pdf">How are java software developers using the eclipse 
+IDE</a>
+IEEE Software, 
+July 2006.&#160;<a class="footnote-backref" href="#fnref:murp06" rev="footnote" title="Jump back to footnote 7 in the text">&#8617;</a></p>
 </li>
 <li id="fn:issues">
 <p>Github issues: <a href="https://guides.github.com/features/issues/">tutorial</a>
