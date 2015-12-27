@@ -192,7 +192,3 @@ As to the macro approach, such macros are available in:
 + Julia,
 + Erlang/Elixir
 + LISP
-
-</div>
-<p>&nbsp;</p>
-<div id="wrap">
