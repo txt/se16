@@ -4,11 +4,11 @@ import re,sys
 d=dict(
 
 _GIRLBOT="""
-<img size=300 align=right   src="/_img/girlbot.jpg">
+<img  align=right   src="/_img/girlbot.jpg">
 """,
 
 _UNDER400="""
-<center><img size=400 src="https://www.lahc.edu/pageunderconstruction.png"></center>
+<center><img width=400 src="https://www.lahc.edu/pageunderconstruction.png"></center>
 """,
 
 
