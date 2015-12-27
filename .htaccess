@@ -6,8 +6,8 @@ AddIcon           /.worksite/img/dir.png ^^DIRECTORY^^
 DefaultIcon       /.worksite/img/arrow.gif
 IndexIgnore HEADER.html FOOTER.html  _etc _tmp _img *.css  todo Makefile favicon.ico *.cgi favicon.* robots.txt .htaccess .ftpquota .DS_Store icons *.log *,v *,t .??* *~ *#
 IndexOptions FoldersFirst FancyIndexing IconHeight=16 IconWidth=16 SuppressHTMLPreamble  SuppressSize
-AddDescription 'Important' syllabus.md
-AddDescription 'Due soon. Start now" project/feb1.md
+AddDescription "Important" syllabus.md
+AddDescription "Due soon. Start now" project/feb1.md
 ######
 RewriteRule ^(.*)(.py)$ /.worksite/render.cgi?$1.py
 RewriteRule ^(.*)(.md)$ /render.cgi?$1
