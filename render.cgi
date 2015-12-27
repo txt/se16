@@ -13,6 +13,8 @@ what=$QUERY_STRING
 
 [ -z "$what" ] && what="$1"
 
+what=$(echo $what  | sed 's/[^\&\/=A-Za-z0-9._-]/_/g')
+
 if [ ! -f "$1.md" ];
    then cat $root/.worksite/404.html
 else    
