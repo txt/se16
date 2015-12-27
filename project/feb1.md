@@ -7,7 +7,7 @@ _GIRLBOT
 
 ____
 
-## Goals
+# Goals
 
 + Document some problem _"P"_ with some user group _"U"_ using some tool _"T"_ to achieve some goal _"G"_.
 + Guess what tools you will be using to fix that problem:
@@ -55,7 +55,7 @@ Developers](http://www.cs.cmu.edu/~NatProg/papers/plateau2011-latoza.pdf).
 
 ___
 
-## Key Points
+# Key Points
 
 You do **NOT** have to have the SOLUTION by Feb1:
 
@@ -70,7 +70,7 @@ Also, come April, you will have to show that whatever tools you build _changes_ 
 
 ____
 
-## What to Hand In
+# What to Hand In
 
 At start of class, Jan 12, hand in one page containing:
 
@@ -99,7 +99,7 @@ you might be able to fix it.
 
 ____
 
-## Pragmatics
+# Pragmatics
 
 Note that to succeed in this task, you have narrow
 the focus as soon as possible; e.g. consider the
@@ -166,7 +166,7 @@ Of course, there are 100 different ways to handle the above:
   keystrokes that violate that part of the grammar.
 
 
-### Some options for Editor Customizations
+## Some options for Editor Customizations
 
 By the way, if you want to exploring
         customizations within an editor, there are
