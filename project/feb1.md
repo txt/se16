@@ -60,6 +60,8 @@ Explanation](https://www.youtube.com/watch?v=gyXOe0Jl-fI)
 [^protocol3]: See section 3.3 of [Designing Useful Tools for
 Developers](http://www.cs.cmu.edu/~NatProg/papers/plateau2011-latoza.pdf).
 
+## Pragmatics
+
 Note that to succeed in this task, you have narrow
 the focus as soon as possible; e.g. consider the
 task of some using a text editor to write a
@@ -111,11 +113,7 @@ Of course, there are 100 different ways to handle the above:
   query that part of the grammar and block any
   keystrokes that violate that part of the grammar.
 
-
-
-____
-
-## Some options for Editor Customizations
+### Some options for Editor Customizations
 
 By the way, if you want to exploring
         customizations within an editor, there are
