@@ -6,13 +6,13 @@ typo: ready
 	@- git status
 	@- git commit -am "saving"
 	@- git push origin master
-	wget -O -  http://$(url)/update.cgi  	
+	@- wget -O -  http://$(url)/update.cgi  	
 
 commit: ready
 	@- git status
 	@- git commit -a
 	@- git push origin master
-	wget -O - http://$(url)/update.cgi
+	@- wget -O - http://$(url)/update.cgi
 
 update: ready
 	@- git pull origin master
