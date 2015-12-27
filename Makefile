@@ -2,9 +2,6 @@ url=se16.unbox.org
 
 publish : typo updatecgi
 
-site:
-	wget -O -  http://$(url)/update.cgi  
-
 typo: ready
 	@- git status
 	@- git commit -am "saving"
@@ -23,11 +20,13 @@ update: ready
 status: ready
 	@- git status
 
-ready:
+ready: readmes
 	@git config --global credential.helper cache
 	@git config credential.helper 'cache --timeout=3600'
 
-files: project/README.html
 
-project/README.html : _etc/project.md
-	
+readmes: project/README.html
+
+project/README.html : project/_etc/README.md
+	./render.cgi project/_etc/README nohead > $@
+	git add $@

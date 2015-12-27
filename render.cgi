@@ -1,6 +1,5 @@
 #!/bin/bash
-echo "Content-Type: text/html"
-echo ""
+
 
 if [ -n "$HOME" ]; then
   root="./"
@@ -19,7 +18,11 @@ if [ ! -f "$1.md" ];
 else    
     Title=$(cat $1.md | awk 'sub(/^# /,"") { print $0; exit}')
     
-    cat HEADER.html | sed "s/__TITLE__/${Title}/g"
+    if [  -z "$2" ]; then
+	 echo "Content-Type: text/html"
+	 echo ""
+	 cat HEADER.html | sed "s/__TITLE__/${Title}/g"
+    fi
     
     cat $what.md |
     python _etc/xpand.py |
