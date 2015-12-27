@@ -1,5 +1,5 @@
+<img align=right  src="http://sirteddybertie.com/wp-content/uploads/2013/07/5ScienceExperiments1-300x270.jpg">
 
-<img src="http://icons.iconarchive.com/icons/aha-soft/free-3d-printer/256/Project-icon.png" align=right>
 
 # Feb1 Project 
 
