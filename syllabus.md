@@ -56,7 +56,7 @@ engineering.
 
 Student will sit exams to determine their understanding of lecture material.
 
-<img width=300 align=right src="/_img/barbieGithub.png">
+<a href="https://computer-engineer-barbie.herokuapp.com/"><img width=400 align=right src="/_img/barbieGithub.png"></a>
 Students will work in groups of four using Github
 to test their ability to work in groups to deliver software.
 Students will use Github to store their software and Github issues to document their communications
