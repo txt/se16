@@ -197,7 +197,9 @@ work Jan to April
 
 ##	What to Hand in
 
-1. Each group will write their files and commit their pdf files to a public Github repository.
+For each deliverable, create a new public Github repo (not the NC State one):
+
+1. Each group will write their files and commit their pdf files to their public Github repository.
 2. For each such repo, add collaborators _timm_ and _shaowns_.
-3. The url of those Githubs will then be written to 
+3. The url of those Githubs will then be written to [this url](https://goo.gl/kOunui).
 
