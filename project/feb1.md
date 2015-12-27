@@ -57,7 +57,7 @@ ___
 
 ## Key Points
 
-You do not have to have the SOLUTION by Feb1:
+You do **NOT** have to have the SOLUTION by Feb1:
 
 + You only need to, by Feb1,  have documented some PROBLEM
 
