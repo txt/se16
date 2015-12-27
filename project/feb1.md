@@ -14,9 +14,9 @@ ____
     + Identify  some _start up exercise_ (not connected to the March and April deliverables) where
 
 As to selecting some _start up exercise_, this is just some moderately complex piece
-of quick coding in your preferred toolkit which:
+of quick coding in _"T"_  which:
 
-+ Your team can demonstrate competency  using that tool.
++ Your team can demonstrate competency  using _"T"_
 + Your team can practice working together, using Github.
 
 As  to _documenting some problem_ you can either
@@ -53,20 +53,18 @@ Explanation](https://www.youtube.com/watch?v=gyXOe0Jl-fI)
 [^protocol3]: See section 3.3 of [Designing Useful Tools for
 Developers](http://www.cs.cmu.edu/~NatProg/papers/plateau2011-latoza.pdf).
 
+___
 
+## Key Points
 
+You do not have to have the SOLUTION by Feb1:
 
-Here's the first key point:
-
-+ You do not have to have the SOLUTION by Feb1.
 + You only need to, by Feb1,  have documented some PROBLEM
 
-Here's the second key point:
-
-+ Come April, you will have to show that whatever
-  tools you build _changes_ (and hopefully,
+Also, come April, you will have to show that whatever tools you build _changes_ (and hopefully,
   improves), the pattern of errors for user
   group _"U"_ using some tool _"T"_ to achieve some goal _"G"_.
+
 + So for January, your goal is to document the baseline problems
   (so you can show improvement in April).
 
