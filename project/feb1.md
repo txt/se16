@@ -12,10 +12,14 @@ ____
 + Document some problem _"P"_ with some user group _"U"_ using some tool _"T"_ to achieve some goal _"G"_.
 + Guess what tools you will be using to fix that problem:
     + Identify  some _start up exercise_ (not connected to the March and April deliverables) where
-         + Your team can demonstrate competency  using that tool.
-	     + Your team can practice working together, using Github.
 
-Note that to _document some problem_ you can either
+As to selecting some _start up exercise_, this is just some moderately complex piece
+of quick coding in your preferred toolkit which:
+
++ Your team can demonstrate competency  using that tool.
++ Your team can practice working together, using Github.
+
+As  to _documenting some problem_ you can either
 
 + _Find one_, as described in the literature (e.g. standard programmer errors
   [^errors1]<sup>,</sup>[^errors2]<sup>,</sup>[^errors3]<sup>,</sup>[^errors4];
@@ -48,6 +52,9 @@ Explanation](https://www.youtube.com/watch?v=gyXOe0Jl-fI)
 
 [^protocol3]: See section 3.3 of [Designing Useful Tools for
 Developers](http://www.cs.cmu.edu/~NatProg/papers/plateau2011-latoza.pdf).
+
+
+
 
 Here's the first key point:
 
