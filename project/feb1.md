@@ -194,5 +194,5 @@ As to the macro approach, such macros are available in:
 + LISP
 
 </div>
-<p style="padding-top: 10px;">&nbsp;</p>
+<p>&nbsp;</p>
 <div id="wrap">
