@@ -6,12 +6,12 @@ If you want to use Latex, and if you want to avoid
 all the installation problems, use
 Sharelatex[^sharelatex].
 
-For Latex, and Word, template files can be found
-[here](http://www.acm.org/publications/article-templates/proceedings-template.html).
+Reports must use the  Latex, or Word, 
+[template files found here](http://www.acm.org/publications/article-templates/proceedings-template.html). Papers generated using these templates look like this:
 
 
 <center>
-<img src="/_img/2pages.png" width=400>
+<img src="/_img/2pages.png" width=600>
 </center>
 
 
@@ -32,6 +32,8 @@ Templates".<br>
 (C) Link that to Github (which will
 create a new repo, just for that paper)
 
-Remember that all figures need captions and should
-be mentioned in the text. References should be
-numbered and listed at the end of the paper.
+Remember that:
+
++ All figures need captions and should be mentioned in the text.
++ References should be numbered and listed at the end of the paper
+([see here for an example](https://github.com/LambdaConglomerate/x9115lam/blob/master/paper/paper.pdf)).
