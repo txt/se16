@@ -42,7 +42,8 @@ you might be able to fix it.
 
 Note that to _document some problem_ you can either
 
-+ _Find one_, as described in the literature (e.g. standard programmer errors [^errors1]<sup>,</sup>[^errors2];
++ _Find one_, as described in the literature (e.g. standard programmer errors
+  [^errors1]<sup>,</sup>[^errors2]<sup>,</sup>[^errors3]<sup>,</sup>[^errors4];
 + Or _document one_, by asking some sample users (say, 5 of your friends) to perform some task  conducting
   "think aloud studies"[^protocol1]<sup>,</sup>[^protocol2] or some "exploratory study"[^protocol3].
 
@@ -53,6 +54,16 @@ HCCC'03, pr 28-31, 2003.
 [^errors2]: R.C. Bryce, A. Cooley, A. Hansen, N. Hayrapetyan,
 [A one year empirical study of student programming bugs](http://dx.doi.org/10.1109/FIE.2010.5673143)
 in Frontiers in Education Conference (FIE), 2010. 
+
+[^errors3]:
+Amjad Altadmri, Neil C. C. Brown, 
+[37 Million Compilations:
+Investigating Novice Programming Mistakes in Large-Scale
+Student Data](https://kar.kent.ac.uk/46742/1/fp1187-altadmri.pdf).
+SIGCSE’15, March 4–7.
+
+[^errors4]: [Conference on Human Factors in Computing Systems](http://chi2016.acm.org/wp/)
+which is now decades old.
 
 [^protocol1]: [Think aloud protocol
 study](https://www.youtube.com/watch?v=tbKnFaW69e0)
@@ -67,7 +78,13 @@ Developers](http://www.cs.cmu.edu/~NatProg/papers/plateau2011-latoza.pdf).
 
 Note that to succeed in this task, you have narrow
 the focus as soon as possible; e.g. consider the
-task of some using a text editor to write a
+task of manually writing a web page and its associated errors:
+
++ Referencing an image or  style sheet that does not exist;
++ Number of closing list tags is less than the number of opening list tags;
++ etc.
+
+For another task, consider  using a text editor to write a
 timetable for a small high school.
 
 - The text is a table with columns (for hours in the
@@ -80,21 +97,27 @@ timetable for a small high school.
 	- Making some class have to race across the
       campus between classes that are too far apart,
       etc.
-- The problem here, of course, is that the general
+
+The problem here, of course, is that the general
   text editor has no special knowledge of the thing
-  it is editing:
-    - It does not know the list of known teachers,
+  it is editing. For example, with the schedule editor:
+  
+- It does not know the list of known teachers,
       distances between classes etc
-    - So we could declare that paragraph1 is a list of teachers,
-	- Paragraph2 is a list classes with distances to other classes
-	- etc
-- With that special knowledge, an interactive editor
+- So we could declare that paragraph1 is a list of teachers,
+- Paragraph2 is a list classes with distances to other classes
+- etc
+
+(Exercise for the reader: what are the errors associated with manual web page entry?)
+
+With that special knowledge, an interactive editor
   could start marking, in red, problematic cell
   entries.
-    - That same editor could pop up a second window
+  
+- That same editor could pop up a second window
       pane that keeps updating with the current list
       of errors
-	- In this approach, the editor contains a large
+- In this approach, the editor contains a large
 	  library of tiny code fragments, each one of
 	  which is a _(pattern,errorReport)_ that prints
 	  the _errorReport_ if the the _pattern_ is
@@ -108,7 +131,8 @@ Of course, there are 100 different ways to handle the above:
 - Forget interactive text queries (to identify bad
   contents); instead use some macro language where
   every construct expands into a table cell while
-  checking if any
+  checking if any. Such macros can do things like (e.g.) demanding that when
+  files/html tags are opened, they are always closed.
 - Some structure editor that inputs a description of
   the _grammar_ of a school timetable, which drives
   the editting (so if we know that line 5 of the
