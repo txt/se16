@@ -12,7 +12,8 @@ Increasingly, well-engineered software is being used
  Prize was awarded to chemists using software to
  explore fast chemical reactions. For that work, the
  Nobel Prize committee wrote
- [Today the computer is just as important a tool for chemists as the test tube](http://www.nobelprize.org/nobel_prizes/chemistry/laureates/2013/press.html).
+ ["Today the computer is just as important a
+ tool for chemists as the test tube"](http://www.nobelprize.org/nobel_prizes/chemistry/laureates/2013/press.html).
 
 Consequently, our
 society is becoming increasingly reliant on
