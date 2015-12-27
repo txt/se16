@@ -7,7 +7,15 @@ all the installation problems, use
 Sharelatex[^sharelatex].
 
 For Latex, and Word, template files can be found
-[here](http://www.acm.org/publications/article-templates/proceedings-template.html). Note that the file should be uses as is,
+[here](http://www.acm.org/publications/article-templates/proceedings-template.html).
+
+
+<center>
+<img src="/_img/2pages.png" width=400>
+</center>
+
+
+Note that the file should be uses as is,
 without changes to margins or font sizes or line
 spacings.
 [See here for a sample](https://github.com/LambdaConglomerate/x9115lam/blob/master/paper/paper.pdf),
