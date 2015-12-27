@@ -66,11 +66,11 @@ Grades will be assigned as follows:
 + Spot quizes, misc (quick) homeworks, 5 marks.
 + Mid-term: Tuesday, March15, 15 marks
 + Final exam: 25 marks
-+ Project: due Feb1, Mar1, Apr1, May1, for grades
-  10,10,20,15 marks (respectively)
++ Project: 55 marks,  due Feb1, Mar1, Apr1, May1, for
+  5,10,25,15 marks (respectively):
       + The Feb, Mar reports will be progress statements towards the April deliverables.
       + The Apr1 work will be (1) a talk to the class (10 marks) and
-        (2) a report document (10 marks);
+        (2) a report document (15 marks);
 	  + The May1 deliverable (worth 15 marks) will be a report
 		of the form shown [here](https://github.com/CSC510-2015-Axitron/project2)
 
