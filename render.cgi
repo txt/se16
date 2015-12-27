@@ -24,8 +24,7 @@ else
 	 echo "Content-Type: text/html"
 	 echo ""
 	 cat HEADER.html |
-	 sed "s/__TITLE__/${Title}/g" |
-	 sed 's/: __TITLE__//'    
+	 sed "s?<title>Se'16</title>?<title>Se'16: ${Title}</title>?g" 
     fi
     
     cat $what.md |
