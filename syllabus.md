@@ -209,13 +209,16 @@ with Disabilities Regulation(REG 02.20.01).
 Students are responsible for reviewing the PRRs
 which pertain to their course rights and
 responsibilities. These include:
-http://policies.ncsu.edu/policy/pol-04-25-05 (Equal
+[http://policies.ncsu.edu/policy/pol-04-25-05](http://policies.ncsu.edu/policy/pol-04-25-05)
+(Equal
 Opportunity and Non-Discrimination Policy
-Statement), http://oied.ncsu.edu/oied/policies.php
+Statement),
+[http://oied.ncsu.edu/oied/policies.php](http://oied.ncsu.edu/oied/policies.php)
 (Office for Institutional Equity and
-Diversity),http://policies.ncsu.edu/policy/pol-11-35-01
+Diversity),
+[http://policies.ncsu.edu/policy/pol-11-35-01](http://policies.ncsu.edu/policy/pol-11-35-01)
 (Code of Student Conduct), and
-http://policies.ncsu.edu/regulation/reg-02-50-03
+[http://policies.ncsu.edu/regulation/reg-02-50-03](http://policies.ncsu.edu/regulation/reg-02-50-03)
 (Grades and Grade Point Average).
 
 ## Non-Discrimination Policy
@@ -264,8 +267,9 @@ against any person who complains about
 discrimination is also prohibited. NC State's
 policies and regulations covering discrimination,
 harassment, and retaliation may be accessed at
-http://policies.ncsu.edu/policy/pol-04-25-05 or
-http://www.ncsu.edu/equal_op/. Any person who feels
+[http://policies.ncsu.edu/policy/pol-04-25-05](http://policies.ncsu.edu/policy/pol-04-25-05) or
+[http://www.ncsu.edu/equal_op/](http://www.ncsu.edu/equal_op/).
+Any person who feels
 that he or she has been the subject of prohibited
 discrimination, harassment, or retaliation should
 contact the Office for Equal Opportunity (OEO) at
@@ -281,7 +285,7 @@ class. No such trips are currently planned.
 However,
 if they do happen then students are required to
 purchase liability insurance. For more information,
-see http://www2.acs.ncsu.edu/insurance/
+see [http://www2.acs.ncsu.edu/insurance/](http://www2.acs.ncsu.edu/insurance/).
 
 
 
