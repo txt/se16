@@ -3,6 +3,9 @@
 
 # Feb1 Project 
 
+[TOC]
+
+____
 
 ## Goals
 
@@ -77,6 +80,7 @@ people tend to mess up, a lot, and start thinking
 how to document that problem and how, before April1,
 you might be able to fix it.
 
+____
 
 ## Pragmatics
 
@@ -143,6 +147,7 @@ Of course, there are 100 different ways to handle the above:
   file is expanding some branch of the grammar, then
   query that part of the grammar and block any
   keystrokes that violate that part of the grammar.
+
 
 ### Some options for Editor Customizations
 
