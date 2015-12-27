@@ -84,21 +84,21 @@ effort is wasted. But even worse
 + It means that maintenance cost of the product
   (constituting the majority of the total product
   effort) is higher than needed.
-+ This often implies delays in delivering products or lack of quality"
++ This often implies delays in delivering products or lack of quality.
 
 ### Pragmatics
 
-
-
 + Before _data analytics_ comes _data_;
      + before _data_ comes _data collection_;
-         + before _data collection_ comes _goals_ (that guide the data collection).
-         + So this project we walk from goals to
-		 collection to data to analytics.
-		 + It takes a while
-to manage (goals,collection,data) so most of this
-project's effort will be on goals,collection,data
-(but we'll do a little analytics).
+          + before _data collection_ comes _goals_
+	        (that guide the data collection).
+
+So this project we walk from goals to collection to data to analytics.
+
++ Pragmatically,  takes a while
+  to manage (goals,collection,data) so most of this
+  project's effort will be on goals,collection,data
++ But we'll do a little analytics.
 
 _____
 
