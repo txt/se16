@@ -30,5 +30,5 @@ else
       -x footnotes -x def_list -x toc -x smart_strong  \
       -x attr_list -x sane_lists  -x  fenced_code  \
       -x "codehilite(linenums=True)" |
-    sed "s?<li>.*${Title}</a></li>??"
+    sed "s?<li>.*${Title}.*</a></li>??"
 fi
