@@ -3,11 +3,13 @@ _GIRLBOT
 
 
 
-[TOC]
 
-____
+
 
 # Term Project
+
+[TOC]
+
 
 Good news: Your start-up has been bought out by the
 very large software company Microoglebook and you
