@@ -183,7 +183,7 @@ In part1:
 - Apr1 will the results of assessing how well your
   tools work. This sill be in two parts:
       + A talk to the class (15 mins, sometime in April);
-      + An 8+ page word report (due  Apr1).
+      + A report (due  Apr1).
 
 In part2, due  May1:
 
