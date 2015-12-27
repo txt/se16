@@ -15,8 +15,8 @@ Fall, 2010
 """,
 
 _LINA15="""
-Mario Linares-Vásquez, Gabriele Bavota,
-Carlos Eduardo Bernal Cárdenas, Rocco Oliveto, 
+Mario Linares-Vasquez, Gabriele Bavota,
+Carlos Eduardo Bernal Cardenas, Rocco Oliveto, 
 Massimiliano Di Penta, Denys Poshyvanyk,
 [Optimizing energy consumption of guis in android apps: 
 A multi-objective approach](http://www.cs.wm.edu/~denys/pubs/FSE15-GEMMA-CRC.pdf).

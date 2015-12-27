@@ -19,7 +19,6 @@ if [ ! -f "$1.md" ];
 else    
     Title=$(cat $1.md | awk 'sub(/^# /,"") { print $0; exit}')
     
-
     cat HEADER.html | sed "s/__TITLE__/${Title}/g"
     
     cat $what.md |
