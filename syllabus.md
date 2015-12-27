@@ -19,9 +19,9 @@ Tues,Thurs 4:30PM - 5:45PM
 
 ____
 
-## Overview
+# Overview
 
-### Topics
+## Topics
 
 An introduction to software life cycle models; size
 estimation; cost and schedule estimation; project
@@ -34,7 +34,7 @@ projects. An individual project required following
 good software engineering practices throughout the
 semester.
 
-### Objectives
+## Objectives
 
 Students are expected to gain practical exposure to
 tools, processes, and principles of software
@@ -44,15 +44,15 @@ technical mechanisms, and models supporting software
 engineering.
 
 
-### Prerequisites
+## Prerequisites
 
 + CSC 316 and CSC 226
 
-### Textbook
+## Textbook
 
 + [Software Engineering: A Practitioner's Approach, 7th International edition](http://www.amazon.com/Software-Engineering-Practitioners-Approach-International/dp/0071267824/ref=sr_1_2?s=books&ie=UTF8&qid=1451098592&sr=1-2&keywords=Software+Engineering%3A+A+Practitioner%27s+Approach++international+edition) by Roger Pressman (optional).
 
-### Assessment
+## Assessment
 
 Student will sit exams to determine their understanding of lecture material.
 
@@ -80,7 +80,7 @@ The following grade scale will be used:
      D+ (67-69),   D (63-66),   D-(60-62)
      F (below 60).
 
-### Group mailing list
+## Group mailing list
 
 It is each student's responsibility to join the following news group:
 
@@ -92,9 +92,9 @@ All class communication from staff to students will be via this news group.
 
 ____
 
-## Staff
+# Staff
 
-### Lecturer
+## Lecturer
 
 Tim Menzies <img src="http://www.csc.ncsu.edu/enews/images/1770.jpg" align=right width=100>
 
@@ -107,7 +107,7 @@ Tim Menzies <img src="http://www.csc.ncsu.edu/enews/images/1770.jpg" align=right
        + **Do not use** this number, except in the most dire of 
           circumstances (best way to contact me is via email).
 
-### Tutor
+## Tutor
 
 Shaown Sarker <img src="_img/shawon.png" align=right width=100>
 
@@ -122,16 +122,16 @@ Shaown Sarker <img src="_img/shawon.png" align=right width=100>
 
 ____
 
-## Other Information
+# Other Information
 
-### Attendance
+## Attendance
 
 Attendance is extremely important for your learning
 experience in this class. Once you reach three
 unexcused absences, each additional absence will
 reduce your attendance grade by 10%.
 
-#### Attendance in Week1
+### Attendance in Week1
 
 Regarding attendance in week one,
 material will be presented
@@ -145,7 +145,7 @@ return, and you should not expect the instructor or
 TAs to offer any make up or other supplemental
 material for the days that you miss.
 
-### Expected Workload
+## Expected Workload
 
  Students must be
 prepared to dedicate AT LEAST 5-8 working hours a
@@ -162,7 +162,7 @@ attend will result in marks being deducted.
 
 
 
-### Academic Integrity
+## Academic Integrity
 
 Cheating will be punished to the full extent permitted. Cheating
 includes plagerism of other people's work. All students will be working
@@ -192,7 +192,7 @@ Conduct.
  
 The  exams will be done individually.  Academic integrity is important.  Do not work together on the exams: cheating on either will be punished to the full extent permitted.
 
-### Disabilities
+## Disabilities
 
 Reasonable accommodations will be made for students
 with verifiable disabilities. In order to take
@@ -216,7 +216,7 @@ Diversity),http://policies.ncsu.edu/policy/pol-11-35-01
 http://policies.ncsu.edu/regulation/reg-02-50-03
 (Grades and Grade Point Average).
 
-### Non-Discrimination Policy
+## Non-Discrimination Policy
 
 NC State University provides equality of opportunity
 in education and employment for all students and
@@ -270,7 +270,7 @@ contact the Office for Equal Opportunity (OEO) at
 919-515-3148.
 
 
-### Liability Insurance.
+## Liability Insurance.
 
 Non-scheduled class time for field trips or
 out-of-class activities are NOT required for this

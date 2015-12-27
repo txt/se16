@@ -8,7 +8,7 @@ _GIRLBOT="""
 """,
 
 _UNDER400="""
-<center><img size=400   src="https://www.lahc.edu/pageunderconstruction.png"></center>
+<center><img size=400 src="https://www.lahc.edu/pageunderconstruction.png"></center>
 """,
 
 
