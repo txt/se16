@@ -1,6 +1,6 @@
 url=se16.unbox.org
 
-publish : typo updatecgi
+publish : typo 
 
 typo: ready
 	@- git status
