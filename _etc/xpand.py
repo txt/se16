@@ -14,6 +14,17 @@ AI Magazine,
 Fall, 2010
 """,
 
+_LINA15="""
+Mario Linares-Vásquez, Gabriele Bavota,
+Carlos Eduardo Bernal Cárdenas, Rocco Oliveto, 
+Massimiliano Di Penta, Denys Poshyvanyk,
+[Optimizing energy consumption of guis in android apps: 
+A multi-objective approach](http://www.cs.wm.edu/~denys/pubs/FSE15-GEMMA-CRC.pdf).
+Proceedings of the 2015 10th Joint Meeting on 
+Foundations of Software Engineering,
+page 143-154, 2015
+""",
+
 _MURP06 ="""
 Gail Murphy, Mik Kersten, 
 [How are java software developers using the eclipse 
