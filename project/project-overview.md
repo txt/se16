@@ -84,17 +84,16 @@ effort is wasted. But even worse
 
 ### Pragmatics
 
-Now:
 
-+ before _data analytics_ comes _data_;
-+ before _data_ comes _data collection_;
-+ before _data collection_ comes _goals_ (that guide the data collection).
 
-So this project we walk from goals to collection to
-data to analytics.  It takes a while to manage
-(goals,collection,data) so most of this project's
-effort will be on goals,collection,data (but we'll
-do a little analytics).
++ Before _data analytics_ comes _data_;
+     + before _data_ comes _data collection_;
+         + before _data collection_ comes _goals_ (that guide the data collection).
+         + So this project we walk from goals to
+collection to data to analytics.  It takes a while
+to manage (goals,collection,data) so most of this
+project's effort will be on goals,collection,data
+(but we'll do a little analytics).
 
 ## So Here's the Set Up
 
