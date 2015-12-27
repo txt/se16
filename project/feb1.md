@@ -15,6 +15,20 @@ By Feb1:
     + Your evidence for _P,U,T,G_ (defined below)
     + Your implementation of the _start up exercise_ (with some sample output to
 
+Now here's the key point:
+
++ You do not have to have the SOLUTION by Feb1.
++ You only need to, by Feb1,  have documented some PROBLEM
+
+But what you will need to do, in the next few days:
+
++ Commit to some task;
++ Commit to some general software libraries within
+  which you can customize a solution.
+
+So think of some software-related task that some people tend to mess up, a lot, and start thinking
+how to document that problem and how, before April1, you might be able to fix it.
+
 ## Goals
 
 + Document some problem _"P"_ with some user group _"U"_ using some tool _"T"_ to achieve some goal _"G"_.
@@ -97,16 +111,7 @@ Of course, there are 100 different ways to handle the above:
   query that part of the grammar and block any
   keystrokes that violate that part of the grammar.
 
-Now here's the key point:
 
-+ You do not have to have the SOLUTION by Feb1.
-+ You only need to, by Feb1,  have documented some PROBLEM
-
-But what you will need to do, in the next few days:
-
-+ Commit to some task;
-+ Commit to some general software libraries within
-  which you can customize a solution.
 
 ____
 
