@@ -49,6 +49,20 @@ Explanation](https://www.youtube.com/watch?v=gyXOe0Jl-fI)
 [^protocol3]: See section 3.3 of [Designing Useful Tools for
 Developers](http://www.cs.cmu.edu/~NatProg/papers/plateau2011-latoza.pdf).
 
+Here's the first key point:
+
++ You do not have to have the SOLUTION by Feb1.
++ You only need to, by Feb1,  have documented some PROBLEM
+
+Here's the second key point:
+
++ Come April, you will have to show that whatever
+  tools you build _changes_ (and hopefully,
+  improves), the pattern of errors for user
+  group _"U"_ using some tool _"T"_ to achieve some goal _"G"_.
++ So for January, your goal is to document the baseline problems
+  (so you can show improvement in April).
+
 ____
 
 ## What to Hand In
@@ -66,12 +80,8 @@ By Feb1:
     + Your implementation of the _start up exercise_ (with some sample output to show
 	  that you can get anything working with those tools).
 
-Now here's the key point:
 
-+ You do not have to have the SOLUTION by Feb1.
-+ You only need to, by Feb1,  have documented some PROBLEM
-
-But what you will need to do, in the next few days:
+What you will need to do, in the next few days:
 
 + Commit to some task;
 + Commit to some general software libraries within
