@@ -3,7 +3,7 @@
 Reports must be written in pdf format, generated from Word or Latex.
 
 If you want to use Latex, and if you want to avoid
-all the installation problems, use
+all the installation problems, try
 Sharelatex[^sharelatex].
 
 Reports must use the  Latex, or Word, 
