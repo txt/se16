@@ -49,6 +49,8 @@ Explanation](https://www.youtube.com/watch?v=gyXOe0Jl-fI)
 [^protocol3]: See section 3.3 of [Designing Useful Tools for
 Developers](http://www.cs.cmu.edu/~NatProg/papers/plateau2011-latoza.pdf).
 
+____
+
 ## What to Hand In
 
 At start of class, Jan 12, hand in one page containing:
