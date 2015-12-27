@@ -9,6 +9,6 @@ IndexOptions NameWidth=20 DescriptionWidth=50 ScanHtmlTitles FoldersFirst FancyI
 ######
 RewriteRule ^(.*)(.py)$ /.worksite/render.cgi?$1.py
 RewriteRule ^(.*)(.md)$ /render.cgi?$1
-
 AddDescription "Important!" syllabus.md
 AddDescription "Due soon! Start now!" project/feb1.md
+
