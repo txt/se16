@@ -200,24 +200,5 @@ work Jan to April
 
 **(IMPORTANT NOTE: You get _more_ marks by finding bad smells in other projects. That said,  you won't get  _less_ marks if someone finds bad smells in your project.)**
 
-### Notes on Report Generation
-
-Note that reports must be professionally prepared
-using
-[this style](http://www.acm.org/publications/article-templates/proceedings-template.html)
-with no changes to margins or font sizes or line
-spacings.
-
-Reports must be at least 8 pages long (see
-[here for a sample](https://github.com/LambdaConglomerate/x9115lam/blob/master/paper/paper.pdf),
-which is generated from
-[these files](https://github.com/LambdaConglomerate/x9115lam/tree/master/paper).
-
-If you want to use Latex, and if you want to avoid all the installation problems, use Sharelatex[^sharelatex].
-
-[^sharelatex]:
-(A) Open a Sharelatex.com account using your Github id.
-(B) Create a "New Project" from template  "Journal > ACM SIG Proceedings Templates".
-(C) Link that to Github (which will create a new repo, just for that paper)
 	
 
