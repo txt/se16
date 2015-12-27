@@ -2,6 +2,8 @@
 
 # Project
 
+[TOC]
+
 ## Background
 
 ### Introduction to Data-Driven Development
@@ -90,7 +92,8 @@ effort is wasted. But even worse
      + before _data_ comes _data collection_;
          + before _data collection_ comes _goals_ (that guide the data collection).
          + So this project we walk from goals to
-collection to data to analytics.  It takes a while
+		 collection to data to analytics.
+		 + It takes a while
 to manage (goals,collection,data) so most of this
 project's effort will be on goals,collection,data
 (but we'll do a little analytics).
@@ -109,7 +112,7 @@ employee earns her shares over time; e.g. monthly
 over four years with a one-year _cliff_. That means
 you earn the right to 1/48th of the shares you were
 originally granted per month over four years (48
-months), but you don’t get anything if you leave
+months), but you don't get anything if you leave
 prior to your one-year anniversary (and go over the
 cliff). In other words on your one-year anniversary
 you earn 1/4th of your stock and then vest an
@@ -201,8 +204,8 @@ which is generated from
 If you want to use Latex, and if you want to avoid all the installation problems, use Sharelatex[^sharelatex].
 
 [^sharelatex]:
-(1) Open a Sharelatex.com account using your Github id.
-(2) Create a "New Project" from template  "Journal > ACM SIG Proceedings Templates".
-(3) Link that to Github (which will create a new repo, just for that paper)
+(A) Open a Sharelatex.com account using your Github id.
+(B) Create a "New Project" from template  "Journal > ACM SIG Proceedings Templates".
+(C) Link that to Github (which will create a new repo, just for that paper)
 	
 
