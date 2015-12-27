@@ -11,7 +11,7 @@ Reports must use the  Latex, or Word,
 
 
 <center>
-<img src="/_img/2pages.png" width=600>
+<img src="/_img/2pages.png" width=750>
 </center>
 
 
