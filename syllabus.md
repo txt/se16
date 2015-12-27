@@ -8,7 +8,7 @@ src="https://d2fkddr0p2jbv6.cloudfront.net/render/standard/4806648449357858/mug1
 
 CSC 510-001 (2502)  
 NcState, ComSci  
-Spring 2015
+Spring 2016
 
 EE-III room 2207  
 Tues,Thurs 4:30PM - 5:45PM
@@ -63,9 +63,11 @@ between each other for that project.
 
 Grades will be assigned as follows:
 
-+ Mid-term: Tuesday, March15, 20 marks
-+ Final exam: 30 marks
-+ Project: due Feb1, Mar1, Apr1, May1, for grades 5,10,20,15 marks (respectively)
++ Spot quizes, misc (quick) homeworks, 5 marks.
++ Mid-term: Tuesday, March15, 15 marks
++ Final exam: 25 marks
++ Project: due Feb1, Mar1, Apr1, May1, for grades
+  10,10,20,15 marks (respectively)
       + The Feb, Mar reports will be progress statements towards the April deliverables.
       + The Apr1 work will be (1) a talk to the class (10 marks) and
         (2) a report document (10 marks);
