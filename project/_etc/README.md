@@ -1,13 +1,13 @@
 _GIRLBOT
 
-# Term Project
+
 
 
 [TOC]
 
 ____
 
-## Context
+# Term Project
 
 Good news: Your start-up has been bought out by the
 very large software company Microoglebook and you
@@ -52,7 +52,7 @@ Therefore, in this project you must:
 
 
 
-## Why This Project?
+# Why This Project?
 
 Increasingly, well-engineered software is being used
  by policy makers and researchers to better
@@ -130,7 +130,7 @@ effort is wasted. But even worse
   effort) is higher than needed.
 + This often implies delays in delivering products or lack of quality.
 
-### Pragmatics
+## Pragmatics
 
 + Before _data analytics_ comes _data_;
      + before _data_ comes _data collection_;
@@ -145,7 +145,7 @@ So this project we walk from goals to collection to data to analytics.
 + But we'll do a little analytics.
 ____
 
-## How to do this project
+# How to do this project
 
 Start now and form groups today. Your first major technical deliverable is due in 24 days-- and
 this is a report that requires some research and (perhaps) some experimentation.
@@ -192,7 +192,9 @@ work Jan to April
 
 **(IMPORTANT NOTE: You get _more_ marks by finding bad smells in other projects. That said,  you won't get  _less_ marks if someone finds bad smells in your project.)**
 
-##	What to Hand in
+____
+
+#	What to Hand in
 
 For each deliverable, create a new public Github repo (not the NC State one):
 
