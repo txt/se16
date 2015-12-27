@@ -72,7 +72,7 @@ solves a major problem in software engineering:
 
 [^sino11]: _SINO11
 
-[^murph06]: _MURP06
+[^murp06]: _MURP06
 
 Note that this means that substantial development
 effort is wasted. But even worse
