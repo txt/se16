@@ -9,7 +9,7 @@ ____
 (This page offers general
 notes on the project.
 For details on specific deliverables,
-[see here](./).
+[see here](./).)
 
 
 ## Background
