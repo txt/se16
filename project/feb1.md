@@ -13,7 +13,8 @@ By Feb1:
 
 + Submit a 4+ page report using the [report format](report.md) describing
     + Your evidence for _P,U,T,G_ (defined below)
-    + Your implementation of the _start up exercise_ (with some sample output to
+    + Your implementation of the _start up exercise_ (with some sample output to show
+	  that you can get anything working with those tools).
 
 Now here's the key point:
 
@@ -26,8 +27,10 @@ But what you will need to do, in the next few days:
 + Commit to some general software libraries within
   which you can customize a solution.
 
-So think of some software-related task that some people tend to mess up, a lot, and start thinking
-how to document that problem and how, before April1, you might be able to fix it.
+So think of some software-related task that some
+people tend to mess up, a lot, and start thinking
+how to document that problem and how, before April1,
+you might be able to fix it.
 
 ## Goals
 
