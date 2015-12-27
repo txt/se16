@@ -1,12 +1,7 @@
 <img align=right  src="http://sirteddybertie.com/wp-content/uploads/2013/07/5ScienceExperiments1-300x270.jpg">
 
-# Project
+# Term Project
 
-
-(This page offers general
-notes on the project.   
-For details on specific deliverables,
-[see here](./).)
 
 [TOC]
 
