@@ -4,7 +4,7 @@
 
 
 (This page offers general
-notes on the project.
+notes on the project.   
 For details on specific deliverables,
 [see here](./).)
 
