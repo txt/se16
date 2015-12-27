@@ -34,7 +34,6 @@ This is especially true in
   feature[^facebook1]<sub>,</sub>[^facebook2].
 + Even simple design decisions such as the color of a link[^lina15]
   are chosen by the outcome of software experiments.
-+ Furthermore, 
 
 [^facebook1]:
 For example, on Netflix.com if not enough people
@@ -43,7 +42,6 @@ experiment might move the element to a new location
 on the screen. If all experiments showed a lack of
 interest, the new feature would ultimately be
 deleted.
-
 
 [^facebook2]: For example: if a developer at Netflix
 wanted to make improvements to the queue feature, a
@@ -62,7 +60,7 @@ hypotheses about customer behavior validated, a
 feature can successfully proceed with wider
 development and deployment.
 
-[^lina]: _LINA15
+[^lina15]: _LINA15
 
 Note that _data-driven_ approach
 solves a major problem in software engineering:
