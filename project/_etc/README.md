@@ -195,5 +195,9 @@ work Jan to April
 
 **(IMPORTANT NOTE: You get _more_ marks by finding bad smells in other projects. That said,  you won't get  _less_ marks if someone finds bad smells in your project.)**
 
-	
+##	What to Hand in
+
+1. Each group will write their files and commit their pdf files to a public Github repository.
+2. For each such repo, add collaborators _timm_ and _shaowns_.
+3. The url of those Githubs will then be written to 
 

@@ -98,6 +98,7 @@ ____
 
 Tim Menzies <img src="http://www.csc.ncsu.edu/enews/images/1770.jpg" align=right width=100>
 
++ Github id: timm
 + Office Hours: Thursday, 3:00-4:30 and by request
 + Location of Office Hours: EE II room 3298 
 + E-Mail: tim.menzies@gmail.com 
@@ -110,6 +111,7 @@ Tim Menzies <img src="http://www.csc.ncsu.edu/enews/images/1770.jpg" align=right
 
 Shaown Sarker <img src="_img/shawon.png" align=right width=100>
 
++ Github id: shaowns
 + E-mail: ssarker@ncsu.edu
   + Only use this email for private matters.
   + All other class communication should be via the class news group, listed after.
