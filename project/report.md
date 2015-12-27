@@ -17,10 +17,10 @@ which is generated from
 
 
 [^sharelatex]: (A) Open a Sharelatex.com account
-using your Github id.
+using your Github id.<br>
 (B) Create a "New Project"
 from template "Journal > ACM SIG Proceedings
-Templates".
+Templates".<br>
 (C) Link that to Github (which will
 create a new repo, just for that paper)
 
