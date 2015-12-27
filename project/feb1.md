@@ -3,34 +3,6 @@
 
 # Feb1 Project 
 
-At start of class, Jan 12, hand in one page containing:
-
-+ A statement of what _start up exercise_ you will complete by Feb1 using _what tool_
-  (note: it is too hard or too simple, we will not approve it).
-+ The names of your team, listed on the page, and entered into [this sheet](https://goo.gl/kOunui).
-
-By Feb1:
-
-+ Submit a 4+ page report using the [report format](report.md) describing
-    + Your evidence for _P,U,T,G_ (defined below)
-    + Your implementation of the _start up exercise_ (with some sample output to show
-	  that you can get anything working with those tools).
-
-Now here's the key point:
-
-+ You do not have to have the SOLUTION by Feb1.
-+ You only need to, by Feb1,  have documented some PROBLEM
-
-But what you will need to do, in the next few days:
-
-+ Commit to some task;
-+ Commit to some general software libraries within
-  which you can customize a solution.
-
-So think of some software-related task that some
-people tend to mess up, a lot, and start thinking
-how to document that problem and how, before April1,
-you might be able to fix it.
 
 ## Goals
 
@@ -73,6 +45,38 @@ Explanation](https://www.youtube.com/watch?v=gyXOe0Jl-fI)
 
 [^protocol3]: See section 3.3 of [Designing Useful Tools for
 Developers](http://www.cs.cmu.edu/~NatProg/papers/plateau2011-latoza.pdf).
+
+## What to Hand In
+
+At start of class, Jan 12, hand in one page containing:
+
++ A statement of what _start up exercise_ you will complete by Feb1 using _what tool_
+  (note: it is too hard or too simple, we will not approve it).
++ The names of your team, listed on the page, and entered into [this sheet](https://goo.gl/kOunui).
+
+By Feb1:
+
++ Submit a 4+ page report using the [report format](report.md) describing
+    + Your evidence for _P,U,T,G_ (defined below)
+    + Your implementation of the _start up exercise_ (with some sample output to show
+	  that you can get anything working with those tools).
+
+Now here's the key point:
+
++ You do not have to have the SOLUTION by Feb1.
++ You only need to, by Feb1,  have documented some PROBLEM
+
+But what you will need to do, in the next few days:
+
++ Commit to some task;
++ Commit to some general software libraries within
+  which you can customize a solution.
+
+So think of some software-related task that some
+people tend to mess up, a lot, and start thinking
+how to document that problem and how, before April1,
+you might be able to fix it.
+
 
 ## Pragmatics
 
