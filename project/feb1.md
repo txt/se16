@@ -1,5 +1,5 @@
 
-<img src="../_img/1A.png" align=right>
+<img src="http://icons.iconarchive.com/icons/aha-soft/free-3d-printer/256/Project-icon.png" align=right>
 
 # Feb1 Project 
 
@@ -39,7 +39,7 @@ Amjad Altadmri, Neil C. C. Brown,
 [37 Million Compilations:
 Investigating Novice Programming Mistakes in Large-Scale
 Student Data](https://kar.kent.ac.uk/46742/1/fp1187-altadmri.pdf).
-SIGCSE’15, March 4–7.
+SIGCSE'15, March 4–7.
 
 [^errors4]: [Conference on Human Factors in Computing Systems](http://chi2016.acm.org/wp/)
 which is now decades old.
