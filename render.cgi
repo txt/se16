@@ -23,7 +23,9 @@ else
     if [  -z "$2" ]; then
 	 echo "Content-Type: text/html"
 	 echo ""
-	 cat HEADER.html | sed "s/__TITLE__/${Title}/g"
+	 cat HEADER.html |
+	 sed "s/__TITLE__/${Title}/g" |
+	 sed 's/: __TITLE__//'    
     fi
     
     cat $what.md |
