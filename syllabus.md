@@ -56,9 +56,10 @@ engineering.
 
 Student will sit exams to determine their understanding of lecture material.
 
-Students will work in groups of four to test their ability to work in groups to deliver software.
-
-Students will use Github to develop their software and Github issues to document their communications
+<img width=300 align=right src="/_img/barbieGithub.png">
+Students will work in groups of four using Github
+to test their ability to work in groups to deliver software.
+Students will use Github to store their software and Github issues to document their communications
 between each other for that project.
 
 Grades will be assigned as follows:
