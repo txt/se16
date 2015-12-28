@@ -29,13 +29,15 @@ independent of network access or a central server.
 
 
 
-# World's best guide to Github
+# World's best guides to Github
 
-Read this, now:
+Read these, now:
 
 + [just a simple guide for getting started with git.
-no deep sh*t)](http://rogerdudler.github.io/git-guide/)" by
-Roger Dudler.
+  no deep sh*t)](http://rogerdudler.github.io/git-guide/)" by
+  Roger Dudler.
++ Work this
+  [tutorial on branching](http://pcottle.github.io/learnGitBranching/).
 
 Have you read that guide?
 
