@@ -47,13 +47,13 @@ e.g forking:
 
 In object design
 
-![](/_img/chbrowser.png)
+<img width=500 src="/_img/chbrowser.png">
 
-![](/_img/filebrowser.png)
+<img width=500 src="/_img/filebrowser.png">
 
-![](/_img/compositebrowser.png)
+<img width=500 src="/_img/compositebrowser.png">
 
-![](/_img/compositepattern.png)
+<img width=500 src="/_img/compositepattern.png">
 
 
 
