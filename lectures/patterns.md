@@ -102,7 +102,7 @@ e.g. visitor pattern in functional (5 lines)
   (if (atom things)
       (funcall f things)   ; then
       (dolist (one things) ; else do for each
-	(visitr one f))))
+	     (visitr one f))))
 
 (defun demo (&aux all)
   (let ((nastyComplexThing
