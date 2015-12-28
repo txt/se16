@@ -36,10 +36,14 @@ Read these, now:
 1. [just a simple guide for getting started with git.
   no deep sh*t)](http://rogerdudler.github.io/git-guide/)" by
   Roger Dudler.
+     - 10 mins to read
 2. Work this
-  [tutorial on branching](http://pcottle.github.io/learnGitBranching/).
+[tutorial on branching](http://pcottle.github.io/learnGitBranching/).
+    - Can do first 4 levels in about 20 minutes.
+    - Whole thing might take 2-4 hours.
 
-Have you read those guides?
+
+Have you looked at those guides?
 
 Then you may continue.
 

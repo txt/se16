@@ -167,6 +167,23 @@ Taken from the excellent notes found at the
     + Message Chains
     + Middle Man
 
+Note:
+
++ For every study, there is an anti-study
++ Some raise questions about whether the above are **the** bad smells that are useful to
+  consider for **all** projects.
++ That said, there is some evidence that these bad smells predict for software change proneness[^khomh].
++ But another approach is to reflect over your own error logs to learn the bad smells that are
+  most important at your site,
+  + So not general bad smells for all projects;
+  + But general methods for finding local bad smells.
+  + For example, see next section.
+
+[^khomb]: Foutse Khomh,
+Massimiliano Di Penta, Yann-Gael Gueheneuc,
+[An Exploratory Study of the Impact of Code Smells on Software Change-proneness](http://swat.polymtl.ca/~foutsekh/docs/TechReport.pdf)
+in Reverse Engineering, 2009. WCRE '09. 16th Working Conference on , vol., no., pp.75-84, 13-16 Oct. 2009
+  
 ## e.g. Test Smell Bad Smells
 
 From [Reichart et al. 2007][^reichhart].
@@ -192,10 +209,7 @@ the tests through manual inspection.
 Stefan Reichhart and Tudor Girba, Stephane Ducasse,
 [Rule-based Assessment of Test Quality](http://www.jot.fm/issues/issue_2007_10/paper12/),
 Journal of Object Technology,
-6(9), October 2007
-
-
-
+6(9), October 2007.
 
 ## e.g. Arthur Riel: OO design heuristics
 
