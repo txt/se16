@@ -1,18 +1,30 @@
 # Architectures
 
+The world is a big place
 
 ![](/_img/architecture.png)
 
+Classic pipe and filter. Used in UNIX (bad to interaction across multiple pipes; good for easy development, ease of maintenance)
+
 ![](/_img/ainfig05.gif)
+
+LAMP = Linux apache mysql php (python)
 
 ![](/_img/LAMPStack.png)
 
-![](_img/mean-stack.png)
+After LAMP, comes MEAN (requires you to work in Javascript):
+
+![](_img/meanstack.png)
+
+MVC: good for tight/complex interaction. Complex to maintain
 
 ![](/_img/MVC-2.png)
 
+Subject-observer. multiple views on one model
+
 ![](/_img/obser023.gif)
 
+Looser collaboration with publish, subscribe
 
 ![](/_img/pub-sub.png)
 
