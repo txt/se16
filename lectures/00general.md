@@ -18,7 +18,9 @@ controls the world:
   up.
 + Chemists win Nobel Prize for software sims
   [http://goo.gl/p8YScA](http://goo.gl/p8YScA);
-+ Engineers use software to optical tweezers, radiation therapy, remote sensing,  chip design,  [http://goo.gl/qBMyIZ](http://goo.gl/qBMyIZ);
++ Engineers use software to optical tweezers,
+  radiation therapy, remote sensing, chip design,
+  [http://goo.gl/qBMyIZ](http://goo.gl/qBMyIZ);
 + Web analysts use software to analyze clickstreams
   to improve sales and marketing strategies;
   [http://goo.gl/b26CfY](http://goo.gl/b26CfY)
@@ -177,47 +179,6 @@ Surprise #2:  testing takes half the time?
 
 
 
-# Process Changes
-
-
-The following notes come from
-[blogs/invisiblethread](https://www.ibm.com/developerworks/community/blogs/invisiblethread/entry/beyond_devops_distributedops_noops_and_bizdevops?lang=en).
-
-In the beginning was the [waterfall model](/resources/70waterfall.pdf):
-
-<center><a
-href="/_img/process1.png"><img
-width=700
-src="/_img/process1.png"></a></center>
-
-The rebellion document, 2001:
-
-<center><a href="http://agilemanifesto.org/"><img
-   width=650
-   src="/_img/agilemanifesto.png"></a></center>
-
-
-<center><a
-href="/_img/process2.png"><img
-width=700
-src="/_img/process2.png"></a></center>
-
-<center><a
-href="/_img/process3.png"><img
-width=700
-src="/_img/process3.png"></a></center>
-
-
-<center><a
-href="/_img/process4.png"><img
-width=700
-src="/_img/process4.png"></a></center>
-
-
-<center><a
-href="/_img/process5.png"><img
-width=700
-src="/_img/process5.png"></a></center>
 
 
 # Predictions for the Future

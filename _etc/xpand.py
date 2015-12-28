@@ -3,6 +3,11 @@ from __future__ import print_function
 import re,sys
 d=dict(
 
+_BROO75="""
+Fred Brooks, The Mythical Man-Month: Essays on Software Engineering.
+Addison-Wesley, 1975.
+""",
+  
 _GIRLBOT="""
 <img  align=right   src="/_img/girlbot.jpg">
 """,
@@ -46,6 +51,12 @@ Andy Rachleff,
 [What You Need To Know About Vesting 
 Stock](https://blog.wealthfront.com/vesting-stock-options/). 
 Wealthfront blog, May 19, 2014.
+""",
+
+_ROYC70="""
+Winston W. Rovce ,
+Managing the Development of Large Software Systems,
+ICSE'87
 """,
 
 _SIMO99="""
