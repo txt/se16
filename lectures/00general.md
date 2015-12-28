@@ -132,7 +132,7 @@ that increased the market for software written a certain way (i.e. using UNIX).
 Since them, much as changed:
 
 <center>
-<a href="/_img/progress.png"><img width=500 src="/_img/progress.png"</a>
+<a href="/_img/progress.png"><img width=500 src="/_img/progress.png"></a>
 </center>
 
 
