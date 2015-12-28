@@ -49,7 +49,7 @@ e.g forking:
 
 
 
-In object design
+## Patters in Object Design
 
 <img width=500 src="/_img/chbrowser.png">
 
@@ -82,7 +82,8 @@ Patterns are a religion
 
 <img width=400 src="/_img/onering.png">
  
-"Patterns" in function programming
+ # "Patterns" in function programming
+ 
 Functional programmers (Haskell, Clojure, F#, Lisp, Skill, Racket,….) make up 10 patterns for breakfast.
 
 Cause its so easy (say what? OO makes some easy things hard?)
