@@ -229,7 +229,7 @@ Frank Gens, IDC Predictions 2015 Team.
   spending growth, one-third of all smartphone
   purchases, and about one-third of all online
   shoppers.
-+ The innovation stage will also be driven by a new wave of core technologies — innovation accelerators — that radically extend the 3rd Platform's capabilities and applications, including:
++ The innovation stage will also be driven by a new wave of core technologies — innovation accelerators — that radically extend the 3rd Platform[:3rd]'s capabilities and applications, including:
      + The Internet of Things: A massive expansion of the edge, to "smart" cars, buildings, homes, industrial equipment, wearables, and more
      + Cognitive systems: Systems that observe, learn, analyze, offer suggestions, and even create new ideas — dramatically reshaping every services industry
      + Pervasive robotics: Driving knowledge from the digital world into action in the physical world, through robots, self-driving cars, drones, nanorobots, and more
@@ -240,5 +240,6 @@ speech, vision, motion, touch, and beyond
      + Cloud-based "3rd Platform"–optimized security
 technologies and solutions: Better designed to keep
 up with the massive scale and expanding scope of the
-3rd Platform
+3rd Platform[^3rd].
 
+[^3rd]: 3rd platform = mobile computing, social media, cloud computing, and information / analytics (big data),and possibly the Internet of Things.
