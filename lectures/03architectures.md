@@ -1,15 +1,15 @@
 # Architectures
 
 
-![](architecture.png)
+![](/_img/architecture.png)
 
-![](ainfig05.gif)
+![](/_img/ainfig05.gif)
 
-![](LAMPStack.png)
+![](/_img/LAMPStack.png)
 
-![](MVC-2.png)
+![](/_img/MVC-2.png)
 
-![](obser023.gif)
+![](/_img/obser023.gif)
 
 
-![](pub-sub.png)
+![](/_img/pub-sub.png)
