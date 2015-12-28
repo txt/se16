@@ -15,7 +15,8 @@ The following notes come from
 [blogs/invisiblethread](https://www.ibm.com/developerworks/community/blogs/invisiblethread/entry/beyond_devops_distributedops_noops_and_bizdevops?lang=en).
 
 In the beginning was the
-[waterfall model](/resources/70waterfall.pdf):
+[waterfall model](/resources/70waterfall.pdf). Lots of interim steps, great for funding large projects, defining cash flows
+even before any code is running:
 
 <center><a
 href="/_img/process1.png"><img
