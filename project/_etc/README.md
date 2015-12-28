@@ -121,8 +121,7 @@ development and deployment.
 
 [^lina15]: _LINA15
 
-Note that _data-driven_ approach
-solves a major problem in software engineering:
+Note that _data-driven_ approach addressed the _feature creep_ problem:
 
 + The historical record is that about 20% of the features implemented in a software product are often or always used;
 + For example, 64% of the features get rarely or never used.
