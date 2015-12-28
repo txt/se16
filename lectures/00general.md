@@ -98,7 +98,33 @@ Parts of SE:
 
 # Why Software is so Interesting... Now
 
-The software landscape is changing... so fast...
+It took a long time to realize it organizing software was a thing:
+
+- In 1973, Barry Boehm has asked to comment on the
+  major factors associated with using computers.
+       - DARPA had expected him to predict that
+         hardware would remain the biggest problem,
+         encouraging them to invest in even larger
+         computers.
+       - Instead, Boehm shocked them all, predicting
+         that software costs would overwhelm
+         hardware costs.
+- In 1982, Bill Gates sold an operating systems to IBM call _DOS_
+       - IBM was expecting Microsoft to ask for more
+         money upfront or at least as for a per-copy
+         royalty.
+       - Instead Microsoft negotiated for the
+         ability to sell DOS to other companies.
+	   - Thanks to the non-exclusive agreement,
+	     that set
+	     the stage for Microsoft to dominate the PC
+	     operating system industry for years.
+	   - Why did IBM agree to the non-exclusive agreement?
+	   - Because the industry, including IBM, did
+         not believe that anyone could make money
+         from software.
+		 
+Since them, much as changed:
 
 <center>
 <a href="/_img/progress.png"><img width=500 src="/_img/progress.png"</a>
@@ -125,6 +151,9 @@ width=500
 src="https://s-media-cache-ak0.pinimg.com/originals/3e/b3/ab/3eb3abc3b8d92854eafa514bd197e32d.jpg"></a>
 </center>
 
+
+
+
 # The Standard Pictures
 
 <center><img  src="/_img/tires.jpg"></center>
@@ -142,22 +171,8 @@ href="/_img/boehmHistory.png"><img
 width=400
 src="/_img/boehmHistory.png"></a></center>
 
-Note the switch from hardware to software in the 1960s.
 
-+ In the olde days, computers were "programmed" by
-  moving the wires around.
-+ It took a long time to realize it takes
-  considerable effort to organize _both_ the
-  hardware and software.
-- In 1973, Barry Boehm has asked to comment on the
-  major factors associated with using computers.
-       - DARPA had expected him to predict that
-         hardware would remain the biggest problem,
-         encouraging them to invest in even larger
-         computers.
-       - Instead, Boehm shocked them all, predicting that software
-         costs would overwhelm hardware costs.
-
+		 
 
 # The Great Secrets of the V-diagram
 
