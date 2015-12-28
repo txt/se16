@@ -142,6 +142,23 @@ href="/_img/boehmHistory.png"><img
 width=400
 src="/_img/boehmHistory.png"></a></center>
 
+Note the switch from hardware to software in the 1960s.
+
++ In the olde days, computers were "programmed" by
+  moving the wires around.
++ It took a long time to realize it takes
+  considerable effort to organize _both_ the
+  hardware and software.
+- In 1973, Barry Boehm has asked to comment on the
+  major factors associated with using computers.
+       - DARPA had expected him to predict that
+         hardware would remain the biggest problem,
+         encouraging them to invest in even larger
+         computers.
+       - Instead, Boehm shocked them all, predicting that software
+         costs would overwhelm hardware costs.
+
+
 # The Great Secrets of the V-diagram
 
 Software =
