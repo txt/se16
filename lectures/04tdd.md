@@ -12,6 +12,8 @@ A common agile-practice: test-driven development; a.k.a. red-green-refactor (the
 + A small, fast-spinning motor.
 + Very short cycle that repeats over and over again.
 
+____
+
 # TDD, in 20 lines
 
 Commercial TDD libraries contain extensive support for:
@@ -89,6 +91,7 @@ Note:
 - Each of those functions contain `assert` statements.
 - An `@ok` appears before all the test drivers.
 
+_____
 
 # Details
 
@@ -128,6 +131,7 @@ Note that TDD is also a communication tool between programmers.
 + If you want to understand someone else's code ...
 + ... start with the tests.
 
+____
 
 # Assessment
 
