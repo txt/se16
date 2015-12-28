@@ -21,7 +21,22 @@ Classic pipe and filter. Used in UNIX (bad to
 interaction across multiple pipes; good for easy
 development, ease of maintenance)
 
-![](/_img/ainfig05.gif)
+![](/_img/pipe_and_filter.gif)
+
+Lots of small little programs, each focused on one task, ready to be combined in different ways:
+
+    # find biggest files changed in August
+    ls -l | grep "Aug" | sort +4n | more
+
+    # apply the table (tbl) and picture (pic)
+    # and equation (eqn) to all the manuscript (.ms) files
+	
+    Src="
+	cat *.ms |
+	tbl |
+	pic |
+	eqn |
+	troff -t  -ps > out.ps
 
 LAMP = Linux apache mysql php (python)
 
@@ -120,6 +135,51 @@ Advantages:
 MEAN since LAMP is harder to modify (quickly) and test.)
 
 # Parts
+
+## Pipe-and-Filter
+
+Notes from [David  March](http://www4.desales.edu/~dlm1/it533/class03/pipe.html):
+
+Advantages:
+
++ Filters stand alone and can be treated as black
+  boxes. This isolation of functionality helps to
+  ensure quality attributes such as information
+  hiding, high cohesion, modifiability, and reuse.
++ Filters interact with other components in limited
+  ways. This connection simplicity helps to ensure
+  low coupling.  Pipes and filters can be
+  hierarchically composed. Higher order filters can
+  be created from any combination of lower order
+  pipes and filters.
++ The construction of the pipe and filter sequence
+  can often be delayed until runtime (late
+  binding). This permits a controller component to
+  tailor a process based on the current state of the
+  application.
++ Because the process performed by the filter is
+  isolated from the other components in the system,
+  it is relatively easy to run a pipe-and-filter
+  system on parallel processors or in multiple
+  threads on a single processor.
+
+Disadvantages (Top) 
+
++ Because the problem is decomposed into sequential
+  steps, a batch mentality is encouraged. It is
+  difficult to create entire interactive
+  applications using this style.
++ Filters often force the data to be represented in
+  the lowest common denominator, typically byte or
+  character streams. This means that if processing
+  must be based on information tokens (words, lines,
+  records), every filter may introduce overhead for
+  parsing and unparsing the data stream.
++ If a filter can not produce any output until it
+  has received all of its input, the filter will
+  require a buffer of unlimited size. If fixed size
+  buffers are used, the system could deadlock. A
+  sort filter has this problem.
 
 ## Component-Based Architecture
 
