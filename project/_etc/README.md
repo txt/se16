@@ -53,7 +53,12 @@ Therefore, in this project you must:
 - Implement those two or three different ways;
 - Make a case that one of those ways should be adopted.
 
-
+(Note that variants of this scenario are quite
+common. E.g. for years, Microsoft eschewed software
+estimation methods in favor of _feature maturity_
+methods; e.g. programmers only got
+bonuses/programmers if their proposed new features
+end up in the customer's build.)
 
 # Why This Project?
 
