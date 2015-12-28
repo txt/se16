@@ -71,12 +71,12 @@ Erich Gamma, Richard Helm, Ralph Johnson and John Vlissides
 
 If you read this book, and you are not excited, then check your pulse. You’re dead.
 
-![](/_img/gofbook.png)
+<img width=400 src="/_img/gofbook.png">
 
 
 Patterns are a religion
 
-![](/_img/onering.png)
+<img width=400 src="_img/onering.png">
  
 “Patterns” in function programming
 Functional programmers (Haskell, Clojure, F#, Lisp, Skill, Racket,….) make up 10 patterns for breakfast.
