@@ -146,11 +146,11 @@ Beck's [RIP TDD](https://www.facebook.com/notes/kent-beck/rip-tdd/75084019494884
 
 ## Disadvantages
 
-“I get paid for code that works, not for tests, so
+"I get paid for code that works, not for tests, so
 my philosophy is to test as little as possible to
-reach a given level of confidence” – Kent Beck
+reach a given level of confidence" – Kent Beck
 
-+ James O Coplien [Why Most Unit Testing is Waste])http://www.rbcs-us.com/documents/Why-Most-Unit-Testing-is-Waste.pdf)
++ James O Coplien [Why Most Unit Testing is Waste](http://www.rbcs-us.com/documents/Why-Most-Unit-Testing-is-Waste.pdf)
     + Notes that _unit tests_ are very small while _function tests_ (aka _system tests_)
       are much larger, much more complex.
 	     + Much slower to run, not the kind of thing to give you instant feedback.
