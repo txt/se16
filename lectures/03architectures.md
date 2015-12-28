@@ -37,6 +37,7 @@ tbl |
 pic |
 eqn |
 troff -t  -ps > out.ps
+```
 
 LAMP = Linux apache mysql php (python)
 
