@@ -178,7 +178,7 @@ Note:
 
 + For every study, there is an anti-study
 + Some raise questions about whether the above are **the** bad smells that are useful to
-  consider for **all** projects.
+  consider for **all** projects[^hall12].
 + That said, there is some evidence that these bad smells predict for software change proneness[^khomh].
 + But another approach is to reflect over your own error logs to learn the bad smells that are
   most important at your site,
@@ -186,10 +186,15 @@ Note:
   + But general methods for finding local bad smells.
   + For example, see next section.
 
+[^hall12]: Tracy Hall, Min Zhang, David Bowes, and Yi Sun,
+[Some Code Smells Have a Significant but Small Effect on Faults](/resources/12badsmells.pdf)).
+ACM Trans. Softw. Eng. Methodol. 23(4), Article 33 (September 2014),
+
 [^khomh]: Foutse Khomh,
 Massimiliano Di Penta, Yann-Gael Gueheneuc,
 [An Exploratory Study of the Impact of Code Smells on Software Change-proneness](http://swat.polymtl.ca/~foutsekh/docs/TechReport.pdf)
 in Reverse Engineering, 2009. WCRE '09. 16th Working Conference on , vol., no., pp.75-84, 13-16 Oct. 2009
+
   
 ## e.g. Test Smell Bad Smells
 
