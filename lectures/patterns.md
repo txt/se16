@@ -186,7 +186,7 @@ Note:
   + But general methods for finding local bad smells.
   + For example, see next section.
 
-[^khomb]: Foutse Khomh,
+[^khomh]: Foutse Khomh,
 Massimiliano Di Penta, Yann-Gael Gueheneuc,
 [An Exploratory Study of the Impact of Code Smells on Software Change-proneness](http://swat.polymtl.ca/~foutsekh/docs/TechReport.pdf)
 in Reverse Engineering, 2009. WCRE '09. 16th Working Conference on , vol., no., pp.75-84, 13-16 Oct. 2009
