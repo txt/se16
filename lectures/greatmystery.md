@@ -1,5 +1,5 @@
 <img align=right width=400
-     src="http://oversoul.artix.com/images/promo/Leatherface1-Shadow-N-M-Vet1.png">
+     src="http://www.bookcountry.com/uploadedImages/Book_Country/Read_and_Review/Books/Genre_Map/Young_Adult/YA_Mystery_Thriller/YA_Mystery_Thriller.png?n=4014">
 
 # The Great Mystery
 
