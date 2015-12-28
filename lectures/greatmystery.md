@@ -57,7 +57,7 @@ Yeah, not so much...
 + Wikipedia, long, long [list of cognitive biases](http://en.wikipedia.org/wiki/List_of_cognitive_biases). e.g.
 [inattentional blindness](https://www.youtube.com/watch?v=vJG698U2Mvo)&nbsp;[^simo99].
 
-[^simo99] : _SIMO99
+[^simo99]: _SIMO99
 
 ## Theory2: Architecture
 
