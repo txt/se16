@@ -109,7 +109,11 @@ It took a long time to realize it organizing software was a thing:
        - Instead, Boehm shocked them all, predicting
          that software costs would overwhelm
          hardware costs.
-- In 1982, Bill Gates sold an operating systems to IBM call _DOS_
+- Later in the 1970s, Bell Labs invented a revolutionary concept (a platform independent software operating systems called UNIX)
+that increased the market for software written a certain way (i.e. using UNIX).
+      - That software was the tool that lead us to widespread interoperability and the World Wide Web.
+      - Before that, software only worked on whatever particular hardware platform it was originally built for.
+- In 1982, Bill Gates sold (another)  operating systems to IBM call _DOS_
        - IBM was expecting Microsoft to ask for more
          money upfront or at least as for a per-copy
          royalty.
@@ -123,6 +127,7 @@ It took a long time to realize it organizing software was a thing:
 	   - Because the industry, including IBM, did
          not believe that anyone could make money
          from software.
+
 		 
 Since them, much as changed:
 
@@ -237,7 +242,7 @@ Frank Gens, IDC Predictions 2015 Team.
      + Natural interfaces: More simply and powerfully
 connecting people and 3rd Platform systems - through
 speech, vision, motion, touch, and beyond
-     + Cloud-based "3rd Platform"–optimized security
+     + Cloud-based "3rd Platform"-optimized security
 technologies and solutions: Better designed to keep
 up with the massive scale and expanding scope of the
 3rd Platform.
