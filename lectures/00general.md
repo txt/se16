@@ -136,20 +136,19 @@ Since them, much as changed:
 </center>
 
 
-
-<center>
-<p>The world's first web site
+The world's first web site
 (info.cern.ch), published on August 6, 1991 by British physicist Tim Berners-Lee: 
 
-<p><a
+
+<center>
+<a
 href="/_img/1stsite.jpg"><img width=500 src="/_img/1stsite.jpg"></a>
 </center>
 
+Since then, some other web sites have come on-line:
 
 <center>
-<p>Since then, some other web sites have come on-line:
-
-<p><a href="/_img/websites.png">
+<a href="/_img/websites.png">
     <img width =500 src="/_img/websites.png">
 </a>
 </center>
