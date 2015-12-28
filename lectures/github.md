@@ -33,13 +33,13 @@ independent of network access or a central server.
 
 Read these, now:
 
-+ [just a simple guide for getting started with git.
+1. [just a simple guide for getting started with git.
   no deep sh*t)](http://rogerdudler.github.io/git-guide/)" by
   Roger Dudler.
-+ Work this
+2. Work this
   [tutorial on branching](http://pcottle.github.io/learnGitBranching/).
 
-Have you read that guide?
+Have you read those guides?
 
 Then you may continue.
 
