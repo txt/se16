@@ -84,7 +84,7 @@ Patterns are a religion
 
 <img width=400 src="/_img/onering.png">
  
- # "Patterns" in function programming
+# "Patterns" in function programming
  
 Functional programmers (Haskell, Clojure, F#, Lisp, Skill, Racket,….) make up 10 patterns for breakfast.
 
