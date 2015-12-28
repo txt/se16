@@ -129,7 +129,9 @@ e.g. visitor pattern in functional (5 lines)
 
 # Maybe not Patterns, but Anti-Patterns
 
-Arthur Riel: OO design heuristics
+
+
+## Arthur Riel: OO design heuristics
 
 **Chapter 2: Classes and Objects: The Building Blocks of the Object-Oriented Paradigm**
 
