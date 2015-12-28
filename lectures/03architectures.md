@@ -2,6 +2,11 @@
 
 [TOC]
 
+todo:
+
++ add notes from https://www.evernote.com/shard/s14/sh/f4f0b03f-4f57-42fb-8a1e-db9a3235d522/ad332a2c5889878b
++ add notes from my talk at icse
+
 _____
 
 The world is a big place
