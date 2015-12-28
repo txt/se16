@@ -7,7 +7,20 @@ align=right src="https://tommcfarlin.com/wp-content/uploads/2013/02/drunktocat.j
 
 _____
 
-# Productivity Tools
+# World's best guide to Github
+
+Read this, now:
+
++ [just a simple guide for getting started with git.
+no deep sh*t)](http://rogerdudler.github.io/git-guide/)" by
+Roger Dudler.
+
+Have you read that guide?
+
+Then you may continue.
+
+
+# Github as a Productivity Tools
 
 There are two "yous"
 
@@ -47,11 +60,7 @@ The barrier for adding something to your in list
 should be as low as possible.
 
 
-# World's best guide to Github
 
-[just a simple guide for getting started with git.
-no deep sh*t)](http://rogerdudler.github.io/git-guide/) by
-Roger Dudler
 
 # Using issues
 
