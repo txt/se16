@@ -1,4 +1,4 @@
-<img width=500
+<img width=400
 align=right src="https://tommcfarlin.com/wp-content/uploads/2013/02/drunktocat.jpg">
 
 # Github tricks
