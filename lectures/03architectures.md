@@ -1,10 +1,20 @@
 # Architectures
 
+[TOC]
+
+_____
+
 The world is a big place
 
 ![](/_img/architecture.png)
 
-Classic pipe and filter. Used in UNIX (bad to interaction across multiple pipes; good for easy development, ease of maintenance)
+Need **architectures** to divide complex parts into manageable bits.
+
+# Classic Examples
+
+Classic pipe and filter. Used in UNIX (bad to
+interaction across multiple pipes; good for easy
+development, ease of maintenance)
 
 ![](/_img/ainfig05.gif)
 
