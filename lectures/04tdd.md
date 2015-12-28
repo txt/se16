@@ -1,5 +1,9 @@
 # Test-Driven Development
 
+[TOC]
+
+____
+
 A common agile-practice: test-driven development; a.k.a. red-green-refactor (the following notes come from [http://goo.gl/3kVivq](http://goo.gl/3kVivq)):
 
 + TDD is a discipline for writing code, writing
