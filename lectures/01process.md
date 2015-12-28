@@ -25,7 +25,7 @@ src="/_img/process1.png"></a></center>
 Royce 70's critique of waterfall[^royce70]:
 
 +  "Unfortunately,  design iterations are never confined to the successive steps."
-        + i.e. later tests can lead to changes to document very much upstream.
++  i.e. later tests can lead to changes to document very much upstream.
 
 His solution? More documentation!
 
