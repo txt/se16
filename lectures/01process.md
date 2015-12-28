@@ -96,7 +96,7 @@ A common agile-practice: test-driven development; a.k.a. red-green-refactor (the
 + Very short cycle that repeats over and over again.
 
 + Details:
-    + RED: Start by thinking of a behavior you want
+    + **RED:** Start by thinking of a behavior you want
       the software to have which could be
       implemented by a few lines of code (fewer than
       five is a good target). Then write a test
@@ -106,13 +106,13 @@ A common agile-practice: test-driven development; a.k.a. red-green-refactor (the
                interface - not how to implement the
                internals of the class.
              + The class user, not the class implementer - you may need to write the first few tests with class and method names that do not yet exist. Run the test suite, and watch the new test should fail. If the test either does not fail or fails in a different way than you intended, make the necessary fixes.
-    + REEN: Write just enough code to get the test to
+    + **GREEN:** Write just enough code to get the test to
 pass. Focus on:
              + Getting something to work
              + Simplest possible implementation, rather than the most elegant solution (even hard-coded values are okay).
              + Reverting to known good code if the test continues to fail
              + If after a few attempts you can't make the test pass, consider starting over with a different test, possibly employing even less code. You are done with this step when the test passes.
-    + REFACTOR: Now that the code does what you want, use refactoring to make the design right. Focus on:
+    + **REFACTOR:** Now that the code does what you want, use refactoring to make the design right. Focus on:
              + Making the code readable and eliminating duplication
              + Existing behavior (refactoring means changing the code without changing its behavior; adding new behavior requires writing a new [failing] test).
              + Working in small steps, running the tests each time.
