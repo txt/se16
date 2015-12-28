@@ -10,11 +10,26 @@ A common agile-practice: test-driven development; a.k.a. red-green-refactor (the
 
 # TDD, in 20 lines
 
+Commercial TDD libraries contain extensive support for:
+
++ Managing large databases of test results;
++ DevOps tools for configuring, auto-building and auto-running code
+
+But we can get a sense of TDD, just with a few lines of code.
+
 <iframe width="700"  height=525 src="https://www.youtube.com/embed/nIonZ6-4nuU" frameborder="0" allowfullscreen></iframe>
 
 Same code, in Python
 
++ Step1: install `rerun` with `pip install rerun`
++ Step2: write two files:
+    + `xxxok.py` (which contains the tests for `xxx.py`)
+    + `ok.py` (which contains the unit test engine)
++ Step3: `rerun 'python xxxok.py'`
+    + Runs your tests, if anything in this directory (or its subs) are updated.
+
 ```python
+# file = ok.py
 from __future__ import print_function, division
 import sys,traceback
 
@@ -48,9 +63,11 @@ class unittest:
          f, line, fun, what,e))
 ```
 
-Example Usage:
+Example xxxok.py file:
 
 ```python
+from ok import *
+
 @ok
 def _o():
   x=o(name='tim',age=55)
@@ -61,13 +78,12 @@ def _o():
   assert str(x) == "o{'age': 55, 'name': 'tony'}"
 ```
 
-More generally:
+Note:
 
-- Write unit tests as multiple functions in a file.
+- Unit tests as multiple functions in a file.
 - Each of those functions contain `assert` statements.
-- Add `@ok` on the line before those function.
-- Load that file. All the `@ok` annotated functions will be run
-  via `unittest` (incrementing the `tries` and `fails` counters).
+- An `@ok` appears before all the test drivers.
+
 
 # Details
 
