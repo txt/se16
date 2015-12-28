@@ -24,7 +24,7 @@ LAMP = Linux apache mysql php (python)
 
 After LAMP, comes MEAN (requires you to work in Javascript):
 
-![](_img/mean-stack.png)
+![](/_img/mean-stack.png)
 
 MVC: good for tight/complex interaction. Complex to maintain
 
