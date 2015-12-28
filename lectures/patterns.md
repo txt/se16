@@ -148,7 +148,7 @@ the tests through manual inspection.
 
 ![](/_img/badsmells1.gif)
 
-![](/_img/badsmells2.gif)
+![](/_img/badsmells2.png)
 
 [^reichhart]:
 Stefan Reichhart and Tudor Girba, Stephane Ducasse,
