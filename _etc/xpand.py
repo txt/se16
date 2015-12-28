@@ -16,7 +16,13 @@ _UNDER400="""
 <center><img width=400 src="https://www.lahc.edu/pageunderconstruction.png"></center>
 """,
 
+_ELBA14="""
+ Sebastian G. Elbaum, Gregg Rothermel, John Penix:
+[Techniques for improving regression testing in continuous integration 
+development environments](http://cse.unl.edu/~elbaum/pre-prints/fse2014-prePrint.pdf). SIGSOFT FSE 2014: 235-245
+""",
 
+  
 _FERU10="""
 David Ferrucci, Eric Brown, Jennifer Chu-Carroll, 
 James Fan, David Gondek, Aditya A. Kalyanpur, Adam Lally, 
