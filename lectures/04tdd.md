@@ -148,7 +148,7 @@ Beck's [RIP TDD](https://www.facebook.com/notes/kent-beck/rip-tdd/75084019494884
 
 "I get paid for code that works, not for tests, so
 my philosophy is to test as little as possible to
-reach a given level of confidence" – Kent Beck
+reach a given level of confidence" - Kent Beck
 
 + James O Coplien [Why Most Unit Testing is Waste](http://www.rbcs-us.com/documents/Why-Most-Unit-Testing-is-Waste.pdf)
     + Notes that _unit tests_ are very small while _function tests_ (aka _system tests_)
@@ -173,11 +173,12 @@ reach a given level of confidence" – Kent Beck
       unit tests and go more for integration testing. "
 
 Support for Coplien's case, from Google [^elba14]
-     + Google runs billions of tests per year.
-          + E.g. to test Python scripts, first it recompiles all of Python.
-	 + Most tests are uninformative (less that 1% fail)
-	      + So now they track the _effectiveness_ of each test (i.e. how many bugs they found
+
++ Google runs billions of tests per year.
+     + E.g. to test Python scripts, first it recompiles all of Python.
++ Most tests are uninformative (less that 1% fail)
+     + So now they track the _effectiveness_ of each test (i.e. how many bugs they found
 	      in the past)
-		  + And they run, at higher frequency, those "informative" tests.
+	 + And they run, at higher frequency, those "informative" tests.
 
 [^elba14]: _ELBA14
