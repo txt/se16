@@ -1,4 +1,4 @@
-<img align=right width=500
+<img align=right width=400
      src="http://oversoul.artix.com/images/promo/Leatherface1-Shadow-N-M-Vet1.png">
 
 # The Great Mystery
