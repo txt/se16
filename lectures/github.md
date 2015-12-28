@@ -7,6 +7,28 @@ align=right src="https://tommcfarlin.com/wp-content/uploads/2013/02/drunktocat.j
 
 _____
 
+From Wikipedia:
+
++ Git is a widely-used version control system for
+  software development.
++ It is a distributed revision control system with
+  an emphasis on speed, data integrity, and support
+  for distributed, non-linear workflows.
++ Git was initially designed and developed in 2005
+by Linux kernel developers (including Linus
+Torvalds) for Linux kernel development.  As with
+most other distributed version control systems, and
+unlike most client–server systems, every Git working
+directory is a full-fledged repository with complete
+history and full version-tracking capabilities,
+independent of network access or a central server.
++ GitHub is a Web-based Git repository hosting service.
++ Github offers all of the distributed revision control and source code management (SCM) functionality of Git as well as adding its own features.
++ Unlike Git, which is strictly a command-line tool, GitHub provides a Web-based graphical interface and desktop as well as mobile integration.
++ It also provides access control and several collaboration features such as bug tracking, feature requests, task management, and wikis for every project.
+
+
+
 # World's best guide to Github
 
 Read this, now:
