@@ -11,12 +11,12 @@ _____
 
 There are two "yous"
 
-   + One creative brilliant inspired soul with great ideas
-   + Another dullard that just wants more coffee and do some
-     drudge work before heading home for the day
++ One creative brilliant inspired soul with great ideas
+     + Another dullard that just wants more coffee and do some
+       drudge work before heading home for the day
 + The inspired one only shows up now and again:
-   + And assembles the materials needed for the dullard
-+ The dullard jsut works on what is in front of them
+     + And assembles the materials needed for the dullard
++ The dullard just works on what is in front of them
 
 Your mission: make the dullard most productive.
 
@@ -55,7 +55,8 @@ Roger Dudler
 
 # Using issues
 
-
+Issues are ways that team members communicate with each other,
+and with themselves.
 
 1. General github issue tutorial: [tutorial](https://guides.github.com/features/issues/)
 2. [A simple styleguide for tagging Github issues](https://robinpowered.com/blog/best-practice-system-for-organizing-and-tagging-github-issues/).
@@ -63,7 +64,13 @@ Roger Dudler
 
 ![](/_img/githubIssues.png)
 
+# Using Milestones
 
+Issues can be aggregated into Milestones... when things are actually
+due (and the number of closed issues in the Milestone is a report
+of "percent done").
+
+Project bad smell: all issues, no milestones.
 
 
 
@@ -234,6 +241,10 @@ alias gcp='git cherr
 I have a `Makefile` in the root of all my repos. This file
 has _rules_ whose _actions_ are useful Git tricks.
 
+(Note the  use of `@-`  in this file; they are optional
+but, for the record, they suppresess output
+and ignores any error conditions.)
+
 ```make
 url=se16.unbox.org
 
@@ -270,17 +281,21 @@ project/README.html : project/_etc/README.md
 	git add $@
 ```
 
-`ready` is nice: caches my password for an hour so I don't
+### Example Usages
+
+`make ready` is nice: caches my password for an hour so I don't
 have to type in my password all the time. Lets me commit often!
 
-`commit` batches up all the usual commands.
+`make commit` batches up all the usual commands.
 
-`typo` is a bad cheat: quick commit without comments (bad man! bad man!).
+`make typo` is a bad cheat: quick commit without comments (bad man! bad man!).
 
 Note that my `typo` and `commit`s end with a call to an `update.cgi`
 file on this subject's website. So as a side-effect of committing,
 the site updates.
 
+
+### The Mock Trick
 
 Also, my `$HOME/.bashrc` has the following script:
 
