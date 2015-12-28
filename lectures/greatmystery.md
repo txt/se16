@@ -55,8 +55,9 @@ Yeah, not so much...
   _It is a necessary consequence of our humanity. We are all fallible, and prone to error; let us then pardon each other's follies. This is the first principle of natural right._
 + Will Rogers: _It isn't what we don't know that gives us trouble, it's what we know that ain't so._
 + Wikipedia, long, long [list of cognitive biases](http://en.wikipedia.org/wiki/List_of_cognitive_biases). e.g.
-  [inattentional blindness](https://www.youtube.com/watch?v=vJG698U2Mvo)
-  from [Simons and Chabris](http://goo.gl/bgHzrn)
+[inattentional blindness](https://www.youtube.com/watch?v=vJG698U2Mvo)&nbsp;[^simo99].
+
+[^simo99] : _SIMO99
 
 ## Theory2: Architecture
 

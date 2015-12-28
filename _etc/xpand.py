@@ -48,6 +48,15 @@ Stock](https://blog.wealthfront.com/vesting-stock-options/).
 Wealthfront blog, May 19, 2014.
 """,
 
+_SIMO99="""
+Simons, D. J., & Chabris, C. F. (1999).  [Gorillas
+in our midst: Sustained inattentional blindness for
+dynamic
+events](http://www.chabris.com/Simons1999.pdf).
+Perception, 28, 1059-1074.
+
+""",
+  
 _SINO11="""
 Steven Sinofsky, 
 [Improvements in Windows 
