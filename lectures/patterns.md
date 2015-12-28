@@ -58,7 +58,8 @@ In object design
 
 
 
-![](/_img/gofpattern.jpg)
+<a href="/_img/gofpattern.jpg"><img width=500
+src="/_img/gofpattern.jpg"></a>
 
 
 
