@@ -9,7 +9,7 @@ ____
 
 # Goals
 
-+ Document some problem _"P"_ with some user group _"U"_ using some tool _"T"_ to achieve some goal _"G"_.
++ Document some problem _"P"_ with some user group _"U"_ using some **software** tool _"T"_ to achieve some goal _"G"_.
 + Guess what tools you will be using to fix that problem:
     + Identify  some _start up exercise_ (not connected to the March and April deliverables) where
 
@@ -63,7 +63,7 @@ You do **NOT** have to have the SOLUTION by Feb1:
 
 Also, come April, you will have to show that whatever tools you build _changes_ (and hopefully,
   improves), the pattern of errors for user
-  group _"U"_ using some tool _"T"_ to achieve some goal _"G"_.
+  group _"U"_ using some software tool _"T"_ to achieve some goal _"G"_.
 
 + So for January, your goal is to document the baseline problems
   (so you can show improvement in April).
