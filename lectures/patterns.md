@@ -131,7 +131,7 @@ e.g. visitor pattern in functional (5 lines)
 
 Arthur Riel: OO design heuristics
 
-Chapter 2: Classes and Objects: The Building Blocks of the Object-Oriented Paradigm
+**Chapter 2: Classes and Objects: The Building Blocks of the Object-Oriented Paradigm**
 
 2.1: All data should be hidden within its class.
 
@@ -155,7 +155,7 @@ Chapter 2: Classes and Objects: The Building Blocks of the Object-Oriented Parad
 
 2.11: Be sure the abstraction that you model are classes and not simply the roles objects play.
 
-Chapter 3: Topologies of Action-Oriented Vs. Object-Oriented Applications
+**Chapter 3: Topologies of Action-Oriented Vs. Object-Oriented Applications**
 
 3.1: Distribute system intelligence horizontally as uniformly as possible, i.e. the top level classes in a design should share the work uniformly.
 
@@ -177,7 +177,7 @@ Chapter 3: Topologies of Action-Oriented Vs. Object-Oriented Applications
 
 3.10: Agent classes are often placed in the analysis model of an application.
 
-Chapter 4: The Relationships Between Classes and Objects
+**Chapter 4: The Relationships Between Classes and Objects**
 
 4.1: Minimize the number of classes with which another class collaborates.
 
@@ -207,7 +207,7 @@ Chapter 4: The Relationships Between Classes and Objects
 
 4.14: Objects which share lexical scope -- those contained in the same containing class -- should not have uses relationships between them.
 
-Chapter 5: The Inheritance Relationship
+**Chapter 5: The Inheritance Relationship**
 
 5.1: Inheritance should only be used to model a specialization hierarchy.
 
@@ -247,7 +247,7 @@ Chapter 5: The Inheritance Relationship
 
 5.19: When building an inheritance hierarchy try to construct reusable frameworks rather than reusable components.
 
-Chapter 6: Multiple Inheritance
+**Chapter 6: Multiple Inheritance**
 
 6.1: If you have an example of multiple inheritance
 in your design, assume you have made a mistake and
@@ -265,20 +265,20 @@ that no base class is actually a derived class of
 another base class, i.e. accidental multiple
 inheritance.
 
-Chapter 7: The Association Relationship
+**Chapter 7: The Association Relationship**
 
 7.1: When given a choice in an object-oriented
 design between a containment relationship and an
 association relationship, choose the containment
 relationship.
 
-Chapter 8: Class-Specific Data and Behavior
+**Chapter 8: Class-Specific Data and Behavior**
 
 8.1: Do not use global data or functions to perform
 bookkeeping information on the objects of a class,
 class variables or methods should be used instead.
 
-Chapter 9: Physical Object-Oriented Design
+**Chapter 9: Physical Object-Oriented Design**
 
 9.1: Object-oriented designers should never allow
 physical design criteria to corrupt their logical
