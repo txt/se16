@@ -58,7 +58,7 @@ In object design
 
 
 
-![](gofpattern.jpg)
+![](/_img/gofpattern.jpg)
 
 
 
@@ -70,12 +70,12 @@ Erich Gamma, Richard Helm, Ralph Johnson and John Vlissides
 
 If you read this book, and you are not excited, then check your pulse. You’re dead.
 
-![](gofbook.png)
+![](/_img/gofbook.png)
 
 
 Patterns are a religion
 
-![](onering.png)
+![](/_img/onering.png)
  
 “Patterns” in function programming
 Functional programmers (Haskell, Clojure, F#, Lisp, Skill, Racket,….) make up 10 patterns for breakfast.
