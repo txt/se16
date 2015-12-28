@@ -57,7 +57,7 @@ Therefore, in this project you must:
 common. E.g. for years, Microsoft eschewed software
 estimation methods in favor of _feature maturity_
 methods; e.g. programmers only got
-bonuses/programmers if their proposed new features
+bonuses/promoted if their proposed new features
 end up in the customer's build. Which, btw causes  the _feature creep_
 problem [^sino11]<sup>,</sup>[^murp06].)
 
