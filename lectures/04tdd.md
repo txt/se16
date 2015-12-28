@@ -18,6 +18,7 @@ Commercial TDD libraries contain extensive support for:
 
 + Managing large databases of test results;
 + DevOps tools for configuring, auto-building and auto-running code
++ Post-commit hooks for triggering the test engines, every time code is checked into a repo.
 
 But we can get a sense of TDD, just with a few lines of code.
 
@@ -150,24 +151,26 @@ Beck's [RIP TDD](https://www.facebook.com/notes/kent-beck/rip-tdd/75084019494884
 my philosophy is to test as little as possible to
 reach a given level of confidence" - Kent Beck
 
-+ James O Coplien [Why Most Unit Testing is Waste](http://www.rbcs-us.com/documents/Why-Most-Unit-Testing-is-Waste.pdf)
-    + Notes that _unit tests_ are very small while _function tests_ (aka _system tests_)
-      are much larger, much more complex.
-	     + Much slower to run, not the kind of thing to give you instant feedback.
-    + "Today however, my team told me the tests are
+James O Coplien [Why Most Unit Testing is Waste](http://www.rbcs-us.com/documents/Why-Most-Unit-Testing-is-Waste.pdf)
+
++ Notes that _unit tests_ are very small while
+      _function tests_ (aka _system tests_) are much
+      larger, much more complex.
+    + Much slower to run, not the kind of thing to give you instant feedback.
++ "Today however, my team told me the tests are
       more complex than the actual code."
-	+ "Unit tests are unlikely to test more than one
++ "Unit tests are unlikely to test more than one
       trillionth of the functionality of any given method in a
 	  reasonable testing cycle. Get over it."
-    + "If you find your testers splitting up
++ "If you find your testers splitting up
       functions to support the testing process,
       you’re destroying your system architecture and
       code comprehension along with it. **Test at a coarser level of granularity.**"
-	+ "Tests should be designed with great care. Business
++ "Tests should be designed with great care. Business
       people, rather than programmers, should design most
 	  functional tests. Unit tests should be limited to those that
 	  can be held up against some “third-party” success criteria."
-	+ "If you have a large unit test mass, evaluate the feedback
++ "If you have a large unit test mass, evaluate the feedback
       loops in your development process. Integrate code more
       frequently; reduce the build and integration times; cut the
       unit tests and go more for integration testing. "
