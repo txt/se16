@@ -6,7 +6,7 @@ ________
 
 Experts are experts since they've learned patterns of useful behavior (fyi: expert = 5 patterns per day * 10 years)
 
-# Warning: beware generalization-itis
+# Before we Begin: beware generalization-itis
 
 YAGNI! (your aint gonna need it)
 
@@ -16,7 +16,9 @@ YAGNI! (your aint gonna need it)
     - Second time, note you are doing it the second time;
 	- Third time, now you are allowed to refactor to generalize.
 
-# Patterns in chess:
+# Patterns 
+
+## Patterns in chess:
 
 - more space in the center
 - open lines
