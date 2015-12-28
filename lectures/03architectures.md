@@ -26,7 +26,7 @@ Subject-observer. multiple views on one model
 
 Looser collaboration with publish, subscribe
 
-<img src="_img/pub-sub.png" width=600>
+<img src="/_img/pub-sub.png" width=600>
 
 # Layers
 
