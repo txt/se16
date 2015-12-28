@@ -156,8 +156,6 @@ src="https://s-media-cache-ak0.pinimg.com/originals/3e/b3/ab/3eb3abc3b8d92854eaf
 
 # The Standard Pictures
 
-<center><img  src="/_img/tires.jpg"></center>
-
 The big picture:
 
 <center><a href="http://a-lifelong-tester.cocolog-nifty.com/Chronology/Software-Testing-ChronologyEng-20120506.jpg"><img width=400
