@@ -1,7 +1,7 @@
 <img width=400
 align=right src="https://tommcfarlin.com/wp-content/uploads/2013/02/drunktocat.jpg">
 
-# Github tricks
+# Github tips and tricks
 
 [TOC]
 
@@ -55,16 +55,9 @@ There are two "yous"
 
 Your mission: make the dullard most productive.
 
-From a [A Pragmatic Guide to Getting Things Done](https://hamberg.no/gtd/):
-
-<img src="https://hamberg.no/gtd/images/workflow.svg" width=700>
-
 Can software help the
 dullard?  Slack, Trello, Assembla, Jira etc all all fine tools.
-And for more, [see here](https://www.g2crowd.com/categories/project-management#span-class-service-mark-grid-span-for-project-management):
-
-![](/_img/pmtools.png)
-
+And for more, [see here](https://www.g2crowd.com/categories/project-management#span-class-service-mark-grid-span-for-project-management).
 But I live by Github issues:
 
 + Give us this day my daily issues.
@@ -80,8 +73,6 @@ Use issues to capture ideas and tasks as they occur to you.
 
 The barrier for adding something to your in list
 should be as low as possible.
-
-
 
 
 # Using issues
