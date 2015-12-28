@@ -25,18 +25,18 @@ development, ease of maintenance)
 
 Lots of small little programs, each focused on one task, ready to be combined in different ways:
 
-    # find biggest files changed in August
-    ls -l | grep "Aug" | sort +4n | more
+```bash
+# find biggest files changed in August
+ls -l | grep "Aug" | sort +4n | more
 
-    # apply the table (tbl) and picture (pic)
-    # and equation (eqn) to all the manuscript (.ms) files
+# apply the table (tbl) and picture (pic)
+# and equation (eqn) to all the manuscript (.ms) files
 	
-    Src="
-	cat *.ms |
-	tbl |
-	pic |
-	eqn |
-	troff -t  -ps > out.ps
+cat *.ms |
+tbl |
+pic |
+eqn |
+troff -t  -ps > out.ps
 
 LAMP = Linux apache mysql php (python)
 
