@@ -129,9 +129,37 @@ e.g. visitor pattern in functional (5 lines)
 
 # Maybe not Patterns, but Anti-Patterns
 
+## e.g. Test Smell Bad Smells
+
+From [Reichart et al. 2007][^reichhart].
+
+1. Harvest the tests and collect a list of problems found in
+the tests through manual inspection.
+     + Due the large number of tests we did
+       not analyze all of them, but rather focused on a sample of approximately 500
+       test-methods.
+2. Cluster the problems to identify commonalities and differences.
+3. Distill the lessons in automatic queries in a tool called TestLint.
+    + Static analysis of the test code and dynamic
+      analysis including code manipulation and
+      instrumentation.
+4. Apply  queries on all the tests in our case study
+    + Manually inspected the detected Test Smells to identify false positives.
+
+![](/_img/badsmells1.gif)
+
+![](/_img/badsmells2.gif)
+
+[^reichhart]:
+Stefan Reichhart and Tudor Girba, Stephane Ducasse,
+[Rule-based Assessment of Test Quality](http://www.jot.fm/issues/issue_2007_10/paper12/),
+Journal of Object Technology,
+6(9), October 2007
 
 
-## Arthur Riel: OO design heuristics
+
+
+## e.g. Arthur Riel: OO design heuristics
 
 **Chapter 2: Classes and Objects: The Building Blocks of the Object-Oriented Paradigm**
 
