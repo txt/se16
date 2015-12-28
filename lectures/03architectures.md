@@ -21,7 +21,7 @@ Classic pipe and filter. Used in UNIX (bad to
 interaction across multiple pipes; good for easy
 development, ease of maintenance)
 
-![](/_img/pipe_and_filter.gif)
+![](/_img/pipe_and_filter.jpg)
 
 Lots of small little programs, each focused on one task, ready to be combined in different ways:
 
