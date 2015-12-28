@@ -233,11 +233,11 @@ Frank Gens, IDC Predictions 2015 Team.
      + The Internet of Things: A massive expansion of the edge, to "smart" cars, buildings, homes, industrial equipment, wearables, and more
      + Cognitive systems: Systems that observe, learn, analyze, offer suggestions, and even create new ideas — dramatically reshaping every services industry
      + Pervasive robotics: Driving knowledge from the digital world into action in the physical world, through robots, self-driving cars, drones, nanorobots, and more
-     + 3D printing of all kinds: Materializing all sorts of physical things from digital blueprints — from food to clothing to eventually even living tissue and organs
+     + 3D printing of all kinds: Materializing all sorts of physical things from digital blueprints - from food to clothing to eventually even living tissue and organs
      + Natural interfaces: More simply and powerfully
-connecting people and 3rd Platform systems — through
+connecting people and 3rd Platform[^3rd] systems - through
 speech, vision, motion, touch, and beyond
-     + Cloud-based "3rd Platform"–optimized security
+     + Cloud-based "3rd Platform"[^3rd]–optimized security
 technologies and solutions: Better designed to keep
 up with the massive scale and expanding scope of the
 3rd Platform[^3rd].
