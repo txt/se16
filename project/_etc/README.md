@@ -60,6 +60,8 @@ methods; e.g. programmers only got
 bonuses/programmers if their proposed new features
 end up in the customer's build.)
 
+____
+
 # Why This Project?
 
 Increasingly, well-engineered software is being used
@@ -151,6 +153,7 @@ So this project we walk from goals to collection to data to analytics.
   to manage (goals,collection,data) so most of this
   project's effort will be on goals,collection,data
 + But we'll do a little analytics.
+
 ____
 
 # How to do this project
