@@ -1,4 +1,8 @@
-# Patterns
+# Patterns and Anti-Patterns (a.k.a. "Bad Smells")
+
+[TOC]
+
+________
 
 Experts are experts since they've learned patterns of useful behavior (fyi: expert = 5 patterns per day * 10 years)
 
