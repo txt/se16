@@ -1,3 +1,6 @@
+<img width=500
+align=right src="https://tommcfarlin.com/wp-content/uploads/2013/02/drunktocat.jpg">
+
 # Github tricks
 
 [TOC]
@@ -19,10 +22,11 @@ Your mission: make the dullard most productive.
 
 From a [A Pragmatic Guide to Getting Things Done](https://hamberg.no/gtd/):
 
-![](https://hamberg.no/gtd/images/workflow.svg)
+<img src="https://hamberg.no/gtd/images/workflow.svg" width=700>
 
 Can software help the
- dullard?  Slack, Trello, Assembla, Jira etc all all fine tools.
+dullard?  Slack, Trello, Assembla, Jira etc all all fine tools.
+And for more, [see here](https://www.g2crowd.com/categories/project-management#span-class-service-mark-grid-span-for-project-management):
 
 ![](/_img/pmtools.png)
 
@@ -53,10 +57,8 @@ Roger Dudler
 
 
 
-General github issue tutorial: [tutorial](https://guides.github.com/features/issues/)
-
-
-[A simple styleguide for tagging Github issues](https://robinpowered.com/blog/best-practice-system-for-organizing-and-tagging-github-issues/).
+1. General github issue tutorial: [tutorial](https://guides.github.com/features/issues/)
+2. [A simple styleguide for tagging Github issues](https://robinpowered.com/blog/best-practice-system-for-organizing-and-tagging-github-issues/).
 
 
 ![](/_img/githubIssues.png)
@@ -91,8 +93,8 @@ status.
 them by URL.
 
 
-<center><a href="/_img/giststimm.png"><<img width=400
-src="/_img/giststimm.ong"></a></center>
+<center><a href="https://gist.github.com/timm"><img width=400
+src="/_img/giststimm.png"></a></center>
 
 
 # Branching tricks
