@@ -18,6 +18,11 @@ YAGNI! (your aint gonna need it)
 
 # Patterns 
 
+If we look at N concrete things,  and then abstract our thinking a little,
+then we can find some repeated features that might even apply to future things.
+
+For example...
+
 ## Patterns in chess:
 
 - more space in the center
@@ -51,7 +56,7 @@ e.g forking:
 
 
 
-## Patters in Object Design
+## Patterns in Object Design
 
 <img width=500 src="/_img/chbrowser.png">
 
