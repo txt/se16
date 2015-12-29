@@ -56,7 +56,7 @@ Doug Schmidt:
 - "... towards a limited number of technical reference frameworks ..."
 - "based on reusable hardware and software components and services"
 
-<center><a href="/_img/archdod.png"><img width=600 
+<center><a href="/_img/archdod.png"><img width=750
 src="/_img/archdod.png"></a></center>
 
 ## Another View of Architectures
@@ -110,16 +110,15 @@ src="/_img/archlamp.png"></a></center>
 src="/_img/archmean.png"></a></center>
 
 - Mean:
-       -    M = MongoDB: a nonSQL DB(nested key-value pairs) ( death to SQL). No data traps
+       - M = MongoDB: a nonSQL DB(nested key-value pairs) ( death to SQL). No data traps
        - E = Express.js :  controller layer, directing application flow and marshaling data.
        - A = AngularJS : handles data presentation.
        - N = Node.js: an extensive javascript library (look ma, no operating system)
-       - MEAN: one language up and down the stack (javascript). 
-             - Faster integrated testing. 
-             - Faster invention of new patterns
+       - MEAN: one language up and down the stack (javascript)
+             so (1) faster integrated testing;
+             and (2) faster invention of new patterns.
 
-
-# Classic Examples
+# Classic Examples of Patterns
 
 Classic pipe and filter. Used in UNIX (bad to
 interaction across multiple pipes; good for easy
