@@ -34,12 +34,12 @@ Large systems need large-scale organization:
 
 - Allows large teams to work productivity on different parts of large constructions
 
-<center><a href="/_img/archplan.png"><img width=600 
-src="/_img/archplan.png"></a></center>
+<center><a href="/_img/archplane.png"><img width=600 
+src="/_img/archplane.png"></a></center>
 
 
-<center><a href="/_img/archplan2.png"><img width=600 
-src="/_img/archplan2.png"></a></center>
+<center><a href="/_img/archplane2.png"><img width=600 
+src="/_img/archplane2.png"></a></center>
 
 ## Traditional View of Architectures
 
@@ -78,25 +78,25 @@ src="/_img/archliz.png"></a></center>
 src="/_img/archliz1.png"></a></center>
 
 - e.g. package switching networks
-   - Distributed packet-switching networks (On Distribute 
-     Communications):  Rand memorandum RM-3103-PR, August 1964
-
+     - Distributed packet-switching networks (On Distribute 
+       Communications):  Rand memorandum RM-3103-PR, August 1964
+     - An "architecture" that supports 1000 experiments within its framework
+	   (e.g. the web). 
 
 <center><a href="/_img/archpack.png"><img width=600 
 src="/_img/archpack.png"></a></center>
 
 - e.g. blackboard architectures in AI
-    - The Blackboard Model of Problem Solving and the
-      Evolution of Blackboard Architectures, H. Penny Ni, AI Magazie, 7(2), 1986.  
-    - How AI handled software engineering in the 1970s
+      - The Blackboard Model of Problem Solving and the
+        Evolution of Blackboard Architectures, H. Penny Ni, AI Magazine, 7(2), 1986.
+      - How AI handled software engineering in the 1970s
 
-
-<center><a href="/_img/archbb1.png"><img width=300 
-src="/_img/archbb1.png"></a><a href="/_img/archbb2.png"><img width=300 
+<center><a href="/_img/archbb1.png"><img width=370 
+src="/_img/archbb1.png"></a><a href="/_img/archbb2.png"><img width=370 
 src="/_img/archbb2.png"></a></center>
 
-<center><a href="/_img/archbb3.png"><img width=300 
-src="/_img/archbb3.png"></a><a href="/_img/archbb4.png"><img width=300 
+<center><a href="/_img/archbb3.png"><img width=370 
+src="/_img/archbb3.png"></a><a href="/_img/archbb4.png"><img width=370 
 src="/_img/archbb4.png"></a></center>
 
 - The lesson:
