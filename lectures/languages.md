@@ -128,3 +128,7 @@ What language will you use next? From
 Leo A. Meyerovich Ariel Rabkin, OOPSLA 2013](http://www.eecs.berkeley.edu/~lmeyerov/projects/socioplt/papers/oopsla2013.pdf):
 
 ![](http://unbox.org/open/trunk/310/14/spring/doc/img/whatsnext.png)
+
+["Learn Python" Overtakes "Learn Java" on Google Trends](https://dzone.com/articles/learn-python-overtakes-learn-java)
+
+![](https://dzone.com/storage/temp/840751-learn-java-python.png)
