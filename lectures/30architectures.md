@@ -14,6 +14,8 @@ The world is a big place
 
 Need **architectures** to divide complex parts into manageable bits.
 
+____
+
 # What is Architecture?
 
 Something that lets you work alone:
@@ -119,6 +121,7 @@ src="/_img/archlamp.png"></a></center>
 <center><a href="/_img/archmean.png"><img width=700 
 src="/_img/archmean.png"></a></center>
 
+_____
 
 # Classic Examples of Patterns
 
@@ -163,6 +166,8 @@ Subject-observer. multiple views on one model
 Looser collaboration with publish, subscribe
 
 <img src="/_img/pub-sub.png" width=600>
+
+_____
 
 # Layers
 
@@ -239,6 +244,8 @@ Advantages:
 
 (Reality check: lately there has much movement away from LAMP towards
 MEAN since LAMP is harder to modify (quickly) and test.)
+
+____
 
 # Parts
 
@@ -340,6 +347,8 @@ to the object.
 Advantages:
 
 + See _Components_
+
+_____
 
 
 # Other
