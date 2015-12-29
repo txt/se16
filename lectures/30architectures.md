@@ -2,9 +2,6 @@
 
 [TOC]
 
-todo:
-
-+ add notes from my talk at icse
 
 _____
 
