@@ -110,13 +110,13 @@ src="/_img/archlamp.png"></a></center>
 src="/_img/archmean.png"></a></center>
 
 - Mean:
-   - M = MongoDB: a nonSQL DB(nested key-value pairs) ( death to SQL). No data traps
-   - E = Express.js :   controller layer, directing application flow and marshaling data 
-   - A = AngularJS : handles data presentation. 
-   - N = Node.js: an extensive javascript library (look ma, no operating system)
-   - MEAN: one language up and down the stack (javascript). 
-       - Faster integrated testing. 
-       - Faster invention of new patterns
+       -    M = MongoDB: a nonSQL DB(nested key-value pairs) ( death to SQL). No data traps
+       - E = Express.js :  controller layer, directing application flow and marshaling data.
+       - A = AngularJS : handles data presentation.
+       - N = Node.js: an extensive javascript library (look ma, no operating system)
+       - MEAN: one language up and down the stack (javascript). 
+             - Faster integrated testing. 
+             - Faster invention of new patterns
 
 
 # Classic Examples
