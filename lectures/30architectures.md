@@ -106,8 +106,6 @@ src="/_img/archbb4.png"></a></center>
 <center><a href="/_img/archlamp.png"><img width=700 
 src="/_img/archlamp.png"></a></center>
 
-<center><a href="/_img/archmean.png"><img width=700 
-src="/_img/archmean.png"></a></center>
 
 - Mean:
        - M = MongoDB: a nonSQL DB(nested key-value pairs) ( death to SQL). No data traps
@@ -117,6 +115,10 @@ src="/_img/archmean.png"></a></center>
        - MEAN: one language up and down the stack (javascript)
              so (1) faster integrated testing;
              and (2) faster invention of new patterns.
+
+<center><a href="/_img/archmean.png"><img width=700 
+src="/_img/archmean.png"></a></center>
+
 
 # Classic Examples of Patterns
 
