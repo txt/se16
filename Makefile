@@ -30,3 +30,7 @@ readmes: project/README.html
 project/README.html : project/_etc/README.md
 	./render.cgi project/_etc/README nohead > $@
 	git add $@
+
+setup:
+	sudo pip install markdown
+	sudo pip install pygments
