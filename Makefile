@@ -27,7 +27,7 @@ ready: readmes
 readmes: project/README.html lectures/README.html
 
 %/README.html : %/_etc/README.md
-	./render.cgi $(subst .md,,$<)  > $@
+	./render.cgi $(subst .md,,$<) nohead > $@
 	git add $@
 
 setup:
