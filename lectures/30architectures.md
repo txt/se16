@@ -133,7 +133,16 @@ Lots of small little programs, each focused on one task, ready to be combined in
 ```bash
 # find biggest files changed in August
 ls -l | grep "Aug" | sort +4n | more
+```
 
+Here's another example where `*ms` files contain a mark up language (think Latex or Mardown)
+and
+
+- `tbl` is an extension that handles tables
+- `pic` is an extension that handles pictures
+- `eqn` is an extension that handles equations
+
+```
 # apply the table (tbl) and picture (pic)
 # and equation (eqn) to all the manuscript (.ms) files
 	
