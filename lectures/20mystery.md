@@ -14,9 +14,14 @@ And some of those crashes can be  spectacular and disasterous
 
 + A bug in the code controlling the Therac-25 radiation therapy machine was directly responsible for at least five patient deaths in the 1980s when it administered excessive quantities of X-rays.
 + The Vancouver Stock Exchange index had large errors due to repeated rounding. In January 1982 the index was initialized at 1000 and subsequently updated and truncated to three decimal places on each trade. This was done about 3000 times a day. The accumulated truncations led to an erroneous loss of around 25 points per month. Over the weekend of November 25-28, 1983, the error was corrected, raising the value of the index from its Friday closing figure of 524.811 to 1098.892.
-+ And [Boom!](https://www.youtube.com/watch?v=gp_D8r-2hwk)
++ A bug in floating point handling of the Ariane 5 rocket (which was worth, with its cargo,
+$500 million) meant that...
 
-By why doesn't it crash more often? How does it even work in the first place?
+<center>
+<iframe width="700" height="5255" src="https://www.youtube.com/embed/gp_D8r-2hwk" frameborder="0" allowfullscreen></iframe>
+</center>
+
+By why doesn't software crash more often? How does it even work in the first place?
 
 + Consider software with 300 booleans.
 + Internal state space = _2<sup>300</sup>_ which is a number larger than
