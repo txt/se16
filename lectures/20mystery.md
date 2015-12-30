@@ -18,7 +18,7 @@ And some of those crashes can be  spectacular and disasterous
 $500 million) meant that...
 
 <center>
-<iframe width="700" height="5255" src="https://www.youtube.com/embed/gp_D8r-2hwk" frameborder="0" allowfullscreen></iframe>
+<iframe width="700" height="525" src="https://www.youtube.com/embed/gp_D8r-2hwk" frameborder="0" allowfullscreen></iframe>
 </center>
 
 By why doesn't software crash more often? How does it even work in the first place?
