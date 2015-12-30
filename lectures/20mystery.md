@@ -57,10 +57,22 @@ Q: Why is it so easy to build larger and larger software systems?
 Yeah, not so much...
 
 + [Voltaire](http://en.wikipedia.org/wiki/Voltaire):
-  _It is a necessary consequence of our humanity. We are all fallible, and prone to error; let us then pardon each other's follies. This is the first principle of natural right._
-+ Will Rogers: _It isn't what we don't know that gives us trouble, it's what we know that ain't so._
-+ Wikipedia, long, long [list of cognitive biases](http://en.wikipedia.org/wiki/List_of_cognitive_biases). e.g.
-[inattentional blindness](https://www.youtube.com/watch?v=vJG698U2Mvo)&nbsp;[^simo99].
+     +   _It is a necessary consequence of our humanity. We are all fallible, and prone to error; let us then pardon each other's follies. This is the first principle of natural right._
++ Will Rogers:
+	 +  _It isn't what we don't know that gives us trouble, it's what we know that ain't so._
++ Wikipedia
+     +	 long, long [list of cognitive biases](http://en.wikipedia.org/wiki/List_of_cognitive_biases). e.g.
+	 [inattentional blindness](https://www.youtube.com/watch?v=vJG698U2Mvo)&nbsp;[^simo99].
++ Myers[^myers]
+     + Reports controlled experiments with a 63 line model.
+	 +  59 experienced data processing professionals hunted for errors in a very simple text formatter (63 line of code).
+     + Even with unlimited time and the use of three different methods, the experts could only find (on average) 5 of the 15 errors in this 63 line model.
+
+[^myers]: Myers, G.J., A Controlled Experiment in
+Program Testing and Code Walkthroughs/Inspections
+Communications of the ACM, 1977. 21(9, September):
+p. 760-768.
+	 
 
 [^simo99]: _SIMO99
 
