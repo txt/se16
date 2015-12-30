@@ -25,8 +25,8 @@ ready: readmes
 	@git config credential.helper 'cache --timeout=3600'
 
 
-readmes: project/README.html
+readmes: project/README.html lectures/README.html
 
-project/README.html : project/_etc/README.md
-	./render.cgi project/_etc/README nohead > $@
+%/README.html : %/_etc/README.md
+	./render.cgi $(subst .md,,$<)  > $@
 	git add $@
