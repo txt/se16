@@ -2,9 +2,6 @@
 
 [TOC]
 
-todo:
-
-+ add notes from my talk at icse
 
 _____
 
@@ -14,7 +11,116 @@ The world is a big place
 
 Need **architectures** to divide complex parts into manageable bits.
 
-# Classic Examples
+____
+
+# What is Architecture?
+
+Something that lets you work alone:
+
+- half the time
+
+Team members 
+
+- can be productive in isolation
+- but know when they need to talk to others
+
+Good fences make good neighbors!
+
+<center><a href="/_img/fences.png"><img width=600 
+src="/_img/fences.png"></a></center>
+
+Large systems need large-scale organization:
+
+- Allows large teams to work productivity on different parts of large constructions
+
+<center><a href="/_img/archplane.png"><img width=600 
+src="/_img/archplane.png"></a></center>
+
+
+<center><a href="/_img/archplane2.png"><img width=600 
+src="/_img/archplane2.png"></a></center>
+
+## Traditional View of Architectures
+
+
+Architecture the decisions you cannot change.
+
+<center><a href="/_img/archbob.png"><img width=600 
+src="/_img/archbob.png"></a></center>
+
+Doug Schmidt:
+
+- Architectural Evolution of DoD Combat Systemsm  Doug Schmidt, SEI blog, Nov 15, 2013
+- "The Department of Defense (DoD) must move away from stove-piped solutions 
+- "... towards a limited number of technical reference frameworks ..."
+- "based on reusable hardware and software components and services"
+
+<center><a href="/_img/archdod.png"><img width=750
+src="/_img/archdod.png"></a></center>
+
+## Another View of Architectures
+
+Architectures =  the space within which we can conduct massive experimentation.
+
+- e.g. the Queen Elizabeth aircraft carrier
+- Life expectancy= 50 years
+- A backbone within which 1000s of sub-systems can be
+    - born,
+    - evolved
+    - replaced 
+
+
+<center><a href="/_img/archliz.png"><img width=600 
+src="/_img/archliz.png"></a></center>
+
+<center><a href="/_img/archliz1.png"><img width=600 
+src="/_img/archliz1.png"></a></center>
+
+- e.g. package switching networks
+     - Distributed packet-switching networks (On Distribute 
+       Communications):  Rand memorandum RM-3103-PR, August 1964
+     - An "architecture" that supports 1000 experiments within its framework
+	   (e.g. the web). 
+
+<center><a href="/_img/archpack.png"><img width=600 
+src="/_img/archpack.png"></a></center>
+
+- e.g. blackboard architectures in AI
+      - The Blackboard Model of Problem Solving and the
+        Evolution of Blackboard Architectures, H. Penny Ni, AI Magazine, 7(2), 1986.
+      - How AI handled software engineering in the 1970s
+
+<center><a href="/_img/archbb1.png"><img width=370 
+src="/_img/archbb1.png"></a><a href="/_img/archbb2.png"><img width=370 
+src="/_img/archbb2.png"></a></center>
+
+<center><a href="/_img/archbb3.png"><img width=370 
+src="/_img/archbb3.png"></a><a href="/_img/archbb4.png"><img width=370 
+src="/_img/archbb4.png"></a></center>
+
+- The lesson:
+    - Some architectures are more change tolerant than others
+    - E.g. LAMP is harder to change that MEAN
+	
+<center><a href="/_img/archlamp.png"><img width=700 
+src="/_img/archlamp.png"></a></center>
+
+
+- Mean:
+       - M = MongoDB: a nonSQL DB(nested key-value pairs) ( death to SQL). No data traps
+       - E = Express.js :  controller layer, directing application flow and marshaling data.
+       - A = AngularJS : handles data presentation.
+       - N = Node.js: an extensive javascript library (look ma, no operating system)
+       - MEAN: one language up and down the stack (javascript)
+             so (1) faster integrated testing;
+             and (2) faster invention of new patterns.
+
+<center><a href="/_img/archmean.png"><img width=700 
+src="/_img/archmean.png"></a></center>
+
+_____
+
+# Classic Examples of Patterns
 
 Classic pipe and filter. Used in UNIX (bad to
 interaction across multiple pipes; good for easy
@@ -57,6 +163,8 @@ Subject-observer. multiple views on one model
 Looser collaboration with publish, subscribe
 
 <img src="/_img/pub-sub.png" width=600>
+
+_____
 
 # Layers
 
@@ -133,6 +241,8 @@ Advantages:
 
 (Reality check: lately there has much movement away from LAMP towards
 MEAN since LAMP is harder to modify (quickly) and test.)
+
+____
 
 # Parts
 
@@ -234,6 +344,8 @@ to the object.
 Advantages:
 
 + See _Components_
+
+_____
 
 
 # Other

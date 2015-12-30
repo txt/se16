@@ -24,9 +24,12 @@ ready: readmes
 	@git config --global credential.helper cache
 	@git config credential.helper 'cache --timeout=3600'
 
-
 readmes: project/README.html lectures/README.html
 
 %/README.html : %/_etc/README.md
 	./render.cgi $(subst .md,,$<)  > $@
 	git add $@
+
+setup:
+	sudo pip install markdown
+	sudo pip install pygments
