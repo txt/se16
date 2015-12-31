@@ -14,9 +14,14 @@ And some of those crashes can be  spectacular and disasterous
 
 + A bug in the code controlling the Therac-25 radiation therapy machine was directly responsible for at least five patient deaths in the 1980s when it administered excessive quantities of X-rays.
 + The Vancouver Stock Exchange index had large errors due to repeated rounding. In January 1982 the index was initialized at 1000 and subsequently updated and truncated to three decimal places on each trade. This was done about 3000 times a day. The accumulated truncations led to an erroneous loss of around 25 points per month. Over the weekend of November 25-28, 1983, the error was corrected, raising the value of the index from its Friday closing figure of 524.811 to 1098.892.
-+ And [Boom!](https://www.youtube.com/watch?v=gp_D8r-2hwk)
++ A bug in floating point handling of the Ariane 5 rocket (which was worth, with its cargo,
+$500 million) meant that...
 
-By why doesn't it crash more often? How does it even work in the first place?
+<center>
+<iframe width="700" height="525" src="https://www.youtube.com/embed/gp_D8r-2hwk" frameborder="0" allowfullscreen></iframe>
+</center>
+
+By why doesn't software crash more often? How does it even work in the first place?
 
 + Consider software with 300 booleans.
 + Internal state space = _2<sup>300</sup>_ which is a number larger than
@@ -52,12 +57,30 @@ Q: Why is it so easy to build larger and larger software systems?
 Yeah, not so much...
 
 + [Voltaire](http://en.wikipedia.org/wiki/Voltaire):
-  _It is a necessary consequence of our humanity. We are all fallible, and prone to error; let us then pardon each other's follies. This is the first principle of natural right._
-+ Will Rogers: _It isn't what we don't know that gives us trouble, it's what we know that ain't so._
-+ Wikipedia, long, long [list of cognitive biases](http://en.wikipedia.org/wiki/List_of_cognitive_biases). e.g.
-[inattentional blindness](https://www.youtube.com/watch?v=vJG698U2Mvo)&nbsp;[^simo99].
+     +   _It is a necessary consequence of our humanity. We are all fallible, and prone to error; let us then pardon each other's follies. This is the first principle of natural right._
++ Will Rogers:
+	 +  _It isn't what we don't know that gives us trouble, it's what we know that ain't so._
++ Myers[^myers]
+     + Reports controlled experiments with a 63 line model.
+	 +  59 experienced data processing professionals hunted for errors in a very simple text formatter (63 line of code).
+     + Even with unlimited time and the use of three different methods, the experts could only find (on average) 5 of the 15 errors in this 63 line model.
++ Wikipedia
+     +	 long, long [list of cognitive biases](http://en.wikipedia.org/wiki/List_of_cognitive_biases). e.g.
+	 [inattentional blindness](https://www.youtube.com/watch?v=vJG698U2Mvo)&nbsp;[^simo99].
+
+<iframe width="700" height="525" src="https://www.youtube.com/embed/vJG698U2Mvo"
+       frameborder="0" allowfullscreen></iframe>
+
+
+[^myers]: Myers, G.J., A Controlled Experiment in
+Program Testing and Code Walkthroughs/Inspections
+Communications of the ACM, 1977. 21(9, September):
+p. 760-768.
+
 
 [^simo99]: _SIMO99
+	 
+
 
 ## Theory2: Architecture
 

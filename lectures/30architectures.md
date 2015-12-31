@@ -133,7 +133,18 @@ Lots of small little programs, each focused on one task, ready to be combined in
 ```bash
 # find biggest files changed in August
 ls -l | grep "Aug" | sort +4n | more
+```
 
+Here's another example where `*ms` files contain a mark up language (think Latex or Mardown)
+and
+
+- `tbl` is an extension that handles tables
+- `pic` is an extension that handles pictures
+- `eqn` is an extension that handles equations
+- `psduplex` handles printing on both sides of a page
+- `lpr` is a device that actually prints the paper.
+
+```
 # apply the table (tbl) and picture (pic)
 # and equation (eqn) to all the manuscript (.ms) files
 	
@@ -141,7 +152,9 @@ cat *.ms |
 tbl |
 pic |
 eqn |
-troff -t  -ps > out.ps
+troff -t  -ps |
+psduplex -tumble |
+lpr -Pps99 -h
 ```
 
 LAMP = Linux apache mysql php (python)
@@ -247,6 +260,112 @@ ____
 # Parts
 
 ## Pipe-and-Filter
+
+
+Recall the example above where
+
+- `*ms` files contain a mark up language (think Latex or Mardown)
+- `tbl` is an extension that handles tables
+- `pic` is an extension that handles pictures
+- `eqn` is an extension that handles equations
+- `psduplex` handles printing on both sides of a page
+- `lpr` is a device that actually prints the paper.
+
+```
+# apply the table (tbl) and picture (pic)
+# and equation (eqn) to all the manuscript (.ms) files
+	
+cat *.ms |
+tbl |
+pic |
+eqn |
+troff -t  -ps |
+psduplex -tumble |
+lpr -Pps99 -h
+```
+
+
+From Wikipedia:
+
++ The pipeline concept was invented by Douglas
+McIlroy and first described in the man pages of
+Version 3 Unix.
++ One of the authors of the early
+command shells, McIlroy noticed that much of the
+time they were processing the output of one program
+as the input to another.
++ His ideas were implemented in 1973 when ("in one
+feverish night", wrote McIlroy) Ken Thompson added
+the `pipe()` system call and pipes to the shell and
+several utilities in Version 3 Unix.
++ "The next day",
+McIlroy continued, "saw an unforgettable orgy of
+one-liners as everybody joined in the excitement of
+plumbing."
++ McIlroy also credits Thompson with the _"|"_
+notation, which greatly simplified the description
+of pipe syntax in Version 4.
+
+
+Philosophy:
+
++ Write programs that do one thing and do it well. 
+    + UNIX has hundreds of domain specific-languages, each doing one little task.
+	+ e.g. ls, cp, rm, and (see below) bash, make.
++ Write programs to work together. 
++ Write programs to handle text streams, because that is a universal interface.
++ Small is beautiful.
++ Build a prototype as soon as possible.
++ Choose portability over efficiency.
++ Use shell scripts to increase leverage and portability.
++ Avoid captive user interfaces.
++ Make every program a filter.
+
+The famous Mcllroy pipeline
+          
+Read a file of text, determine the n most frequently used words, and print out a sorted list of those words along with their frequencies.
+
+    
+    tr -cs A-Za-z '\n' |
+    tr A-Z a-z |
+    sort |
+    uniq -c |
+    sort -rn |
+    sed ${1}q
+
+
+BTW, the same thing in HASKELL:
+
+
+    import qualified System
+    import qualified Data.List as List
+    import qualified Data.Char as Char
+    import qualified Data.HashMap.Strict as HashMap
+     
+    main :: IO ()
+    main = do
+         [arg] <- System.getArgs
+         text <- getContents
+         let n = read arg
+         putStr $ createReport n text
+     
+    createReport :: Int -> String -> String
+    createReport n text =
+         unlines $
+         map (\(w, count) -> show count ++ " " ++ w) $
+         take n $
+         List.sortBy (flip compare) $
+         map (\(w, count) -> (count, w)) $
+         HashMap.toList $
+         HashMap.fromListWith (+) $
+         map (\w -> (w, 1)) $
+         words $
+         map Char.toLower $
+         map (\c -> if Char.isLetter c then c else '\n') $
+         text
+
+
+Probably faster in HASKELL, but which would you rather code?
 
 Notes from [David  March](http://www4.desales.edu/~dlm1/it533/class03/pipe.html):
 
