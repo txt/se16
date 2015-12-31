@@ -78,8 +78,6 @@ Consequently, our
 society is becoming increasingly reliant on
 _data analytics_.
 
-<center><img width=550 src="/_img/sedata.png"></center>
-
 Many companies
   practice _data-driven policy development_ that
   is, the determination of organizational policies
@@ -123,6 +121,10 @@ feature can successfully proceed with wider
 development and deployment.
 
 [^lina15]: _LINA15
+
+
+<center><img width=550 src="/_img/sedata.png"></center>
+
 
 Note that _data-driven_ approach addressed the _feature creep_ problem:
 
