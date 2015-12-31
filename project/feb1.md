@@ -75,6 +75,12 @@ ____
 
 Do not study enough people doing enough things.
 
+To avoid having that rotten time, do one (or both) of the following. Note that however you do it, what you want is that
+"aha!" moment when you realize that (e.g) users are making mistakes editing the text files of a web site _because_ their
+tools are missing some essential piece of domain knowledge. Once you had that "aha!" then your task becomes simple; e.g. 
+
+- Change the  text editor environment such that it can access and apply that extra knowledge.
+
 ## Participant Studies
 
 Rule of 12:
