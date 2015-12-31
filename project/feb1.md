@@ -18,6 +18,7 @@ of quick coding in _"T"_  which:
 
 + Your team can demonstrate competency  using _"T"_
 + Your team can practice working together, using Github.
++ Note: this should NOT be a complex task. Just something to show you have a base competency with your toolset.
 
 As  to _documenting some problem_ you can either
 
@@ -70,6 +71,60 @@ Also, come April, you will have to show that whatever tools you build _changes_ 
 
 ____
 
+# How to Have a Rotten Time
+
+Do not study enough people doing enough things.
+
+## Participant Studies
+
+Rule of 12:
+
+- 12 people, working 1 hour each on something
+- 24 people, working 1/2 hour on something
+
+- Feb1 is 23 days away. That's **more** than 3 weeks people. Start now! Now! NOW!
+- Divide and conqueror:
+      - You are in a group of four. Use that labor!
+          - Define your _instruments_ such that N people can do it separately.
+- Pick your subjects carefully
+      - Document their prior experience with this task
+- Define your instruments.
+      - Define your "intro" speech
+	  - Define an intro example (which you do in front of them)
+	  - Make notes on what they do (?video them, ?tape them)
+	  - When its all down, leave time for a debrief
+		  - What did they find hardest?
+		  - What did they find easiest?
+
+## Literature reviews
+
+
+Places to search for papers:
+
+- IEEE Xplore
+- ACM Digital Library
+- Google Scholar
+
+Note that these search engines have "cited by" fields so if you find a good paper, you can run forward in the literature looking for subsequent studies.
+
+Pruning rules (heuristic, take with a grain of salt):
+
+- Recent better than past
+- Highly cited better than not
+
+Methodology:
+
+1. To grab an initial set of documents, what were your search terms? How many documents did it match (hint:  usually 100s to 1000s)
+2. To prune the intial set , what were your strategies (extra search terms? quick scans of abstracts? number of citation counts? restrictions by year?)
+3. After pruning, how many docs did you have (hint, usually dozens)?
+4. How did you study the pruned docs (e.g. what particular questions did you ask of each document? how did you collate the results)?
+5. What sanity checks were applied?
+     - Did the literature review find known key articles in the field
+     - Potentially, is it possible to operationalize fixed to  the identified problems? e.g. lack of domain knowledge very hard to operationalize; not closing matching brackets (easier to operationalize).
+	   Recall the Royce[^errors2] results: 22% of their problems were deep semantic while the result were simple logic and syntax problems.
+
+____
+
 # What to Hand In
 
 At start of class, Jan 12, hand in one page containing:
@@ -82,8 +137,16 @@ By Feb1:
 
 + Submit a 4+ page report using the [report format](report.md) describing
     + Your evidence for _P,U,T,G_ (defined below)
+    + Your data collection methods
+			- If participant observation, then write up your instruments
+	        - If literature review, define how you collected your data by answering these questions:
+			       - What were the review documents’s inclusion and exclusion criteria described and appropriate?
+                   - Is the literature search likely to have covered all relevant studies? 
+                   - Did the reviewers assess the quality/validity of the included studies? (e.g. citations counts, recency)
+                   - Were the basic data/studies adequately described? (hint: see list of 5 above).
     + Your implementation of the _start up exercise_ (with some sample output to show
 	  that you can get anything working with those tools).
+	      + Note: this should NOT be a complex task. Just something to show you have a base competency with your toolset.
 
 
 What you will need to do, in the next few days:

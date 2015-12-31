@@ -323,8 +323,7 @@ Philosophy:
 
 The famous Mcllroy pipeline
           
-Read a file of text, determine the n most frequently used words, and print out a sorted list of those words along with their frequencies.
-
++ Read a file of text, determine the n most frequently used words, and print out a sorted list of those words along with their frequencies.
     
     tr -cs A-Za-z '\n' |
     tr A-Z a-z |
@@ -333,9 +332,7 @@ Read a file of text, determine the n most frequently used words, and print out a
     sort -rn |
     sed ${1}q
 
-
-BTW, the same thing in HASKELL:
-
++ BTW, the same thing in HASKELL:
 
     import qualified System
     import qualified Data.List as List
@@ -363,7 +360,6 @@ BTW, the same thing in HASKELL:
          map Char.toLower $
          map (\c -> if Char.isLetter c then c else '\n') $
          text
-
 
 Probably faster in HASKELL, but which would you rather code?
 
