@@ -1,4 +1,26 @@
+# LUa
 
+## A single data structure
+
+There are few fundamental types in Lua and only one of them is designed to store others: tables. That means what in other languages would be arrays (sequences) and dictionaries (maps) are the same thing.
+
+This is probably the only thing that really bothers me in Lua. Sequential types are something fundamentally different from associative types in my mind, and I have on several occasions wanted them to be distinct.
+
+## First order functions, closure and true tail calls
+
+Not going to teach a CS class in a Quora answer to explain what the first two are, they are found in other languages but Lua does have them. The last one, however, is actually pretty rare in dynamic languages. Some Lisps have it, but not, for instance, Python, Ruby or Clojure.
+
+What it means in practice is that returning a call to a function does not make the execution stack grow. For instance, this code will work for any value of n (ignoring numeric issues) whereas in other languages you would have a stack overflow for large values of n:
+
+```lua
+local function f(n)
+  if n < 1 then
+    return true
+  else
+    return f(n-1)
+  end
+end
+```
 
 C isn’t that hard: void (*(*f[])())() defines f as an array of unspecified size, of pointers to functions that return pointers to functions that return void.
 
