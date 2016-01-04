@@ -5,6 +5,8 @@
 # Avoids have Makefiles all over the sub-directories.
 # Calls to "make" jump to  root of current repo, and "makes" there.
 
+# usage:  . hi
+
 make1() {
   if [ ! -f Makefile ]; then
     echo "nothing to do"
