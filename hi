@@ -6,18 +6,18 @@
 # Calls to "make" jump to  root of current repo, and "makes" there.
 
 make1() {
-        if [ ! -f Makefile ]; then
-                echo "nothing to do"
-        else
-         /usr/bin/make $* 
-    fi
+  if [ ! -f Makefile ]; then
+    echo "nothing to do"
+  else
+    /usr/bin/make $* 
+  fi
 }
 
 make() {
-    root=$(git rev-parse --show-toplevel)
-    if [ -n "$root" ]; then
-      ( cd $root; make1 $*)
-    else
-      /usr/bin/make $*
-    fi
+  root=$(git rev-parse --show-toplevel)
+  if [ -n "$root" ]; then
+    ( cd $root; make1 $*)
+  else
+    /usr/bin/make $*
+  fi
 }
