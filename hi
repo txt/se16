@@ -1,0 +1,12 @@
+make1() {
+        if [ ! -f Makefile ]; then
+                echo "nothing to do"
+        else
+         /usr/bin/make $* 
+    fi
+}
+
+make() {
+    root=$(git rev-parse --show-toplevel)
+   ( cd $root; make1)
+}
