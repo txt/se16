@@ -11,14 +11,17 @@ ____
 
 + Document some problem _"P"_ with some user group _"U"_ using some **software** tool _"T"_ to achieve some goal _"G"_.
 + Guess what tools you will be using to fix that problem:
-    + Identify  some _start up exercise_ (not connected to the March and April deliverables) where
+    + Identify  some _start up exercise_ .
+	  
+(The _start up exercise_,  is
+just some moderately complex piece of quick coding
+in _"T"_ which:
 
-As to selecting some _start up exercise_, this is just some moderately complex piece
-of quick coding in _"T"_  which:
-
++ You can show that tools _"T"_ actually work on your machines.
 + Your team can demonstrate competency  using _"T"_
-+ Your team can practice working together, using Github.
-+ Note: this should NOT be a complex task. Just something to show you have a base competency with your toolset.
+
+The _start up exercise_ is due **March 1**).
+
 
 As  to _documenting some problem_ you can either
 
@@ -111,7 +114,10 @@ Places to search for papers:
 - ACM Digital Library
 - Google Scholar
 
-Note that these search engines have "cited by" fields so if you find a good paper, you can run forward in the literature looking for subsequent studies.
+Note that these search engines have "cited by"
+fields so if you find a good paper, you can run
+forward in the literature looking for subsequent
+studies.
 
 Pruning rules (heuristic, take with a grain of salt):
 
@@ -120,40 +126,68 @@ Pruning rules (heuristic, take with a grain of salt):
 
 Methodology:
 
-1. To grab an initial set of documents, what were your search terms? How many documents did it match (hint:  usually 100s to 1000s)
-2. To prune the intial set , what were your strategies (extra search terms? quick scans of abstracts? number of citation counts? restrictions by year?)
+1. To grab an initial set of documents, what were
+   your search terms? How many documents did it
+   match (hint: usually 100s to 1000s)
+2. To prune the intial set , what were your
+   strategies (extra search terms? quick scans of
+   abstracts? number of citation counts?
+   restrictions by year?)
 3. After pruning, how many docs did you have (hint, usually dozens)?
-4. How did you study the pruned docs (e.g. what particular questions did you ask of each document? how did you collate the results)?
+4. How did you study the pruned docs (e.g. what
+   particular questions did you ask of each
+   document? how did you collate the results)?
 5. What sanity checks were applied?
-     - Did the literature review find known key articles in the field
-     - Potentially, is it possible to operationalize fixed to  the identified problems? e.g. lack of domain knowledge very hard to operationalize; not closing matching brackets (easier to operationalize).
-	   Recall the Royce[^errors2] results: 22% of their problems were deep semantic while the result were simple logic and syntax problems.
+     - Did the literature review find known key
+       articles in the field
+     - Potentially, is it possible to operationalize
+	   fixed to the identified problems? e.g. lack
+	   of domain knowledge very hard to
+	   operationalize; not closing matching brackets
+	   (easier to operationalize).  Recall the
+	   Royce[^errors2] results: 22% of their
+	   problems were deep semantic while the result
+	   were simple logic and syntax problems.
 
 ____
 
 # What to Hand In
 
-At start of class, Jan 12, hand in one page containing:
+By Jan12, we need to see:
 
-+ A statement of what _start up exercise_ you will complete by Feb1 using _what tool_
-  (note: it is too hard or too simple, we will not approve it).
-+ The names of your team, listed on the page, and entered into [this sheet](https://goo.gl/kOunui).
++ The names of your team, listed on the page, and
+  entered into [this sheet](https://goo.gl/kOunui).
 
 By Feb1:
 
-+ Submit a 4+ page report using the [report format](report.md) describing
++ Submit a 4+ page report using the
+  [report format](report.md) describing
     + Your evidence for _P,U,T,G_ (defined below)
     + Your data collection methods
-			- If participant observation, then write up your instruments
-	        - If literature review, define how you collected your data by answering these questions:
-			       - What were the review documents’s inclusion and exclusion criteria described and appropriate?
-                   - Is the literature search likely to have covered all relevant studies? 
-                   - Did the reviewers assess the quality/validity of the included studies? (e.g. citations counts, recency)
-                   - Were the basic data/studies adequately described? (hint: see list of 5 above).
-    + Your implementation of the _start up exercise_ (with some sample output to show
-	  that you can get anything working with those tools).
-	      + Note: this should NOT be a complex task. Just something to show you have a base competency with your toolset.
-
+			- If participant observation, then write
+              up your instruments
+	        - If literature review, define how you
+              collected your data by answering these
+              questions:
+			       - What were the review
+                     documents’s inclusion and
+                     exclusion criteria described
+                     and appropriate?
+                   - Is the literature search likely
+                     to have covered all relevant
+                     studies?
+                   - Did the reviewers assess the
+                     quality/validity of the
+                     included studies?
+                     (e.g. citations counts,
+                     recency)
+                   - Were the basic data/studies
+                     adequately described? (hint:
+                     see list of 5 above).
+    + Your statement of the _start up exercise_
+	(with some proposed sample output to show what
+	you can do anything at all with these tools).
+	    
 
 What you will need to do, in the next few days:
 
@@ -175,7 +209,8 @@ the focus as soon as possible; e.g. consider the
 task of manually writing a web page and its associated errors:
 
 + Referencing an image or  style sheet that does not exist;
-+ Number of closing list tags is less than the number of opening list tags;
++ Number of closing list tags is less than the
+  number of opening list tags;
 + etc.
 
 For another task, consider  using a text editor to write a
@@ -202,7 +237,8 @@ The problem here, of course, is that the general
 - Paragraph2 is a list classes with distances to other classes
 - etc
 
-(Exercise for the reader: what are the errors associated with manual web page entry?)
+(Exercise for the reader: what are the errors
+associated with manual web page entry?)
 
 With that special knowledge, an interactive editor
   could start marking, in red, problematic cell
@@ -225,15 +261,15 @@ Of course, there are 100 different ways to handle the above:
 - Forget interactive text queries (to identify bad
   contents); instead use some macro language where
   every construct expands into a table cell while
-  checking if any. Such macros can do things like (e.g.) demanding that when
-  files/html tags are opened, they are always closed.
+  checking if any. Such macros can do things like
+  (e.g.) demanding that when files/html tags are
+  opened, they are always closed.
 - Some structure editor that inputs a description of
   the _grammar_ of a school timetable, which drives
   the editting (so if we know that line 5 of the
   file is expanding some branch of the grammar, then
   query that part of the grammar and block any
   keystrokes that violate that part of the grammar.
-
 
 ## Some options for Editor Customizations
 
@@ -244,7 +280,8 @@ By the way, if you want to exploring
 + The usual ECLIPSE-based approaches (can get very complex, beware);
 + There are 100 Javascript text editors;
 + There are fewer, but perhaps somewhat simpler, LUA editors;
-+ If you are feeling "old school" there is always EMACS (feeling LISP-ish?).
++ If you are feeling "old school" there is always
+  EMACS (feeling LISP-ish?).
 + VIM has its own text language
 
 More generally, with text editor

@@ -1,3 +1,7 @@
+e() {
+/usr/bin/emacs -q -l $HOME/.emacs $*
+}
+
 make1() {
         if [ ! -f Makefile ]; then
                 echo "nothing to do"
@@ -8,5 +12,5 @@ make1() {
 
 make() {
     root=$(git rev-parse --show-toplevel)
-   ( cd $root; make1)
+   ( cd $root; make1 $*)
 }

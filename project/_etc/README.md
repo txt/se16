@@ -1,16 +1,8 @@
 _GIRLBOT
 
-
-
-
-
-
-
 # Term Project
 
-
 [TOC]
-
 ____
 
 Good news: Your start-up has been bought out by the
@@ -54,18 +46,25 @@ Therefore, in this project you must:
 - Implement those two or three different ways;
 - Make a case that one of those ways should be adopted.
 
-(Note that variants of this scenario are quite
-common. E.g. for years, Microsoft eschewed software
-estimation methods in favor of _feature maturity_
-methods; e.g. programmers only got
-bonuses/promoted if their proposed new features
-end up in the customer's build. Which, btw causes  the _feature creep_
-problem [^sino11]<sup>,</sup>[^murp06].)
 
 ____
 
 # Why This Project?
 
+Variants of the above scenario are quite
+common. E.g. for years, Microsoft eschewed software
+estimation methods in favor of _feature maturity_
+methods; e.g. programmers only got
+bonuses/promoted if their proposed new features
+end up in the customer's build. Which, btw causes  the _feature creep_
+problem [^sino11]<sup>,</sup>[^murp06] (where software
+is more complex than it needs to be since it
+contains too many bogus features).
+
+Also, 
+ our
+society is becoming increasingly reliant on
+_data analytics_.
 Increasingly, well-engineered software is being used
  by policy makers and researchers to better
  understand the world.  For example, in 2013 a Nobel
@@ -74,10 +73,6 @@ Increasingly, well-engineered software is being used
  Nobel Prize committee wrote
  ["Today the computer is just as important a
  tool for chemists as the test tube"](http://www.nobelprize.org/nobel_prizes/chemistry/laureates/2013/press.html).
-
-Consequently, our
-society is becoming increasingly reliant on
-_data analytics_.
 
 Many companies
   practice _data-driven policy development_ that
@@ -156,11 +151,10 @@ effort is wasted. But even worse
 So this project we walk from goals to collection to data to analytics.
 
 + January will be about the _goals_ of the project;
-+ Feburary
-+ Pragmatically,  takes a while
-  to manage (goals,collection,data) so most of this
-  project's effort will be on goals,collection,data
-+ But we'll do a little analytics.
++ February will be about the _implementation_ (hint:
+  your tools will need to have extensive data collection hooks).
++ March will be about doing the _data collection_ and 
+  subsequent _analysis_.
 
 ____
 

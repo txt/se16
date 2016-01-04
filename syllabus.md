@@ -93,6 +93,11 @@ It is each student's responsibility to join the following news group:
 
 All class communication from staff to students will be via this news group.
 
+<em>(Addit: there is some interest is using
+[piazza.com](piazza.com) rather than Google Groups
+for this communication. This will be assessed in
+week1 of class.)</em>
+
 ____
 
 # Staff

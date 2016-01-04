@@ -31,4 +31,6 @@ readmes: project/README.html lectures/README.html
 	git add $@
 
 setup:
-	sudo pip install markdown pygments ispell
+	sudo pip install markdown pygments 
+	sudo apt-get install ispell emacs-goodies-el
+
