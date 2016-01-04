@@ -8,6 +8,7 @@ _GIRLBOT
 
 # Term Project
 
+
 [TOC]
 
 ____
@@ -154,6 +155,8 @@ effort is wasted. But even worse
 
 So this project we walk from goals to collection to data to analytics.
 
++ January will be about the _goals_ of the project;
++ Feburary
 + Pragmatically,  takes a while
   to manage (goals,collection,data) so most of this
   project's effort will be on goals,collection,data
