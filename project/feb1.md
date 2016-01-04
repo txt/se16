@@ -57,6 +57,58 @@ Explanation](https://www.youtube.com/watch?v=gyXOe0Jl-fI)
 [^protocol3]: See section 3.3 of [Designing Useful Tools for
 Developers](http://www.cs.cmu.edu/~NatProg/papers/plateau2011-latoza.pdf).
 
+____
+
+# What to Hand In
+
+By Jan12, we need to see:
+
++ The names of your team, listed on the page, and
+  entered into [this sheet](https://goo.gl/kOunui).
+
+By Feb1:
+
++ Submit a 4+ page report using the
+  [report format](report.md) describing
+    + Your evidence for _P,U,T,G_ (defined below)
+    + Your data collection methods
+			- If participant observation, then write
+              up your instruments
+	        - If literature review, define how you
+              collected your data by answering these
+              questions:
+			       - What were the review
+                     documents’s inclusion and
+                     exclusion criteria described
+                     and appropriate?
+                   - Is the literature search likely
+                     to have covered all relevant
+                     studies?
+                   - Did the reviewers assess the
+                     quality/validity of the
+                     included studies?
+                     (e.g. citations counts,
+                     recency)
+                   - Were the basic data/studies
+                     adequately described? (hint:
+                     see list of 5 above).
+    + Your statement of the _start up exercise_
+	(with some proposed sample output to show what
+	you can do anything at all with these tools).
+	    
+
+What you will need to do, in the next few days:
+
++ Commit to some task;
++ Commit to some general software libraries within
+  which you can customize a solution.
+
+So think of some software-related task that some
+people tend to mess up, a lot, and start thinking
+how to document that problem and how, before April1,
+you might be able to fix it.
+
+
 ___
 
 # Key Points
@@ -149,56 +201,6 @@ Methodology:
 	   problems were deep semantic while the result
 	   were simple logic and syntax problems.
 
-____
-
-# What to Hand In
-
-By Jan12, we need to see:
-
-+ The names of your team, listed on the page, and
-  entered into [this sheet](https://goo.gl/kOunui).
-
-By Feb1:
-
-+ Submit a 4+ page report using the
-  [report format](report.md) describing
-    + Your evidence for _P,U,T,G_ (defined below)
-    + Your data collection methods
-			- If participant observation, then write
-              up your instruments
-	        - If literature review, define how you
-              collected your data by answering these
-              questions:
-			       - What were the review
-                     documents’s inclusion and
-                     exclusion criteria described
-                     and appropriate?
-                   - Is the literature search likely
-                     to have covered all relevant
-                     studies?
-                   - Did the reviewers assess the
-                     quality/validity of the
-                     included studies?
-                     (e.g. citations counts,
-                     recency)
-                   - Were the basic data/studies
-                     adequately described? (hint:
-                     see list of 5 above).
-    + Your statement of the _start up exercise_
-	(with some proposed sample output to show what
-	you can do anything at all with these tools).
-	    
-
-What you will need to do, in the next few days:
-
-+ Commit to some task;
-+ Commit to some general software libraries within
-  which you can customize a solution.
-
-So think of some software-related task that some
-people tend to mess up, a lot, and start thinking
-how to document that problem and how, before April1,
-you might be able to fix it.
 
 ____
 
