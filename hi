@@ -1,6 +1,9 @@
-e() {
-/usr/bin/emacs -q -l $HOME/.emacs $*
-}
+#!/bin/bash
+# (C) tim.menzies@gmail.com 2016, http://unlicense.org/
+
+# My favorite repo trick
+# Avoids have Makefiles all over the sub-directories.
+# Calls to "make" jump to  root of current repo, and "makes" there.
 
 make1() {
         if [ ! -f Makefile ]; then
@@ -12,5 +15,9 @@ make1() {
 
 make() {
     root=$(git rev-parse --show-toplevel)
-   ( cd $root; make1 $*)
+    if [ -n "$root" ]; then
+      ( cd $root; make1 $*)
+    else
+      /usr/bin/make $*
+    fi
 }
