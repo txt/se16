@@ -117,7 +117,7 @@ Tim Menzies <img src="http://www.csc.ncsu.edu/enews/images/1770.jpg" align=right
 
 ## Tutor
 
-Shaown Sarker <img src="_img/shawon.png" align=right width=100>
+Shaown Sarker <img src="_img/shaown.jpg" align=right width=100>
 
 + Github id: shaowns
 + E-mail: ssarker@ncsu.edu
