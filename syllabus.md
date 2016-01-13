@@ -123,7 +123,7 @@ Shaown Sarker <img src="_img/shaown.jpg" align=right width=100>
 + E-mail: ssarker@ncsu.edu
   + Only use this email for private matters.
   + All other class communication should be via the class news group, listed after.
-+ Office hours: Monday-Wednesday, 12:00-1:00
++ Office hours: Monday-Wednesday, 10:00-11:00
 + Office location: EB II room 1229B
 
 
