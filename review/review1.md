@@ -7,4 +7,4 @@
 3. Define Unit testing.
 4. Define System testing.
 5. What are the 4 parts of the V-diagram? For each part, how much time do you expect to spend in each?
-6. What are the parts of a 3-tier architechture? 
+6. What are the parts of a 3-tier architechture? Given the middle part (model) as N, how much lines of code is the total?
