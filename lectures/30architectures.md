@@ -122,6 +122,25 @@ _____
 
 # Classic Examples of Patterns
 
+CRUD = create, read, update delete
+
+From WIKIPEDIA
+
++ In computer programming, create, read, update and delete (as an acronym CRUD or possibly a backronym) (Sometimes called SCRUD with an "S" for Search) are the four basic functions of persistent storage.
++ Sometimes CRUD is expanded with the words retrieve instead of read, modify instead of update, or destroy instead of delete. It is also sometimes used to describe user interface conventions that facilitate viewing, searching, and changing information; often using computer-based forms and reports.
++ Used in many places including 
+    + Databases
+    + Distributed database services
+    + RESTful interfaces
+
+|Operation |	SQL |	HTTP |	DDS |
+|---|---|---|---|
+|Create|	INSERT	| PUT / POST	| write |
+|Read (Retrieve) |	SELECT	|GET	|read / take|
+|Update (Modify)|	UPDATE	|POST / PUT / PATCH|	write |
+|Delete (Destroy)|	DELETE	|DELETE	| dispose|
+
+
 Classic pipe and filter. Used in UNIX (bad to
 interaction across multiple pipes; good for easy
 development, ease of maintenance)
