@@ -198,6 +198,13 @@ Looser collaboration with publish, subscribe
 
 _____
 
+
+# Case Study: The Power of Architectures
+
+Can architectures   make the complex comprehensible?. [Let's see](http://gogogarrett.sexy/programming-in-elixir-with-the-phoenix-framework-building-a-basic-CRUD-app/)
+
+______
+
 # Layers
 
 The following notes are
