@@ -122,6 +122,7 @@ _____
 
 # Classic Examples of Patterns
 
+
 CRUD = create, read, update delete
 
 From WIKIPEDIA
@@ -141,9 +142,13 @@ From WIKIPEDIA
 |Delete (Destroy)|	DELETE	|DELETE	| dispose|
 
 
+Notice that _how_ CRUD is implemented is unknown. They are _interfaces_
+to an unknowable underlying toolkit. [/_pdf/kwic.pdf](Modular design. Good practice.)
+
 Classic pipe and filter. Used in UNIX (bad to
 interaction across multiple pipes; good for easy
 development, ease of maintenance)
+
 
 ![](/_img/pipe_and_filter.jpg)
 
