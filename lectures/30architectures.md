@@ -123,7 +123,7 @@ _____
 # Classic Examples of Patterns
 
 
-CRUD = create, read, update delete
+## CRUD = create, read, update delete
 
 From WIKIPEDIA
 
@@ -145,7 +145,9 @@ From WIKIPEDIA
 Notice that _how_ CRUD is implemented is unknown. They are _interfaces_
 to an unknowable underlying toolkit. [Modular design. Good practice.](/_pdf/kwic.pdf).
 
-Classic pipe and filter. Used in UNIX (bad to
+## Classic pipe and filter.
+
+Used in UNIX (bad to
 interaction across multiple pipes; good for easy
 development, ease of maintenance)
 
@@ -181,21 +183,29 @@ psduplex -tumble |
 lpr -Pps99 -h
 ```
 
-LAMP = Linux apache mysql php (python)
+## LAMP = Linux apache mysql php (python)
 
 ![](/_img/LAMPStack.png)
+
+## MEAN
 
 After LAMP, comes MEAN (requires you to work in Javascript):
 
 ![](/_img/mean-stack.png)
 
+## MSC
+
 MVC: good for tight/complex interaction. Complex to maintain
 
 ![](/_img/MVC-2.png)
 
+## Subject-Observer
+
 Subject-observer. multiple views on one model
 
 ![](/_img/obser023.gif)
+
+## Publish-Subscribe
 
 Looser collaboration with publish, subscribe
 
