@@ -143,7 +143,7 @@ From WIKIPEDIA
 
 
 Notice that _how_ CRUD is implemented is unknown. They are _interfaces_
-to an unknowable underlying toolkit. [/_pdf/kwic.pdf](Modular design. Good practice.)
+to an unknowable underlying toolkit. [Modular design. Good practice.](/_pdf/kwic.pdf).
 
 Classic pipe and filter. Used in UNIX (bad to
 interaction across multiple pipes; good for easy
