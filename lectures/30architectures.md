@@ -187,13 +187,13 @@ lpr -Pps99 -h
 
 ![](/_img/LAMPStack.png)
 
-## MEAN
+## MEAN = MongoDb, Express, Angular, Node-JS
 
 After LAMP, comes MEAN (requires you to work in Javascript):
 
 ![](/_img/mean-stack.png)
 
-## MSC
+## MVC= model, view, controller
 
 MVC: good for tight/complex interaction. Complex to maintain
 
