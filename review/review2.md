@@ -13,7 +13,7 @@
 6. Give a specific project that would use C? List two reasons, justify each.
 7. Give a specific project that would best not use C? List two reasons, justify each.
 
-## CoffeeScript and javascript
-1. How CoffeeScript is better than javascript?
-2. Why not to use CoffeeScript instead of javascript?
+## CoffeeScript and JavaScript
+1. How CoffeeScript is better than JavaScript?
+2. Why not to use CoffeeScript instead of JavaScript?
 3. How is CoffeeScript implemented?
