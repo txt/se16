@@ -68,15 +68,18 @@ working and walk through your demo code.
        + Another mark if there are some large logs showing that it can
   collect data, in practice.
 + 2 marks if your Github repo is _active_; i.e.
-  + Contains dozens to hundreds of commits and issues;
-  + All issues are in five to twenty (or more) milestones;
-  + Issues are labeled;
-  + Issues are getting opened and closed;
-  + (Some) milestones are getting completed (but others might actually be your plan
+       + Contains dozens to hundreds of commits and issues;
+       + All issues are in five to twenty (or more) milestones;
+       + Issues are labeled;
+       + Issues are getting opened and closed;
+       + (Some) milestones are getting completed (but others might actually be your plan
   for your March work).
-  + All members of the team are contributing equally
+       + All members of the team are contributing equally
   (plus or minus 50%).
-  
- 
+
+For a sample of possibly useful labels, see
+[a simple styleguide for tagging Github issues](https://robinpowered.com/blog/best-practice-system-for-organizing-and-tagging-github-issues/).
+
+As to milestones, that is up to you and your team.
 
 
