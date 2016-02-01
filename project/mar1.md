@@ -7,18 +7,18 @@ _GIRLBOT
 
 # Goals
 1. To implement three different solutions to the
-  problem identified in January
+  problem identified in January.
 2. To implement the telemetry (data collection)
-  required to assess if any of these three actually
+  required to assess if any of these three proposed solutions actually
   matter. 
 3. To learn distributed project methods using Github.
-4. To plan the March work
+4. To plan the March work.
 5. To start collecting data for the April project.
 
 ## What NOT to Do
 
-+ January was finding a problem
-+ February (this month) is building candidate solutions
++ January was about finding a problem.
++ February (this month) is building candidate solutions.
 + March will be testing those solutions.
 + And April will be building tools to reflect on how
   effective are teams at building software.
@@ -35,15 +35,15 @@ So be prepared to be _very_ agile in March.
 
 
 
-## What to Hand it
+## What to Hand in
 
 To our [submission spreadsheet](https://goo.gl/kOunui)
-paste in a _shortened_ [^shorter] url to a README.md file with _labeled_ links to
+paste in a _shortened_ [^shorter] url to a README.md file with _labeled_ links to:
 
 1. Your repo's issues pages.
 2. Your repo's milestone pages.
 3. Your repo's [contributor's page](https://github.com/opensciences/opensciences.github.io/graphs/contributors).
-4. A log of sample output from your telemetry
+4. A log of sample output from your telemetry.
 5. [From the demos sign-up page](https://goo.gl/PP7KpF)
 list your demo time where you will show 3 solutions
 working and walk through your demo code.
