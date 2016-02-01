@@ -53,7 +53,9 @@ working and walk through your demo code.
       + Code for three different solutions.
 7. An evaluation plan (for how you will assess if
    any (all) of the above is actually useful. Note
-   this will be your March work.
+   this will be your March work. Feel free to spec this
+   out as a list of 3-4 milestones with at least
+   one todo issue per milestone.
   
 [^shorter]: To shorten large URLs, please use
 [bitly.com](https://bitly.com).
