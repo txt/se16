@@ -44,7 +44,15 @@ paste in a _shortened_ [^shorter] url to a README.md file with _labeled_ links t
 2. Your repo's milestone pages.
 3. Your repo's [contributor's page](https://github.com/opensciences/opensciences.github.io/graphs/contributors).
 4. A log of sample output from your telemetry.
-5. [From the demos sign-up page](https://goo.gl/PP7KpF)
+       + Note that, for Mar1,
+         this can _not_ be an extensive and
+         elaborate log of data collected
+         from your user trials.
+	   + Instead, if will just be some logs generated
+	     by you, thrashing around the tool, just to
+	     show that, in principle, data from users
+	     _could_ be collected this way.
+5. [From the demos sign-up page](https://goo.gl/m8j438)
 list your demo time where you will show 3 solutions
 working and walk through your demo code.
 6. A code directory with clearly labeled files and/or
