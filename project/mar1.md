@@ -49,13 +49,13 @@ list your demo time where you will show 3 solutions
 working and walk through your demo code.
 6. A code directory with clearly labeled files and/or
   directories showing
-  + Some common _base_
-  + Code for three different solutions.
+      + Some common _base_
+      + Code for three different solutions.
 7. An evaluation plan (for how you will assess if
    any (all) of the above is actually useful. Note
    this will be your March work.
   
-[^shorter]: To shorten large URLS, use
+[^shorter]: To shorten large URLs, please use
 [bitly.com](https://bitly.com).
 
 ## Grading
@@ -80,6 +80,7 @@ working and walk through your demo code.
 For a sample of possibly useful labels, see
 [a simple styleguide for tagging Github issues](https://robinpowered.com/blog/best-practice-system-for-organizing-and-tagging-github-issues/).
 
-As to milestones, that is up to you and your team.
+As to milestones, that is up to you and your team
+and the demands of your project.
 
 
