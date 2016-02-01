@@ -6,22 +6,21 @@ _GIRLBOT
 [TOC]
 
 # Goals
-
-+ To implement three different solutions to the
+1. To implement three different solutions to the
   problem identified in January
-+ To implement the telemetry (data collection)
+2. To implement the telemetry (data collection)
   required to assess if any of these three actually
   matter. 
-+ To learn distributed project methods using Github.
-+ To plan the March work
-+ To start collecting data for the April project.
+3. To learn distributed project methods using Github.
+4. To plan the March work
+5. To start collecting data for the April project.
 
 ## What NOT to Do
 
 + January was finding a problem
-+ February is building candidate solutions
-+ March is testing those solutions.
-+ April is building tools to reflect on how
++ February (this month) is building candidate solutions
++ March will be testing those solutions.
++ And April will be building tools to reflect on how
   effective are teams at building software.
 
 So this month is all about _building tools_, not
