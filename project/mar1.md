@@ -61,9 +61,11 @@ working and walk through your demo code.
 ## Grading
 
 + 2 marks per solution:
-  + One mark if it is sort of there, another mark if it actually works.
+       + One mark if it is sort of there,
+       + Another mark if it actually works.
 + 2 marks for the telemetry:
-  + One mark if it is sort of there, another mark if there are some large logs showing that it can
+       + One mark if it is sort of there,
+       + Another mark if there are some large logs showing that it can
   collect data, in practice.
 + 2 marks if your Github repo is _active_; i.e.
   + Contains dozens to hundreds of commits and issues;
