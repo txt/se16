@@ -39,6 +39,8 @@ _____
 
 ## About SQL
 
+<img align=right width=300 src="http://sqlmag.com/site-files/sqlmag.com/files/imagecache/medium_img/uploads/2012/01/code-sql-database-595x335.jpg">
+
 An SQL server consists of a _relational database_
 which comprises of a set of tables containing data
 with predefined categories or columns. It contains
