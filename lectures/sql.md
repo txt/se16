@@ -1,9 +1,13 @@
+<img align=right src="http://www.odditysoftware.com/_images/sell-your-database.jpg">
+
 # SQL
 
-<img align=right src="http://www.odditysoftware.com/_images/sell-your-database.jpg">
+
 
 [TOC]
 
+
+_____
 
 Different languages are optimized for different tasks. So...
 
