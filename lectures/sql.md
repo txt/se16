@@ -2,9 +2,8 @@
 
 <img align=right src="http://www.odditysoftware.com/_images/sell-your-database.jpg">
 
-[toc]
+[TOC]
 
-______
 
 Different languages are optimized for different tasks. So...
 
@@ -31,6 +30,10 @@ SQL is a language designed for _maintainability_:
   anomalies)
  
 For notes  on the above 3 points, see below. But first, some details.
+
+_____
+
+## About SQL
 
 An SQL server consists of a _relational database_
 which comprises of a set of tables containing data
@@ -73,6 +76,8 @@ i.e. they are _one_ thing (strings, numbers, booleans, and no nested structure).
 + All tables live at the top-level in the global name space of a database.
 
 
+____
+
 ## SQL and Layered Architectures
 
 SQL supports a _layered_ architecture
@@ -97,6 +102,8 @@ for p in staff_data:
     cursor.execute(sql_command)
 ```
 
+____
+
 ## SQL and Simpler Application Programming
 
 The ability to globally reference all parts of the data structure simplifies
@@ -111,6 +118,8 @@ data structures. For that nested-data approach
 (the programmer needs to know the nested structure of the data to
 find the data. If anyone every changes that nested structure then
 _all scripts that assume that nesting must be rewritten_).
+
+____
 
 ## SQL and "Data Anomalies"
 
@@ -185,6 +194,8 @@ access to what  `Part`s we hold in the warehouse.
 to `Part` holding the unique color of that part. Updates to that color would then
 refer to all those `Part`s.
 
+_____
+
 ## Drawbacks of SQL
 
 Despite the theoretical advantages of SQL, shown above, experience has shown that it
@@ -236,6 +247,8 @@ comments on the current state of the art in SQL vs NoSQL:
 + Flexibility:
     + Data can be inserted in a NoSQL database without first defining a rigid database schema. 
     + On the contrary, change management is a big headache in SQL. Here, even minor changes to the data model have to be carefully managed and may necessitate down time or reduced service levels.
+
+____
 
 ### Which to use? 
 
