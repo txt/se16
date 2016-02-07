@@ -1,8 +1,14 @@
 # SQL
 
-Different languages are best for different tasks:
+<img align=right src="http://www.odditysoftware.com/_images/sell-your-database.jpg">
 
-+ If raw speed, then ""`C`"";
+[toc]
+
+______
+
+Different languages are optimized for different tasks. So...
+
++ If raw speed, then "`C`";
 + If mass scale micro-currency, then `Erlang` or `Elixr`;
 + If publish-subscribe, then `Elm`; 
 + If portability, then:
@@ -26,7 +32,7 @@ SQL is a language designed for _maintainability_:
  
 For notes  on the above 3 points, see below. But first, some details.
 
-An SQL server consists of a relational database
+An SQL server consists of a _relational database_
 which comprises of a set of tables containing data
 with predefined categories or columns. It contains
 structured data like names, email addresses, and
