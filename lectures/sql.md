@@ -10,7 +10,7 @@
 
 _____
 
-Different languages are optimized for different tasks. So...
+Different languages are optimized for different tasks. For example:
 
 + If raw speed, then "`C`";
 + If mass scale micro-currency, then `Erlang` or `Elixr`;
@@ -238,11 +238,13 @@ everything in nested dictionaries that look like this:
 }
 ```
 
+<img align=right src="http://scraping.pro/res/nosql/nosql-expert.gif">
+
 Hardware and software tools have evolved
 to handle very large NoSQL databases. While experiences differ, the following are some
 comments on the current state of the art in SQL vs NoSQL:
 
-<img align=right src="http://scraping.pro/res/nosql/nosql-expert.gif">
+
 
 
 + Personnel cost:
