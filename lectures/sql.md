@@ -127,6 +127,8 @@ ____
 
 ## SQL and "Data Anomalies"
 
+<img width=400 align=right src="http://www.dbta.com/Images/Default.aspx?ImageID=17358">
+
 It turns out that teasing everything into top-level tables avoids
 many common problems in long-term data storage.  Consider the following
 design where every data point is stuffed into one matrix. In the following:
