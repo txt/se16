@@ -6,8 +6,6 @@
 
 [TOC]
 
-<br clear=all>
-
 _____
 
 Different languages are optimized for different tasks. For example:
