@@ -235,12 +235,9 @@ Hardware and software tools have evolved
 to handle very large NoSQL databases. While experiences differ, the following are some
 comments on the current state of the art in SQL vs NoSQL:
 
-+ Speed:
-    + SQL administrators   relied on scaling up or buying bigger, expensive, multiple servers as database load increased rather than scaling out or distributing the database across multiple hosts.  
-    + NoSQL databases are designed to expand transparently and horizontally to take advantage of new nodes, and they’re usually designed with low-cost commodity hardware in mind.  
-+ Quantity:
-    + There are limits to the  data volumes that can be handled by a single SQL server.
-     + Tools like Hadoop, which  enable of certain types of NoSQL distributed databases, allow data to be spread across thousands of servers with little reduction in performance .
+<img align=right src="http://scraping.pro/res/nosql/nosql-expert.gif">
+
+
 + Personnel cost:
      + Maintaining high-end SQL  systems is expensive and can be only done with the assistance of expensive, highly trained DBAs (database administrators). 
      + On the other hand, NoSQL databases require less management. Features like automatic repair, easier data distribution, and simpler data models make administration and tuning requirements lesser in NoSQL.
@@ -248,6 +245,12 @@ comments on the current state of the art in SQL vs NoSQL:
      + SQL databases  tends to rely on expensive proprietary servers and storage systems. 
      + NoSQL databases typically use clusters of cheap commodity servers to manage the exploding data and transaction volumes. Hence,
  storing and processing data cost per gigabyte in case of NoSQL can be many times lesser than the cost of SQL-based solutions.
++ Speed:
+    + SQL administrators   relied on scaling up or buying bigger, expensive, multiple servers as database load increased rather than scaling out or distributing the database across multiple hosts.  
+    + NoSQL databases are designed to expand transparently and horizontally to take advantage of new nodes, and they’re usually designed with low-cost commodity hardware in mind.  
++ Quantity:
+    + There are limits to the  data volumes that can be handled by a single SQL server.
+    + Tools like Hadoop, which  enable of certain types of NoSQL distributed databases, allow data to be spread across thousands of servers with little reduction in performance .
 + Flexibility:
     + Data can be inserted in a NoSQL database without first defining a rigid database schema. 
     + On the contrary, change management is a big headache in SQL. Here, even minor changes to the data model have to be carefully managed and may necessitate down time or reduced service levels.
