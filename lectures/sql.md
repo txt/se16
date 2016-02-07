@@ -37,9 +37,11 @@ For notes  on the above 3 points, see below. But first, some details.
 
 _____
 
-## About SQL
 
-<img align=right width=300 src="http://sqlmag.com/site-files/sqlmag.com/files/imagecache/medium_img/uploads/2012/01/code-sql-database-595x335.jpg">
+
+<img align=right width=400 src="http://sqlmag.com/site-files/sqlmag.com/files/imagecache/medium_img/uploads/2012/01/code-sql-database-595x335.jpg">
+
+## About SQL
 
 An SQL server consists of a _relational database_
 which comprises of a set of tables containing data
