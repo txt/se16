@@ -265,6 +265,8 @@ ____
 
 ## Which to use? SQL or NoSQL?
 
+<img align=right src="http://photos.gograph.com/thumbs/CSP/CSP545/k5455023.jpg">
+
 Well, coming back to the start of this lecture, it all depends on what you are optimizing for:
 
 
