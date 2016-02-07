@@ -1,4 +1,4 @@
-<img align=right src="http://www.odditysoftware.com/_images/sell-your-database.jpg">
+<img align=right src="https://i-technet.sec.s-msft.com/dynimg/IC78016.gif">
 
 # SQL
 
