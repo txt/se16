@@ -1,6 +1,6 @@
 # SQL
 
-Differnt languages are best for different tasks?
+Different languages are best for different tasks:
 
 + If raw speed, then ""`C`"";
 + If mass scale micro-currency, then `Erlang` or `Elixr`;
@@ -8,21 +8,31 @@ Differnt languages are best for different tasks?
 + If portability, then:
     + `Java` or any other language that compiles down to the Java Virtual machine
        (e.g. `Clojure`, `Scala` or  [dozens of other languages](https://en.wikipedia.org/wiki/List_of_JVM_languages));
-    + `JavaScript`  or any other language that compiles down to the JavcaScript engine
+    + `JavaScript`  or any other language that compiles down to the JavaScript engine
 	  (e.g. `CoffeeScript`, `Elm`)
 + If cross-platform GUI then many choices including `Python`, `Java`
 + Etc, etc
 
 SQL is a language designed for _maintainability_:
 
-1. SQL seperated data and model, thus allowing for applications to switch database management methods, if they want to.
-2. SQL simplifies scripts by removing nested access paths.
+1. SQL supports _layered architectures_ that
+   separate data and model, thus allowing developers
+   to reorganize the data storage layer without
+   messing up the business logic.
+2. SQL simplifies scripts by removing nested access
+   paths.
 3. SQL removes a set of standard anomalies with long term storage (_insert, delete, update_ 
   anomalies)
  
 For notes  on the above 3 points, see below. But first, some details.
 
-An SQL server consists of a relational database which comprises of a set of tables containing data with predefined categories or columns. It contains structured data like names, email addresses, and phone numbers. A relational database matches data by using common characteristics found in the dataset and the resulting group is termed as _Schema_ such
+An SQL server consists of a relational database
+which comprises of a set of tables containing data
+with predefined categories or columns. It contains
+structured data like names, email addresses, and
+phone numbers. A relational database matches data by
+using common characteristics found in the dataset
+and the resulting group is termed as _Schema_ such
 as the one shown below:
 
 
@@ -113,7 +123,7 @@ design where every data point is stuffed into one matrix. In the following:
  --------------------------------
  │ S1  │ 20 │ P1  │ 300 │ red   |
  │ S1  │ 20 │ P2  │ 200 │ blue  |
- │ S1  │ 20 │ P2  │ 400 │ blue |
+ │ S1  │ 20 │ P2  │ 400 │ blue  |
  │ S1  │ 20 │ P4  │ 200 │ gray  |
  │ S1  │ 20 │ P5  │ 100 │ black |
  │ S1  │ 20 │ P6  │ 100 │ white |
@@ -121,10 +131,10 @@ design where every data point is stuffed into one matrix. In the following:
  │ S2  │ 30 │ P2  │ 400 │ blue  |
  │ S3  │ 30 │ P2  │ 200 │ blue  |
  │ S4  │ 20 │ P2  │ 200 │ gray  |
- │ S4  │ 20 │ P4  │ 300 │ gray   |
+ │ S4  │ 20 │ P4  │ 300 │ gray  |
  │ S4  │ 20 │ P5  │ 400 │ black |
  --------------------------------
- ```
+```
 
 Suppose the above table is _all_ we know about the data. Such a database would
  suffer from _insert_, _delete_ and _update_ anomalies.
@@ -133,11 +143,11 @@ Suppose the above table is _all_ we know about the data. Such a database would
 
  
 + _Problem_: If our warehouse receives 1000 new parts, which no one has ordered yet,
-   then it cannot be added to our matric database (without some bogus null fields-- which 
-   signiticantly complicate long term maintenance).
-+ _Diagnosis_: the above one-matrix design has too many data dependancies between cells 
+   then it cannot be added to our matrix database (without some bogus null fields-- which 
+   significantly complicate long term maintenance).
++ _Diagnosis_: the above one-matrix design has too many data dependencies between cells 
            in each row. 
-+ _Treatment_: Seperate the cells into different tables such that each cell is now depedent
++ _Treatment_: Separate the cells into different tables such that each cell is now dependent
   on only one special cells in the table (the primary key). 
 + _Example_:  In the above 3 table design, it would be possible to insert new `Part`s
            without demanding that they exist in an order.
@@ -145,24 +155,24 @@ Suppose the above table is _all_ we know about the data. Such a database would
 **Delete anomalies:**
 
 + _Problem_:  If we complete all our shipments for `S1` and `S4` (above), and we delete those rows  from our one-matrix, we would lose
-access to the fact that we ship those a part calld `P5`. This would be a problem if
+access to the fact that we ship those a part called `P5`. This would be a problem if
 anyone calls us up to ask if we can supply them with `P5`.
-+ _Diagnosis_: As before, we have not seperated out or dependent and non-dependent variables.
- The fact that we hold `P5` is a seperate concept to whether or not `P5` is in any shipment.
-+ _Treatment_: As before. Seperate the cells into   tables defined by primary keys.
++ _Diagnosis_: As before, we have not separated out or dependent and non-dependent variables.
+ The fact that we hold `P5` is a separate concept to whether or not `P5` is in any shipment.
++ _Treatment_: As before. Separate the cells into   tables defined by primary keys.
 + _Example_: In the above 3 table design, it would be possible to complete all shipments,
 archive away rows in the `Shipment` to some long-term storage facility, and still have
-access to what  `Part`s we hold in the warehoise.
+access to what  `Part`s we hold in the warehouse.
 
 **Update anomalies:**
 
-+ _Problem_: There is a bug in the above one-matrix example. Can you see? Look at the colours
-  for the `P2` part? Note that they are usually `blue` but in `S4` it is labelled `gray`.
-  Someone has made a mistable?
++ _Problem_: There is a bug in the above one-matrix example. Can you see? Look at the colors
+  for the `P2` part? Note that they are usually `blue` but in `S4` it is labeled `gray`.
+  Someone has made a mistake?
 + _Diagnosis_:  When the definition of things is repeated in multiple places, then it is
   all to easy to update properties _here_ and forget to do it _there_, _there_, and _there_
   as well.
-+ _Treatment_: As before, if verything is seperated logically, then information about one
++ _Treatment_: As before, if everything is separated logically, then information about one
   thing is stored in one place only. Which means we could update color in one place and
   that color is now global across the hole database.
 + _Example_: In the above 3 table design, it would be possible to add a `color` filed
@@ -171,7 +181,7 @@ refer to all those `Part`s.
 
 ## Drawbacks of SQL
 
-Desipite the theoretical advantages of SQL, shown above, experience has shown that it
+Despite the theoretical advantages of SQL, shown above, experience has shown that it
 has drawbacks. Advocated of NoSQL databases eschew the schema approach and store
 everything in nested dictionaries that look like this:
 
@@ -207,26 +217,26 @@ comments on the current state of the art in SQL vs NoSQL:
 + Speed:
     + SQL administrators   relied on scaling up or buying bigger, expensive, multiple servers as database load increased rather than scaling out or distributing the database across multiple hosts.  
     + NoSQL databases are designed to expand transparently and horizontally to take advantage of new nodes, and they’re usually designed with low-cost commodity hardware in mind.  
-+ Quantitiy:
++ Quantity:
     + There are limits to the  data volumes that can be handled by a single SQL server.
      + Tools like Hadoop, which  enable of certain types of NoSQL distributed databases, allow data to be spread across thousands of servers with little reduction in performance .
 + Personnel cost:
-     + Maintaining high-end SQL  systems is expensive and can be only done with the assistance of expensive, highly trained DBAs (database administgraotrs). 
+     + Maintaining high-end SQL  systems is expensive and can be only done with the assistance of expensive, highly trained DBAs (database administrators). 
      + On the other hand, NoSQL databases require less management. Features like automatic repair, easier data distribution, and simpler data models make administration and tuning requirements lesser in NoSQL.
 + Server Cost
      + SQL databases  tends to rely on expensive proprietary servers and storage systems. 
      + NoSQL databases typically use clusters of cheap commodity servers to manage the exploding data and transaction volumes. Hence,
- storing and processing data cost per gigabyte in case of NoSQL can be many times lesser than the cost of RDBMS.
-+ Flexability:
+ storing and processing data cost per gigabyte in case of NoSQL can be many times lesser than the cost of SQL-based solutions.
++ Flexibility:
     + Data can be inserted in a NoSQL database without first defining a rigid database schema. 
-    + On the contrary, change management is a big headache in SQL. Here, even minor changes to the data model have to be carefully managed and may necessitate downtime or reduced service levels.
+    + On the contrary, change management is a big headache in SQL. Here, even minor changes to the data model have to be carefully managed and may necessitate down time or reduced service levels.
 
 ### Which to use? 
 
 I dunno. Depends. Maybe we should say....
 
 + If optimizing to reduce long term maintenance cost of long   highly structured somewhat static data, then SQL
-+ If optimizing to increase flexability and scalability, then NoSQL
++ If optimizing to increase flexibility and scalability, then NoSQL
 
 
  
