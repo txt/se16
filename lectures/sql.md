@@ -2,7 +2,7 @@
 
 Differnt languages are best for different tasks?
 
-+ If raw speed, the `C`;
++ If raw speed, then ""`C`"";
 + If mass scale micro-currency, then `Erlang` or `Elixr`;
 + If publish-subscribe, then `Elm`; 
 + If portability, then:
