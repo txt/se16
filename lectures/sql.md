@@ -263,7 +263,7 @@ comments on the current state of the art in SQL vs NoSQL:
 
 ____
 
-### Which to use? 
+## Which to use? SQL or NoSQL?
 
 Well, coming back to the start of this lecture, it all depends on what you are optimizing for:
 
