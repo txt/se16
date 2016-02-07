@@ -125,8 +125,8 @@ design where every data point is stuffed into one matrix. In the following:
  │ S4  │ 20 │ P5  │ 400 │ black |
  --------------------------------
  ```
- 
- Suppose the above table is _all_ we know about the data. Such a database would
+
+Suppose the above table is _all_ we know about the data. Such a database would
  suffer from _insert_, _delete_ and _update_ anomalies.
  
 **Insert Anomalies:**
