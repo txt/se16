@@ -263,9 +263,11 @@ comments on the current state of the art in SQL vs NoSQL:
 
 ____
 
+<img align=right src="http://photos.gograph.com/thumbs/CSP/CSP545/k5455023.jpg">
+
 ## Which to use? SQL or NoSQL?
 
-<img align=right src="http://photos.gograph.com/thumbs/CSP/CSP545/k5455023.jpg">
+
 
 Well, coming back to the start of this lecture, it all depends on what you are optimizing for:
 
@@ -273,7 +275,7 @@ Well, coming back to the start of this lecture, it all depends on what you are o
 + If optimizing to reduce the _long term maintenance cost_ of highly structured somewhat static data, then SQL;
 + If optimizing to increase flexibility and scalability, then NoSQL
 
-
+<br clear=all>
  
 	  
 	
