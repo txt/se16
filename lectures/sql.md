@@ -119,20 +119,20 @@ design where every data point is stuffed into one matrix. In the following:
 
 ```
  --------------------------------
- | SNO │ ST │ PNO │ QTY │ CLR   |
+ | SNO | ST | PNO | QTY | CLR   |
  --------------------------------
- │ S1  │ 20 │ P1  │ 300 │ red   |
- │ S1  │ 20 │ P2  │ 200 │ blue  |
- │ S1  │ 20 │ P2  │ 400 │ blue  |
- │ S1  │ 20 │ P4  │ 200 │ gray  |
- │ S1  │ 20 │ P5  │ 100 │ black |
- │ S1  │ 20 │ P6  │ 100 │ white |
- │ S2  │ 30 │ P1  │ 300 │ red   |
- │ S2  │ 30 │ P2  │ 400 │ blue  |
- │ S3  │ 30 │ P2  │ 200 │ blue  |
- │ S4  │ 20 │ P2  │ 200 │ gray  |
- │ S4  │ 20 │ P4  │ 300 │ gray  |
- │ S4  │ 20 │ P5  │ 400 │ black |
+ | S1  | 20 | P1  | 300 | red   |
+ | S1  | 20 | P2  | 200 | blue  |
+ | S1  | 20 | P2  | 400 | blue  |
+ | S1  | 20 | P4  | 200 | gray  |
+ | S1  | 20 | P5  | 100 | black |
+ | S1  | 20 | P6  | 100 | white |
+ | S2  | 30 | P1  | 300 | red   |
+ | S2  | 30 | P2  | 400 | blue  |
+ | S3  | 30 | P2  | 200 | blue  |
+ | S4  | 20 | P2  | 200 | gray  |
+ | S4  | 20 | P4  | 300 | gray  |
+ | S4  | 20 | P5  | 400 | black |
  --------------------------------
 ```
 
