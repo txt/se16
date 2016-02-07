@@ -210,7 +210,7 @@ one in some nested environment:
     (if (> y 0)
       (recur x (- y 1) (* x current))
       (recur x (+ y 1) (/ current x))))))
-	  ```
+```
 
 
 Immutable variables and programming-by-recursion are widely-used
