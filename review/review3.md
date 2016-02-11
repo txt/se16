@@ -21,7 +21,8 @@ in one of those projects and not in the other?
       1. What are layered systems?
       2. Give an example of a layered system architecture and list it's layers.
       3. What limitations does the LAMP architecture has? How does MEAN try to solve them?
-9. CRUD: What is the CRUD (SCRUD) concept? Where is it used?
+
+9. CRUD: What is the CRUD (SCRUD) concept? Where is it used?	  
 10. Below are two system designs, one hides the internal details of modules and the other doesn't. Which one do you prefer, why? (Hint: [David Parnas on modular design](http://se16.unbox.org/_pdf/kwic.pdf)) 
 
 <left><img src="/_img/kwic1.png" width=400></left><right><img src="/_img/kwic2.png" width=400></right>
