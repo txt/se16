@@ -42,3 +42,7 @@ Consider the following design where every data point is stuffed into one matrix.
  --------------------------------
 ```
 
+1. What is insert anomaly? Show how the above design suffers from it. How can SQL solve it.
+2. What is delete anomaly? Show how the above design suffers from it. How can SQL solve it.
+3. What is update anomaly? Show how the above design suffers from it. How can SQL solve it.
+
