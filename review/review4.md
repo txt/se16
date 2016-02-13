@@ -34,7 +34,7 @@
      | S4  | 20 | P2  | 200 | gray  |
      | S4  | 20 | P4  | 300 | gray  |
      | S4  | 20 | P5  | 400 | black |
-     
+ 
     1. What is insert anomaly? Show how the above design suffers from it. How can SQL solve it.
     2. What is delete anomaly? Show how the above design suffers from it. How can SQL solve it.
     3. What is update anomaly? Show how the above design suffers from it. How can SQL solve it.
