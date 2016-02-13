@@ -10,10 +10,6 @@
 3. What are the advantages of normalization?
 4. What are the disadvantages of normalization?
 5. Explain how SQL maintains layered architechture.
-6. List and explain three drawbacks of SQL. How does nosql solves these drawbacks.
-8. What is nosql optimized for?
-9. What kind of applications should use nosql. Give an example and explain.
-10. What kind of applications should not use nosql? Give an example and explain.
 6. Consider the following design where every data point is stuffed into one matrix. In the following:
     + `ST` is some number that refers to the shipping status (e.g 20 means _order shipped_ and 30 means _received_)
     + `PNO` are parts
@@ -38,4 +34,8 @@
     1. What is insert anomaly? Show how the above design suffers from it. How can SQL solve it.
     2. What is delete anomaly? Show how the above design suffers from it. How can SQL solve it.
     3. What is update anomaly? Show how the above design suffers from it. How can SQL solve it.
+6. List and explain three drawbacks of SQL. How does nosql solves these drawbacks.
+8. What is nosql optimized for?
+9. What kind of applications should use nosql. Give an example and explain.
+10. What kind of applications should not use nosql? Give an example and explain.
 
