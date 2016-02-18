@@ -8,7 +8,7 @@
 5. What is the Singleton design pattern? Give an example of the Singleton pattern and explain it's components.
 6. What are the underlying design pattern(s) common in the following browsing systems? Explain.
 
-<left><img src="/_img/chbrowser.png" width=400></left><right><img src="/_img/filebrowser.png" width=400></right>
+<left><img src="/_img/chbrowser.png" width=300></left><right><img src="/_img/filebrowser.png" width=300></right>
 
 
 ## Anti-patterns
