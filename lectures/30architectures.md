@@ -122,7 +122,8 @@ _____
 
 # Classic Examples of Patterns
 
-CRUD = create, read, update delete
+
+## CRUD = create, read, update delete
 
 From WIKIPEDIA
 
@@ -141,9 +142,15 @@ From WIKIPEDIA
 |Delete (Destroy)|	DELETE	|DELETE	| dispose|
 
 
-Classic pipe and filter. Used in UNIX (bad to
+Notice that _how_ CRUD is implemented is unknown. They are _interfaces_
+to an unknowable underlying toolkit. [Modular design. Good practice.](/_pdf/kwic.pdf).
+
+## Classic pipe and filter.
+
+Used in UNIX (bad to
 interaction across multiple pipes; good for easy
 development, ease of maintenance)
+
 
 ![](/_img/pipe_and_filter.jpg)
 
@@ -176,27 +183,42 @@ psduplex -tumble |
 lpr -Pps99 -h
 ```
 
-LAMP = Linux apache mysql php (python)
+## LAMP = Linux apache mysql php (python)
 
 ![](/_img/LAMPStack.png)
+
+## MEAN = MongoDb, Express, Angular, Node-JS
 
 After LAMP, comes MEAN (requires you to work in Javascript):
 
 ![](/_img/mean-stack.png)
 
+## MVC= model, view, controller
+
 MVC: good for tight/complex interaction. Complex to maintain
 
 ![](/_img/MVC-2.png)
 
+## Subject-Observer
+
 Subject-observer. multiple views on one model
 
 ![](/_img/obser023.gif)
+
+## Publish-Subscribe
 
 Looser collaboration with publish, subscribe
 
 <img src="/_img/pub-sub.png" width=600>
 
 _____
+
+
+# Case Study: The Power of Architectures
+
+Can architectures   make the complex comprehensible?. [Let's see](http://gogogarrett.sexy/programming-in-elixir-with-the-phoenix-framework-building-a-basic-CRUD-app/)
+
+______
 
 # Layers
 
