@@ -3,7 +3,81 @@
 How much effort does it take to build software? Is
 this an important question? Is this an answerable question?
 
-## Why?
+## The Problem
+
+### Problem1: Uncertainty
+
+We don't know how hard it will be to build software,
+until we build it.
+
+![boehmEstimation](_img/boehmEstimation.png)
+
+Early lifecycle estimates can be wrong:
+
+- by up to a factor of plus or minus a factor of four.
+
+So, what to do?
+
+Note that it is hard to separate the _estimation problem_
+from the _project management_ problem since:
+
+- Once I tell you it will cost $X;
+- Your next question is always "but can you do it any cheaper?".
+
+### Problem2: Better,Faster,Cheaper (pick any two)
+
+Estimation is a multi-goal optimization problem. Project
+_effort_ is connected to project delivery _date_ to
+project _quality_.
+
+So, better, faster, cheaper, pick any two:
+
+- Deliver faster, spend less money? Prepare for more defects.
+- Deliver faster with fewer defects? Stand by to spend lots more
+  (e.g. on hyper-quality programmers).
+- Fewer defects, spend less money? You'll need to reign in
+  scope.
+
+## Solutions
+
+For details on all the following, see below.
+
+Strategies
+
+- _Feature maturity_ :
+  don't estimate software, reward delivery.
+- _Big bang_         :
+  estimate at the start to allocate resources
+- _Spiral_ : project plan includes "stop!
+    its not working!" points
+- _Many bangs_       :
+   continuous small estimation (e.g. local stories,
+   active learning)
+- _Lie_ : invent some nonsense number to make your
+  manager happy
+- _Don't estimate_ : the #noestiamtion camp.
+  But really they do estimate (but more with _many bangs_
+  and not just  _Big Bang_).
+
+Tactics
+
+- _Parametric_ : fit to an pre-guest distribution;
+                 e.g. COCOMO
+- _Analogy_ : new estimates are variations of old
+              (but similar examples)
+- _Planning poker_ : Don't estimate, just rank
+work most to least expensive
+- _Ensemble_ : Multiple estimates, combined (e.g.
+   top-down, bottom-up, bagging, boosting)
+- _Stability studies_ : Do the sample "_N_" times
+  using small variations in the assumptions.   
+
+Technology
+
+- Delphi-based (paper-based, human, manual methods)
+- Algorithm-centric (bring on the data miners)
+
+## Background
 
 According to the extensive systematic review by
 Jorgensen and Shepperd[^jos97], developing new
@@ -20,7 +94,7 @@ competitiveness.
 
 When projects start running out of budget, bad things happen.
 The first thing to go is all pretense of quality assurance
-Finally, the whole project can get cancelled.
+Finally, the whole project can get canceled.
 
 e.g. Software to control shuttle refurbishment "To
 gain control over its finances, NASA last week
@@ -34,6 +108,79 @@ completed.  – June 11 2003, Computer News
 
 ![clsc](_img/clcs.ong)
 
+## Strategies
+
+### Feature Maturity
+
+- Large organizations with an existing product and cash flow
+  work as follows.
+- Productivity via social engineering
+- Developers compete to get their new feature mature enough
+  to add into existing platform.
+- The "wining"
+  developers are rewarded (financially at annual review time,
+  with promotions) if their features make it in.
+- Note: bad idea unless all new features are rigorously screened
+        - i.e. the organization has a
+          strong "culture of testing".  
+- e.g. Microsoft.
+
+### Big Bang
+
+- Traditional method for large government projects
+  estimate at the start to allocate resources.
+- Needed when development part of very large resource
+  allocations (e.g. CLCS)
+- Standard practice is to build two estimates:
+     - The one you show the client  (so you can
+       get the estimate)
+     - The real one (so if you get the work you know how
+	   much trouble you are in if you get the work).
+- Standard U.S. Government practice is to demand that
+  estimates are audited via some  model (e.g. COCOMO, see below).
+     - Note that Delphi-based methods would not satisfy the
+       this government requirement.
+- Major weakness:
+     - If the scope or technology changes during the period
+       of the project, then the big bang's estimates will
+	   be wildly inaccurate.
+
+### Spiral
+
+In 1986 [^spiral]
+Barry Boehm proposed a modification to
+the Waterfall model called the
+[spiral model](https://www.dimap.ufrn.br/~jair/ES/artigos/SpiralModelBoehm.pdf).
+
+[^spiral]: Boehm B, "A Spiral Model of Software Development and Enhancement", IEEE Computer, IEEE, 21(5):61-72, May 1988
+
+Three important features:
+
+1. These "prototypes" are MUCH bigger than agile SRUMS.
+   Weeks to months to years of work.
+2. After a few rounds of the spiral, project becomes
+   a standard waterfall.
+3. There is a "commit partition" (shown left hand side).
+   Projects are canned if we get to the commit point, and
+   some critical functionality is still not working.
+   
+![spiral](_img/spiral.gif)
+
+Note that Spiral assumes developers want to "spiral"
+which in turn means that projects can be canceled without
+developers losing income. E.g. more projects that coders
+and if this one goes, they can jump to that one
+
++ Hard to go Spiral if you work for an external software
+consultants who are struggling for jobs
++ Since any cancellation may be fatal to their plans.
+
+### Many bangs
+continuous small estimation
+
+### Don't estimate
+  
+###
 ## Three Cultures of Estimation
 
 Leo Breiman,
