@@ -361,6 +361,8 @@ E.g. here are the COCOMO set (
 
 ![cocomoParems](/_img/cocomoParams.png)
 
+_____
+
 ```python
 _  = None;  Coc2tunings = [[
 #              vlow  low   nom   high  vhigh  xhigh   
@@ -392,6 +394,8 @@ _  = None;  Coc2tunings = [[
 'stor',           _,    _, 1.00, 1.05, 1.17, 1.46],[
 'time',           _,    _, 1.00, 1.11, 1.29, 1.63]]
 ```
+
+____
 
 ```python
 def COCOMO2(project,  a = 2.94, b = 0.91,  # defaults
