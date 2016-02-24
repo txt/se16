@@ -3,86 +3,16 @@
 How much effort does it take to build software? Is
 this an important question? Is this an answerable question?
 
-## The Problem
-
-### Problem1: Uncertainty
-
-We don't know how hard it will be to build software,
-until we build it.
-
-![boehmEstimation](_img/boehmEstimation.png)
-
-Early lifecycle estimates can be wrong:
-
-- by up to a factor of plus or minus a factor of four.
-
-So, what to do?
-
-Note that it is hard to separate the _estimation problem_
-from the _project management_ problem since:
-
-- Once I tell you it will cost $X;
-- Your next question is always "but can you do it any cheaper?".
-
-### Problem2: Better,Faster,Cheaper (pick any two)
-
-Estimation is a multi-goal optimization problem. Project
-_effort_ is connected to project delivery _date_ to
-project _quality_.
-
-So, better, faster, cheaper, pick any two:
-
-- Deliver faster, spend less money? Prepare for more defects.
-- Deliver faster with fewer defects? Stand by to spend lots more
-  (e.g. on hyper-quality programmers).
-- Fewer defects, spend less money? You'll need to reign in
-  scope.
-
-## Solutions
-
-For details on all the following, see below.
-
-Strategies
-
-- _Feature maturity_ :
-  don't estimate software, reward delivery.
-- _Big bang_         :
-  estimate at the start to allocate resources
-- _Spiral_ : project plan includes "stop!
-    its not working!" points
-- _Many bangs_       :
-   continuous small estimation (e.g. local stories,
-   active learning)
-- _Lie_ : invent some nonsense number to make your
-  manager happy
-- _Don't estimate_ : the #noestiamtion camp.
-  But really they do estimate (but more with _many bangs_
-  and not just  _Big Bang_).
-
-Tactics
-
-- _Parametric_ : fit to an pre-guest distribution;
-                 e.g. COCOMO
-- _Analogy_ : new estimates are variations of old
-              (but similar examples)
-- _Planning poker_ : Don't estimate, just rank
-work most to least expensive
-- _Ensemble_ : Multiple estimates, combined (e.g.
-   top-down, bottom-up, bagging, boosting)
-- _Stability studies_ : Do the sample "_N_" times
-  using small variations in the assumptions.   
-
-Technology
-
-- Delphi-based (paper-based, human, manual methods)
-- Algorithm-centric (bring on the data miners)
-
-## Background
-
 According to the extensive systematic review by
-Jorgensen and Shepperd[^jos97], developing new
+Jorgensen and Shepperd[^Js07], developing new
 estimation models is the biggest research topic in
 SEE since 1980s.
+
+
+[^Js07]: M. Jorgensen and M. Shepperd, "A Systematic
+Review of Software Development Cost Estimation
+Studies," IEEE Trans. Software Eng., vol. 33, no. 1,
+pp. 33-53, Jan. 2007.
 
 Over or underestimation of software development
 effort can lead to undesirable results:
@@ -108,6 +38,129 @@ completed.  – June 11 2003, Computer News
 
 ![clsc](_img/clcs.ong)
 
+
+## The Problem
+
+### Problem1: Uncertainty
+
+We don't know how hard it will be to build software,
+until we build it.
+
+![boehmEstimation](_img/boehmEstimation.png)
+
+Early lifecycle estimates can be wrong, by a large factor:
+
+- plus or minus a factor of four.
+- e.g The  ballooning software costs of JPL's Mission Science Laboratory
+recently forced a two-year launch delay.
+
+
+So, what to do?
+
+Note that it is hard to separate the _estimation problem_
+from the _project management_ problem since:
+
+- Once I tell you it will cost $X;
+- Your next question is always "but can you do it any cheaper?".
+
+So the following lecture on _estimation_ is also about _management_.
+
+### Problem2: Better,Faster,Cheaper (pick any two)
+
+Estimation is a multi-goal optimization problem. Project
+_effort_ is connected to project delivery _date_ to
+project _quality_.
+
+So, better, faster, cheaper, pick any two:
+
+- Deliver faster, spend less money? Prepare for more defects.
+- Deliver faster with fewer defects? Stand by to spend lots more
+  (e.g. on hyper-quality programmers).
+- Fewer defects, spend less money? You'll need to reign in
+scope.
+
+## Problem #3: Relucatance to Learn from Experience
+
+Passos et al.:
+
++ many commercial software
+  engineers generalize from their first few projects
+  to all future projects [^Pb13].
+
+Jorgensen & Gruschke:
+
++ commercial estimation
+  “gurus” rarely use lessons from past projects
+  to improve their future estimates [^Jg09].
+
+When engineers fail to revise their beliefs, this
+  leads to poor estimates (see examples
+  in [^Jg09]).
+
+[^Pb13]: Carol Passos, Ana Paula Braun, Daniela
+S. Cruzes, and Manoel Mendonca. Analyzing the impact
+of beliefs in software project practices. In
+ESEM’11, 2011.
+[^Jg09]: M. Jørgensen and
+T.M. Gruschke. The impact of lessons learned
+sessions on effort estimation and uncertainty
+assessments. Software Engineering, IEEE Transactions
+on, 35(3):368 –383, May-June 2009
+
+
+## Solutions
+
+For details on all the following, see below.
+
+Strategies
+
+- _Feature maturity_ :
+  don't estimate software, reward delivery.
+- _Big bang_         :
+  estimate at the start to allocate resources
+- _Spiral_ : project plan includes "stop!
+    its not working!" points
+- _Many bangs_       :
+   continuous small estimation (e.g. local stories,
+   active learning)
+- _Lie_ : invent some nonsense number to make your
+  manager happy
+- _Don't estimate_ : the #noestiamtion camp.
+  But really they do estimate (but more with _many bangs_
+  and not just  _Big Bang_).
+
+Tactics (so many; here's a sample):
+
+- _Parametric_ : fit to an pre-guest distribution;
+                 e.g. COCOMO
+- _Analogy_ : new estimates are variations of old
+              (but similar examples)
+- _Planning poker_ : Don't estimate, just rank
+work most to least expensive
+- _Ensemble_ : Multiple estimates, combined (e.g.
+   top-down, bottom-up, bagging, boosting)
+- _Stability studies_ : Do the sample "_N_" times
+  using small variations in the assumptions.   
+
+Methods
+
+- _Delphi/Expert methods_ :  use human expertise
+(possibly augmented with process guidelines, checklists, and data) to
+generate predictions [^jorh09a]
+        - Good for producing one estimate, not a range of estimates
+- _Algorithmic/Model-based methods_ : build models via data mining or
+		via expert intuition then make use those models to make predictions about new
+projects e.g. data mining
+        - Good for finding the uncertainty in an estimate.		
+		- _Combo_ : both the above.
+
+[^jorh09a]: Jørgensen, Magne, and Stein
+Grimstad. "Software development effort estimation:
+Demystifying and improving expert estimation."
+Simula Research Laboratory-by thinking constantly
+about it (2009): 381-404.
+
+
 ## Strategies
 
 ### Feature Maturity
@@ -128,7 +181,10 @@ completed.  – June 11 2003, Computer News
 ### Big Bang
 
 - Traditional method for large government projects
-  estimate at the start to allocate resources.
+      - estimate at the start to allocate resources.
+      - e.g. NASA needed $3.2 Billion to build the
+	    [Cassini Saturn probe](http://saturn.jpl.nasa.gov/faq/FAQMission/)
+	    (percentage cost of the software is unknown)
 - Needed when development part of very large resource
   allocations (e.g. CLCS)
 - Standard practice is to build two estimates:
@@ -147,9 +203,8 @@ completed.  – June 11 2003, Computer News
 
 ### Spiral
 
-In 1986 [^spiral]
-Barry Boehm proposed a modification to
-the Waterfall model called the
+In 1986 [^spiral] Barry Boehm proposed a
+modification to the Waterfall model called the
 [spiral model](https://www.dimap.ufrn.br/~jair/ES/artigos/SpiralModelBoehm.pdf).
 
 [^spiral]: Boehm B, "A Spiral Model of Software Development and Enhancement", IEEE Computer, IEEE, 21(5):61-72, May 1988
@@ -176,104 +231,68 @@ consultants who are struggling for jobs
 + Since any cancellation may be fatal to their plans.
 
 ### Many bangs
-continuous small estimation
 
-### Don't estimate
-  
-###
-## Three Cultures of Estimation
 
-Leo Breiman,
-[Statistical Modeling: The Two Cultures](https://projecteuclid.org/download/pdf_1/euclid.ss/1009213726),
-Statist. Sci. Volume 16, Issue 3 (2001), 199-231.
-
-Two ways to reach conclusions from data:
-
-1. Data is generated by a given stochastic data model (e.g. a normal distribution);
-          + Traditional statistical view
-          + Effort predicted via (a) assuming a background distribution; (b) fitting
-		    project data to that distribution; Eg COCOMO; Eg Breiman culture1.
-2. The other uses algorithmic models and treats the data mechanism as unknown.
-          + Invasion of the data miners
-          + E.g. Reasoning via analogy (new estimates via finding similar old projects)
-
-And a new view:
-
-The term #NoEstimates is specifically tied to humans
-using their judgment to predict development effort
-for a solution that have not yet fully developed.
-
-1. Make Starting Amount of Money Small; Deliver
++  Make Starting Amount of Money Small; Deliver
    Working Software Often
        + J.B. Rainsberger, the author of jUnit Recipes,
-         points out that his first solo software project was
-         just like this. Rainsberger made no promises up
-         front, offering instead to show working software
+          points out that his first solo software project was
+          just like this. Rainsberger made no promises up
+          front, offering instead to show working software
           every two weeks — and also allowing the client to
           fire him with as little as two weeks' notice.
-2.  Fund a Pilot That Delivers Working Software; Then Use Modeling to Forecast Schedule
++  Fund a Pilot That Delivers Working Software; Then Use Modeling to Forecast Schedule
        + If the effort involved for each piece of work
          averages within some reasonable deviation, the team
           can count the pieces of work accomplished per week
         and predict, in a sense, when the project will be
          done.
-3. Move From Contract Negotiation to Partnership
-       + _Standard way:_ The team promises to deliver something on week 30, and the two groups meet every week or two to show progress and design the next step.
-       + _Another way:_ Establish scope at the outset of a project, but it lets the customer adjust and plan specifics each week. Lets the  customer could steer to a place very different that the original
++  Move From Contract Negotiation to Partnership
+       + Establish scope at the outset of a project, but it lets the customer adjust and plan specifics each week. Lets the  customer could steer to a place very different that the original
 	   goal. The customer gets what it needs in the moment— not what it thought it needed six months ago.
 
-How: According to  Jorgensen~\cite{jorg04},  expert-based  best practices
-include:
+### Don't estimate
+  
+Just work on projects until they don't
+make sense, then change gears.
 
-1. evaluate estimation accuracy, but avoid high evaluation pressure;
-2. avoid conflicting estimation goals;
-3. ask the estimators to justify and criticize their estimates;
-4. avoid irrelevant and unreliable estimation information;
-5.  use documented data from previous development tasks;
-6. find estimation experts with relevant domain background;
-7. estimate top-down and bottom-up, independently of each other;
-8. use estimation checklists;
-9. combine estimates from different experts and estimation strategies;
-10. assess the uncertainty of the estimate;
-11. provide feedback on estimation accuracy; and, 
-12. provide estimation training opportunities.
++ Makes
+long-term predictions challenging;
++ But if you look
+back over your team's last five-year plan, how
+accurate was it, anyway?
 
-Jorgensen also advises that experts continually re-evaluate their estimates
-using feedback from real-world projects~\cite{jorgensen09,jorg11}.
+A tempting for products that charge a
+per-user, per-month fee that are already cash-flow positive.
 
-Effort estimates are often wrong by a factor of
-four~\cite{Boehm1981} or even more~\cite{kemerer87}.
-As a result, the allocated funds may be inadequate
-to develop the required project.  In the worst case,
-over-running projects are canceled and the entire
-development effort is wasted.  For example:
++ I.e. If your organization makes enough money to run
+          itself, and if you view time spent estimating as time not developing, then you might abandon
+		  estimates and just write code. T
 
-+ NASA canceled its incomplete Check-out Launch Control System project after the initial  
- $200M estimate was exceeded by another \$200M~\cite{clcs03}.
-+ The  ballooning software costs of JPL's Mission Science Laboratory  
-recently forced a two-year delay~\cite{jpl2008}.
+Not recommended when:
 
-Methods:
-
-+ _Expert-based methods_ that use human expertise
-(possibly augmented with process guidelines, checklists, and data) to
-generate predictions~\cite{Jorgensen2004,jorg09};
-+  Or 
-  _model-based methods_ can summarize old data with data miners
- that make predictions about new
-projects~\cite{boehm00b,me10d}.  
-
-These methods range in complexity from:
-
-+ Relatively simple automatic  nearest neighbor methods~\cite{Keung2008};
-+ Planning poker (not for exact numbers, but to rank different stories);
-+ To the more intricate tree-learning
-methods used in (e.g.) CART~\cite{Breiman1984};
-+ To even more complex search-based methods that, say, use tabu search
-to set the  parameters of support vector regression~\cite{Corazza2010};
-or very slow genetic algorithms that select the best training data~\cite{Li2009}.
++ In a budget conscious environment
+      + E.g. civil servants as managers mindful they are spending the public's money (not their own)
++ In a cost-cutting environment
+	  + e.g. the bubble has burst and everyone is working on how to get on to the life rafts
++ In a CYA environment
+	  + E.g. your organization out-sources to India and you are required, each year, to select next year's
+      developers based on productivity rates seen this year.
+	  + And if you get it wrong, everyone will know who made that decision.
++ When you are required to audit your cost decisions:
+      + Some government procurement cycles require such an audit
+      + And if you are being sued, then you really want
+        evidence of a defensible estimate back at start of
+        project.
+             + A decision that turns out to be wrong, with the benefit of hindsight, can still
+		       be defensible, if it can be shown that 
+      + Hard to audit or understand an estimate when it does not exist or when it was made using
+	    Delphi-based methods
+	  
 
 ## Planning Poker (from Wikipedia)
+
+![poker](https://upload.wikimedia.org/wikipedia/commons/e/eb/CrispPlanningPokerDeck.jpg)
 
 + Planning poker, also called Scrum poker, is a
   consensus-based, gamified technique for
@@ -285,9 +304,9 @@ or very slow genetic algorithms that select the best training data~\cite{Li2009}
 		+ The cards are revealed, and the estimates are then discussed.
 		+  By hiding the figures in this way, the group can avoid the cognitive bias of anchoring, where the first number spoken aloud sets a precedent for subsequent estimates.
 
-Poorly studied:
+Poorly studied. Only a handful of studies. Rare exception:
 
-+ Only a handful of studies: A study by
++ A study by
   Moløkken-Østvold and Haugen[^agile] found that
   [the] set of control tasks in the same project,
   estimated by individual experts, achieved similar
@@ -302,68 +321,14 @@ Poorly studied:
 [^agile]: K Moløkken-Østvold, NC Haugen (10–13 April 2007). "Combining Estimates with Planning Poker—An Empirical Study". 18th Australian Software Engineering Conference (IEEE): 349–58. doi:10.1109/ASWEC.2007.15.
 [^others]: [Google scholar search of "software effort estimation", since 2012](https://goo.gl/kyjxVH)
 
-4. Employ Stop-and-Start Heuristics
-        + A great deal of portfolio management efforts consist
-of trying to figure out what projects will be done
-in what time, how many contractors or new hires are
-needed to make the timelines line up and that sort
-of work. Matt Barcomb, vice president of product
-development at Taxware, suggests that might be
-overthinking it. According to Barcomb, most IT organizations can
-usually figure out what they should be working on
-right now. If the team can develop rules of thumb,
-or heuristics, around when to stop and when to
-adjust, it doesn't need that kind of heavyweight
-scheduling. Just work on projects until they don't
-make sense, then change gears. This might make
-long-term predictions challenging — but if you look
-back over your team's last five-year plan, how
-accurate was it, anyway?
-5. Drop Estimation From Your Development Process Entirely
-        + John Carmack, CEO of Id Software, is famous for the
-          expression "it's done when it's done," so much so
-          that the phrase appears under Carmack's name on
-          WikiQuote. If your organization makes enough money to run
-          itself, and if you view time spent estimating as time not developing, then you might abandon
-		  estimates and just write code. This approach is extremely tempting for products that charge a
-		  per-user, per-month fee that are already cash-flow positive.
-		  (We used this method for some time when I belonged to the technical staff at Socialtext.)
-        + Don't estimate. Do. Get an income stream on an existing
-          code base, work on multiple extensions, ship the ones that
-          mature.  Change work culture, reward developers that produce
-          shipable products.
 
-[boehm](_img/boehmEstimation.png)
 
-Expert effort estimation  (e.g. planning poker, Delphi panels) are “bad"
 
-+ Passos et al. found many commercial software
-  engineers generalize from their first few projects
-  to all future projects [^Pb13].
-+ Jorgensen & Gruschke found commercial estimation
-  “gurus” that rarely use lessons from past projects
-  to improve their future estimates [^Jg09].
-+ When engineers fail to revise their beliefs, this
-  leads to poor Delphi-based estimates (see examples
-  in [^Jg09]).
-      + Hard to audit expert-based estimates
-      + And some government procurement cycles require such an audit
-+ Hard to understand old expert-based estimates
-+ And if you are being sued, then you really want
-  evidence of a defensible estimate back at start of
-  project.
+## Parametric Analysis
 
-[^Pb13]: Carol Passos, Ana Paula Braun, Daniela
-S. Cruzes, and Manoel Mendonca. Analyzing the impact
-of beliefs in software project practices. In
-ESEM’11, 2011.
-[^Jg09]: M. Jørgensen and
-T.M. Gruschke. The impact of lessons learned
-sessions on effort estimation and uncertainty
-assessments. Software Engineering, IEEE Transactions
-on, 35(3):368 –383, May-June 2009
+Collect data on some pre-defined set of values.
 
-## Example of Parametric Analysis (Culture1)
+E.g. here are the COCOMO set (
 
 + Scale Drivers
       + Precedentedness	 (have we done this before)
@@ -392,6 +357,7 @@ on, 35(3):368 –383, May-June 2009
       + Use of Software Tools	 
       + Multisite Development	 
       + Required Development Schedule
+
 
 [cocomoParems](_img/cocomoParams.png)
 
@@ -460,7 +426,3 @@ References
 ===========
 
 
-[^Js07]: M. Jorgensen and M. Shepperd, "A Systematic
-Review of Software Development Cost Estimation
-Studies," IEEE Trans. Software Eng., vol. 33, no. 1,
-pp. 33-53, Jan. 2007.
