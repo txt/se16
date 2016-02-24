@@ -359,7 +359,7 @@ E.g. here are the COCOMO set (
       + Required Development Schedule
 
 
-[cocomoParems](/_img/cocomoParams.png)
+![cocomoParems](/_img/cocomoParams.png)
 
 ```python
 _  = None;  Coc2tunings = [[
@@ -420,9 +420,4 @@ In a nearest neighbor approach, we search a database of {\em past projects}
 for examples that are nearest the {\em current project}. 
 We then apply the  heuristic that {\em the present is like the past}
 and return the esitmate of the nearest past project.
-
-
-References
-===========
-
 
