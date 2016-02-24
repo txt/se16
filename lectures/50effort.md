@@ -36,7 +36,7 @@ estimated that costs would swell to between $488
 million and $533 million by the time the project was
 completed.  – June 11 2003, Computer News
 
-![clsc](_img/clcs.ong)
+![clsc](/_img/clcs.ong)
 
 
 ## The Problem
@@ -46,7 +46,7 @@ completed.  – June 11 2003, Computer News
 We don't know how hard it will be to build software,
 until we build it.
 
-![boehmEstimation](_img/boehmEstimation.png)
+![boehmEstimation](/_img/boehmEstimation.png)
 
 Early lifecycle estimates can be wrong, by a large factor:
 
@@ -219,7 +219,7 @@ Three important features:
    Projects are canned if we get to the commit point, and
    some critical functionality is still not working.
    
-![spiral](_img/spiral.gif)
+![spiral](/_img/spiral.gif)
 
 Note that Spiral assumes developers want to "spiral"
 which in turn means that projects can be canceled without
@@ -359,7 +359,7 @@ E.g. here are the COCOMO set (
       + Required Development Schedule
 
 
-[cocomoParems](_img/cocomoParams.png)
+[cocomoParems](/_img/cocomoParams.png)
 
 ```python
 _  = None;  Coc2tunings = [[
