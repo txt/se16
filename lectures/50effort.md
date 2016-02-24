@@ -36,7 +36,7 @@ estimated that costs would swell to between $488
 million and $533 million by the time the project was
 completed.  – June 11 2003, Computer News
 
-![clsc](/_img/clcs.png)
+![clsc](/_img/clsc.png)
 
 
 ## The Problem
