@@ -147,12 +147,12 @@ Methods
 - _Delphi/Expert methods_ :  use human expertise
 (possibly augmented with process guidelines, checklists, and data) to
 generate predictions [^jorh09a]
-        - Good for producing one estimate, not a range of estimates
+            - Good for producing one estimate, not a range of estimates
 - _Algorithmic/Model-based methods_ : build models via data mining or
 		via expert intuition then make use those models to make predictions about new
 projects e.g. data mining
-        - Good for finding the uncertainty in an estimate.		
-		- _Combo_ : both the above.
+             - Good for finding the uncertainty in an estimate.		
+		     - _Combo_ : both the above.
 
 [^jorh09a]: Jørgensen, Magne, and Stein
 Grimstad. "Software development effort estimation:
