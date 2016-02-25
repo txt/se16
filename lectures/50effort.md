@@ -328,12 +328,19 @@ Poorly studied. Only a handful of studies. Rare exception:
 
 Collect data on some pre-defined set of values.
 
-E.g. here are the COCOMO set (
+E.g. here are the COCOMO set [^cocomo]. Do not treat them
+as gospel, just illustrative of the range of factors
+that might influence a software project
+
+[^cocomo]: Boehm, Barry W., Ray Madachy, and Bert
+Steece. Software cost estimation with Cocomo II with
+Cdrom. Prentice Hall PTR, 2000.
 
 + Scale Drivers
       + Precedentedness	 (have we done this before)
       + Development Flexibility	
-      + Architecture/Risk Resolution  (anyone looked at module interfaces)
+      + Architecture/Risk Resolution
+	    (anyone looked at module interfaces)
       + Team Cohesion	
 + Process Maturity
       + Product Attributes
@@ -358,10 +365,14 @@ E.g. here are the COCOMO set (
       + Multisite Development	 
       + Required Development Schedule
 
+More details:
 
 ![cocomoParems](/_img/cocomoParams.png)
 
 _____
+
+Usual values:
+
 
 ```python
 _  = None;  Coc2tunings = [[
@@ -397,6 +408,22 @@ _  = None;  Coc2tunings = [[
 
 ____
 
+The COCOMO assumptions:
+
++ Effort exponentially proportional to lines of code.
++ "_a_" and "_b_" are tuning parameters for linear and exponential
+  effects (respectively).
++ "_C_" is the sum of five scale factors 
++ "_D"_ is the product of 18 effort multipliers. For
+nominal projects, these are all "1"
+
+
+The COCOMO equation:
+
+      Effort = a * KLOC<sup>(b + C/100)</sup> * D
+
+Code:
+
 ```python
 def COCOMO2(project,  a = 2.94, b = 0.91,  # defaults
                       tunes= Coc2tunings): # defaults 
@@ -412,8 +439,67 @@ def COCOMO2(project,  a = 2.94, b = 0.91,  # defaults
 	
   return a * ems * project[kloc] ** (b + 0.01*sfs)
 ```	
+
+Many ways to tune _a_ and _b_: e.g. stochastic  chop:
+
+1. Pick middle-range values for _a_,_b_
+    - e.g. a=10
+    - e.g. b=1
+2. Pick large mutation values:
+    - e.g. aDelta = 10
+    - e.g. bDelta = 0.5
+3. Pick an intial "restraining value"
+    - e.g. restrain = 1
+4. Set loop counter to 10
+5. Decrement loop by 1. If now zero, exit
+6. 20 times
+    - Mutate them by plus/minus some mutation* a random number.
+    - Estimate using equation on some hold out set
+	- Set _a,b_ to the best (_a,b_) values (those
+	that lead to least estimation error)
+7. Restrain the mutation
+    size by (say) 66%
+	8. Go to 5
+
+```python
+def COCONUT(training,          # list of projects
+            a=10, b=1,         # initial  (a,b) guess
+            deltaA    = 10,    # range of "a" guesses 
+            deltaB    = 0.5,   # range of "b" guesses
+            depth     = 10     # max recursive calls
+            constricting=0.66):# next time,guess less
+  if depth > 0:
+    useful,a1,b1= GUESSES(training,a,b,deltaA,deltaB)
+    if useful: # only continue if something useful
+      return COCONUT(training, 
+                     a1, b1,  # our new next guess
+                     deltaA * constricting,
+                     deltaB * constricting,
+                     depth - 1)
+  return a,b
+
+def GUESSES(training, a,b, deltaA, deltaB,
+           repeats=20): # number of guesses
+  useful, a1,b1,least,n = False, a,b, 10**32, 0
+  while n < repeats:
+    n += 1
+    aGuess = a1 - deltaA + 2 * deltaA * rand()
+    bGuess = b1 - deltaB + 2 * deltaB * rand()
+    error  = ASSESS(training, aGuess, bGuess)
+    if error < least: # found a new best guess
+      useful,a1,b1,least = True,aGuess,bGuess,error
+  return useful,a1,b1
+
+def ASSESS(training, aGuess, bGuess):
+   error = 0.0
+   for project in training: # find error on training
+     predicted = COCOMO2(project, aGuess, bGuess)
+     actual    = effort(project)
+     error    += abs(predicted - actual) / actual
+   return error / len(training) # mean training error
+```
 	
-	
+
 
 
 
