@@ -81,7 +81,7 @@ So, better, faster, cheaper, pick any two:
 - Fewer defects, spend less money? You'll need to reign in
 scope.
 
-## Problem #3: Relucatance to Learn from Experience
+### Problem #3: Relucatance to Learn from Experience
 
 Passos et al.:
 
@@ -149,11 +149,11 @@ Methods
 - _Delphi/Expert methods_ :  use human expertise
 (possibly augmented with process guidelines, checklists, and data) to
 generate predictions [^jorh09a]
-            (good for producing one estimate, not a range of estimates)'
+      - good for producing one estimate, not a range of estimates)'
 - _Algorithmic/Model-based methods_ : build models via data mining or
 		via expert intuition then make use those models to make predictions about new
-projects e.g. data mining
-             (good for finding the uncertainty in an estimate).		
+		projects e.g. data mining
+      - good for finding the uncertainty in an estimate).		
 - _Combo_ : both the above.
 
 [^jorh09a]: Jørgensen, Magne, and Stein
@@ -237,20 +237,20 @@ consultants who are struggling for jobs
 
 +  Make Starting Amount of Money Small; Deliver
    Working Software Often
-       + J.B. Rainsberger, the author of jUnit Recipes,
+      + J.B. Rainsberger, the author of jUnit Recipes,
           points out that his first solo software project was
           just like this. Rainsberger made no promises up
           front, offering instead to show working software
           every two weeks — and also allowing the client to
           fire him with as little as two weeks' notice.
 +  Fund a Pilot That Delivers Working Software; Then Use Modeling to Forecast Schedule
-       + If the effort involved for each piece of work
+      + If the effort involved for each piece of work
          averages within some reasonable deviation, the team
           can count the pieces of work accomplished per week
         and predict, in a sense, when the project will be
          done.
 +  Move From Contract Negotiation to Partnership
-       + Establish scope at the outset of a project, but it lets the customer adjust and plan specifics each week. Lets the  customer could steer to a place very different that the original
+      + Establish scope at the outset of a project, but it lets the customer adjust and plan specifics each week. Lets the  customer could steer to a place very different that the original
 	   goal. The customer gets what it needs in the moment— not what it thought it needed six months ago.
 
 ### Don't estimate
@@ -292,19 +292,23 @@ Not recommended when:
 	    Delphi-based methods
 	  
 
-## Planning Poker (from Wikipedia)
+
+## Tactics
+
+### Planning Poker (from Wikipedia)
 
 ![poker](https://upload.wikimedia.org/wikipedia/commons/e/eb/CrispPlanningPokerDeck.jpg)
 
 + Planning poker, also called Scrum poker, is a
   consensus-based, gamified technique for
   estimating,
-        + members of the group make estimates by playing numbered cards face-down to the table,
++ Does not estimate, but it ranks 
+      + members of the group make estimates by playing numbered cards face-down to the table,
         instead of speaking them aloud.
-		+ cards were numbered by larger and larger numbers
+	  + cards were numbered by larger and larger numbers
 		   e.g. 0, ½, 1, 2, 3, 5, 8, 13, 20, 40, 100, and optionally a
-		+ The cards are revealed, and the estimates are then discussed.
-		+  By hiding the figures in this way, the group can avoid the cognitive bias of anchoring, where the first number spoken aloud sets a precedent for subsequent estimates.
+	  + The cards are revealed, and the estimates are then discussed.
+	  +  By hiding the figures in this way, the group can avoid the cognitive bias of anchoring, where the first number spoken aloud sets a precedent for subsequent estimates.
 
 Poorly studied. Only a handful of studies. Rare exception:
 
@@ -325,10 +329,9 @@ Poorly studied. Only a handful of studies. Rare exception:
 
 
 
+### Parametric Analysis
 
-## Parametric Analysis
-
-### How to do it
+#### How to do it
 
 Collect data on some pre-defined set of values, map it into
 a pre-defined parametric form.
@@ -336,7 +339,7 @@ a pre-defined parametric form.
 Sounds crazy? Then maybe you want to use case-based
 reasoning (see below).
 
-### The  COCOMO Parametric Form
+#### The  COCOMO Parametric Form
 
 The COCOMO [^cocomo] assumptions:
 
@@ -370,7 +373,7 @@ Note one curious feature in COCOMO
 assumption, give the low cost of modern computers.
 - In decades past, not so much.
 
-### The COCOMO Pre-Define Values
+#### The COCOMO Pre-Define Values
 
 E.g. here are the COCOMO set. Do not treat them
 as gospel, just illustrative of the range of factors
@@ -531,9 +534,9 @@ def ASSESS(training, aGuess, bGuess):
    return error / len(training) # mean training error
 ```
 	
-## Case-Based Reasoning
+### Case-Based Reasoning
 
-### How to do it
+#### How to do it
 
 Is the above too ridiculous for you? Think there are too
 many assumptions? Then you want reasoning by case-based reasoning.
@@ -581,7 +584,7 @@ CBR looks complicated
 
 But actually it very simple.
 
-### Example Effort Data
+#### Example Effort Data
 
 The is the very famous Albrecht[^albrecht] data set.
 
@@ -698,7 +701,7 @@ change in shoe size (that can range from zero to 20)
 will not be lost amongst any changes to the rocket
 speed.
 
-### Results
+#### Results
 
 The following shows _k=1_ results for nearest neighbor on Albrecht
 data. This is a leave-one-out (LOO) experiment; i.e.
