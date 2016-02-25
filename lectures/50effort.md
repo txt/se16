@@ -1,5 +1,7 @@
 # Effort Estimation
 
+[TOC]
+
 How much effort does it take to build software? Is
 this an important question? Is this an answerable question?
 
@@ -147,12 +149,12 @@ Methods
 - _Delphi/Expert methods_ :  use human expertise
 (possibly augmented with process guidelines, checklists, and data) to
 generate predictions [^jorh09a]
-            - Good for producing one estimate, not a range of estimates
+            (good for producing one estimate, not a range of estimates)'
 - _Algorithmic/Model-based methods_ : build models via data mining or
 		via expert intuition then make use those models to make predictions about new
 projects e.g. data mining
-             - Good for finding the uncertainty in an estimate.		
-		     - _Combo_ : both the above.
+             (good for finding the uncertainty in an estimate).		
+- _Combo_ : both the above.
 
 [^jorh09a]: Jørgensen, Magne, and Stein
 Grimstad. "Software development effort estimation:
@@ -175,7 +177,7 @@ about it (2009): 381-404.
   with promotions) if their features make it in.
 - Note: bad idea unless all new features are rigorously screened
         - i.e. the organization has a
-          strong "culture of testing".  
+          strong "culture of testing".
 - e.g. Microsoft.
 
 ### Big Bang
@@ -549,7 +551,7 @@ complex reductive analysis, but on an instantaneous
 survey of past experiences.  To say that another
 way, according to CBR,
 
-+ _humans  don’t think,  they remember._
++ _humans  don't think,  they remember._
 
 [^kol]: Janet Kolodner. 1993. Case-Based
 Reasoning. Morgan Kaufmann Publishers Inc., San
@@ -682,7 +684,7 @@ to
 
 (We add 0.0001 to the demoninator to handle the weird case where min==max.).
 
-Once the data is normalized, then _d(x,y) always
+Once the data is normalized, then _d(x,y)_ always
 returns a number 0..1.  Such normalizing lets us
 compute the distance between different scaled
 numeric features. To see this problem, consider a
@@ -711,10 +713,10 @@ Errors are expressed in terms on the magnitude of relative error
 
      mre = 100 * abs(predicted - actual) / actual
 
-The LOO experiment generates 25 MRE values (one for
+The LOO experiment generates 24 MRE values (one for
 each row). To get a sense of the range of errors, we
 sort all of them and report the 25,50,75th
-percentile in that error (which for a list of 25
+percentile in that error (which for a list of 24
 sorted numbers are the values at 6, 12, and 18).
 
 ```
@@ -855,7 +857,7 @@ This answer is recommended for  users with some level
 of statistical sophistication.
 
 _The planning answer:_ "These are _prediction_ results and that is a different
-task to _planning."
+task to _planning_"
 
 With grad students at NcState, we are working on ways to
 use data like the above to learn what to change. Surprisingly.
@@ -876,6 +878,7 @@ live in the real world."
 
 (Aside: we never actually say this to users, but we might  mutter
 it under our breath in meetings).
+
 Mary Shafer is a retired NASA aerospace research engineer that worked on the SR-71 and the X-15.
 She accepts risks as the price of exploration:
 
@@ -909,3 +912,5 @@ In practice, inductive engineers need
 to know that some users are just not
 ready for the truth about the inherent uncertainties in their environment. For such
 users, we advise  patience and gentle tutoring.
+
+## References
