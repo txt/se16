@@ -414,7 +414,7 @@ The COCOMO assumptions:
 + "_a_" and "_b_" are tuning parameters for linear and exponential
   effects (respectively).
 + "_C_" is the sum of five scale factors 
-+ "_D"_ is the product of 18 effort multipliers. For
++ "_D"_ is the product of 17 effort multipliers. For
 nominal projects, these are all "1"
 
 
