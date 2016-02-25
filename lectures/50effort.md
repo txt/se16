@@ -133,7 +133,7 @@ Tactics (so many; here's a sample):
 
 - _Parametric_ : fit to an pre-guest distribution;
                  e.g. COCOMO
-- _Analogy_ : new estimates are variations of old
+- _Case-Based Reasoning_ : new estimates are variations of old
               (but similar examples)
 - _Planning poker_ : Don't estimate, just rank
 work most to least expensive
@@ -326,9 +326,51 @@ Poorly studied. Only a handful of studies. Rare exception:
 
 ## Parametric Analysis
 
-Collect data on some pre-defined set of values.
+### How to do it
 
-E.g. here are the COCOMO set [^cocomo]. Do not treat them
+Collect data on some pre-defined set of values, map it into
+a pre-defined parametric form.
+
+Sounds crazy? Then maybe you want to use case-based
+reasoning (see below).
+
+### The  COCOMO Parametric Form
+
+The COCOMO [^cocomo] assumptions:
+
++ Effort exponentially proportional to lines of code.
++ "_a_" and "_b_" are tuning parameters for linear and exponential
+  effects (respectively).
++ "_C_" is the sum of five scale factors 
++ "_D"_ is the product of 17 effort multipliers. For
+nominal projects, these are all "1"
+
+The COCOMO parametric form:
+
+_Effort = a * KLOC<sup>(b + C/100)</sup> * D_
+
+
+To understand this:
+
++ _Time_ counts calendar months from start to
+  finish. Boehm states that one month of work is 152
+  hours (and this includes development and management
+  tasks).
++ _Effort_ is the total number of person hours on
+  that task; e.g.  12 developers working for 1,000
+  hours of elapsed _time_ require 12,000 hours of
+  _effort_.
+
+Note one curious feature in COCOMO
+
+- Development costs do not include hardware costs.
+- In 2016, this is a reasonable
+assumption, give the low cost of modern computers.
+- In decades past, not so much.
+
+### The COCOMO Pre-Define Values
+
+E.g. here are the COCOMO set. Do not treat them
 as gospel, just illustrative of the range of factors
 that might influence a software project
 
@@ -408,19 +450,7 @@ _  = None;  Coc2tunings = [[
 
 ____
 
-The COCOMO assumptions:
 
-+ Effort exponentially proportional to lines of code.
-+ "_a_" and "_b_" are tuning parameters for linear and exponential
-  effects (respectively).
-+ "_C_" is the sum of five scale factors 
-+ "_D"_ is the product of 17 effort multipliers. For
-nominal projects, these are all "1"
-
-
-The COCOMO equation:
-
-      Effort = a * KLOC<sup>(b + C/100)</sup> * D
 
 Code:
 
@@ -499,15 +529,383 @@ def ASSESS(training, aGuess, bGuess):
    return error / len(training) # mean training error
 ```
 	
+## Case-Based Reasoning
+
+### How to do it
+
+Is the above too ridiculous for you? Think there are too
+many assumptions? Then you want reasoning by case-based reasoning.
+
+(Which, incidently, lets us talk some about data mining.)
+
+CBR seeks to emulate human recollection and adaptation
+of past experiences in order to find solutions to current
+problems. 
+
+CBR was first motivated by appeals to human
+cognition. According to Kolodner [^kol] and Shank
+[^shank77], humans do not base their decisions on
+complex reductive analysis, but on an instantaneous
+survey of past experiences.  To say that another
+way, according to CBR,
+
++ _humans  don’t think,  they remember._
+
+[^kol]: Janet Kolodner. 1993. Case-Based
+Reasoning. Morgan Kaufmann Publishers Inc., San
+Francisco, CA, USA.
+
+[^shank77]: Schank, Roger C., and Robert
+P. Abelson. Scripts, plans, goals, and
+understanding: An inquiry into human knowledge
+structures. Psychology Press, 2013.
+
+CBR has several advantages.  Firstly, when the cache
+of past cases is updated and appended with
+additional cases, then a CBR system is instantly
+updated to the latest findings.
+
+Secondly, the output of a CBR is made on a
+``case-by-case'' basis.  That is, CBR does not offer
+some trite generalization over multiple
+examples. Rather, the advice it gives is specialized
+to the particular case being considered at the
+current time.
+
+CBR looks complicated
 
 
+![cbr](http://image.slidesharecdn.com/cbrpemilihankegiatanorganisasiarifrohmadi372322-151207050336-lva1-app6892/95/casebased-reasoning-untuk-pemilihan-kegiatan-organisasi-mahasiswa-4-638.jpg?cb=1449464785)
+
+But actually it very simple.
+
+### Example Effort Data
+
+The is the very famous Albrecht[^albrecht] data set.
+
+[^albrecht]: A. Albrecht and J. Gaffney, "Software
+Function, Source Lines of Code, and Development
+Effort Prediction: A Software Science Validation",
+IEEE Transactions on Software Engineering
+9(6):639-648.
 
 
-## Example of analytics (Culure2)
+The right hand column is the _dependent variable_
+that shows many 1000s of hours it took to build
+software.
+
+Left-hand-side columns are the _independent variables_.
+This data relates to the _function points_
+of software systems written in the late 1970s, usually in COBOL or PL/1.
+A function point is a unit of business functionality in
+an information system. For example, the first project in
+the following data uses:
+
+- 25 inputs to the software from other projects;
+- 28 outputs to external software;
+- And passes or shares 15 master files to other projects.
+
+Function points are useful in size estimation
+for business applications (but we caution that their
+value in scientific, real-time, and similar
+algorithm-based applications is debatable).  On
+completion, that first project was 15,000 lines of
+code and took 3,600 hours to complete.  This
+includes analysis, design, coding, testing, and
+documentation.
 
 
-In a nearest neighbor approach, we search a database of {\em past projects}
-for examples that are nearest the {\em current project}. 
-We then apply the  heuristic that {\em the present is like the past}
-and return the esitmate of the nearest past project.
+```
+ $Inputs, $Outputs, $Files, $Queries, $KLOC, $fpoints, $!Khours
+      25,       28,     22,        4,    15,      500,      3.6
+      70,       27,     12,        ?,    20,      428,     11.1
+      69,      112,     39,       21,   110,     1572,     61.2
+      61,       68,     11,        ?,    24,      694,     11.8
+      28,       38,      9,       24,    96,      512,     15.8
+      28,       41,     11,       16,    24,      417,      7.5
+      41,       27,      5,       29,    57,      512,     10.8
+      13,       19,     23,        ?,    28,      283,       10
+      48,       66,     50,       13,    94,     1235,     38.1
+      42,       57,      5,       12,    40,      606,     18.3
+      34,       14,      5,        ?,    35,      205,        8
+      25,      150,     60,       75,   130,     1750,    102.4
+       7,       12,      8,       13,    40,      209,      4.1
+      15,       15,      3,        6,     3,      199,      0.5
+     193,       98,     36,       70,   318,     1902,    105.2
+      40,       60,     12,       20,    54,      759,     21.1
+      33,       17,      5,        8,    22,      224,      2.9
+      45,       64,     16,       14,    48,      680,     12.9
+      27,       20,      6,       24,    52,      400,      8.9
+      17,       17,      5,       15,    30,      289,      4.9
+      40,       60,     15,       20,    93,      794,       19
+      10,       69,      9,        1,    62,      431,     28.8
+      12,       15,     15,        ?,    29,      260,      6.1
+      43,       40,     35,       20,    42,      682,       12
+```
 
+Our goal is to learn what independent variables predict for
+what value of the dependent variable. That is:
+
+- Given the above rows, and a new row (without an _khours_ measure),
+how would we guess the development time?
+
+To do this, using a distance function, we report the average
+development times of the the "_k_" nearest things in the table.
+
++  k=1,3,5 are normal values
++ We will use k=1
+
+This assumes that projects that are similar with
+respect to the independent variables will be similar
+with respect to their depdendent variables.
+
+(Aside, do you buy that assumption?)
+
+The standard distance function comes from David Aha, 1991[^aha]
+and it uses a Euclidean measure. Given to rows X and Y
+then the distance between the "_N_"  _independent variables_ is
+
+     d(x,y) = sqrt(sum( (x<sub>i - y<sub>i)<sup>2</sup )) / sqrt(N)
+
+[^aha]: D.Aha, D. Kibler, and M. Albert, 1991,
+"Instance-Based Learning Algorithm", Machine
+Learning} 6:37-66.
+
+(Aside: why only do distance on the _independent variables_?)
+
+Standard practice is to normalize all the values in each
+column 0..1, min..max. For example, in _Inputs_, the min,max values
+are 7, 192. So the first's column last value (43) gets normalized
+to
+
+    norm(43) = (43 - 7) / (192 - 17 + 0.0001 ) = 0.206
+
+(We add 0.0001 to the demoninator to handle the weird case where min==max.).
+
+Once the data is normalized, then _d(x,y) always
+returns a number 0..1.  Such normalizing lets us
+compute the distance between different scaled
+numeric features. To see this problem, consider a
+database which lists rocket speeds and astronaut
+shoe sizes.  Even if an astronaut shoe size
+increases by 50% from 8 to 12. That difference would
+be lost when compared to rocket speeds (that can
+range from zero to 41*10<sup>6</sup> meters per second). If
+we normalize all numerics zero to one, then a 100%
+change in shoe size (that can range from zero to 20)
+will not be lost amongst any changes to the rocket
+speed.
+
+### Results
+
+The following shows _k=1_ results for nearest neighbor on Albrecht
+data. This is a leave-one-out (LOO) experiment; i.e.
+
+- For all rows,
+- Test = the ith row
+- Train = all other rows
+- Reflect over the Train set to guesstimate a value for the Test
+
+Errors are expressed in terms on the magnitude of relative error
+
+
+     mre = 100 * abs(predicted - actual) / actual
+
+The LOO experiment generates 25 MRE values (one for
+each row). To get a sense of the range of errors, we
+sort all of them and report the 25,50,75th
+percentile in that error (which for a list of 25
+sorted numbers are the values at 6, 12, and 18).
+
+```
+            percent MRE
+           -------------------
+           25th   50th   75th
+albrecht   16     39      61
+```
+
+(Aside: why do we report a distribution and not just the mean value?)
+
+That was so much fun: let's  do it for more data.
+The site http://openscience.us/repo/effort
+contains numerous effort estimation data sets. After rewriting five of those data sets
+in the format of the above figure,
+we re-ran the above code, and sorted the results by the median error.
+4.95 seconds later, we saw the following:
+
+```
+            percent MRE
+			-------------------
+			 25th   50th   75th
+     china   15     33     55
+  albrecht   16     39     61
+desharnais   22     39     65
+    nasa93   15     39     83
+     coc81   34     76    171
+
+```
+These results seems simple enough, but they offer many insightful lessons.
+
+
+### Lesson1. Size does not matter
+
+
+I'm are often asked "how much data do we need before
+we can learn good models?".  The answer is that we
+have no answer. There is no magic number, no central
+limit theorem for inductive engineering that
+promises that (say) 100 examples are enough.
+
+To see this, consider the following table showing
+the rows and columns of the data used in
+the above results. Notice anything strange about
+these numbers?
+
+```
+  dataset    rows  colums
+1 albrecht    24    7 
+2 coc81       63   19
+3 desharnais  81   12
+4 nasa93      93   24
+5 china      499   19
+```
+
+The error rate is not correlated to size.
+
++ The two data sets with the lowest errors
+are _china and _albrecht_.
++ Yet _china_ and _albrecht_  are the smallest and largest data sets in our sample.
+
+ To see
+why this may be so,
+consider  two data sets:
+
++ Data2 contains with two rows: a perfect example of sad person and
+a perfect example of a happy person.
++ Data1000 contains 1,000 rows where the all the values are filled in at random.
+
+Our nearest neighbor algorithm will always correctly
+identify happy or sad people from Data2. The same
+algorithm will rarely, if ever, get anything right
+from Data1000}.
+
+The lesson here is that the success of data mining
+is not tied to the _size_.  Rather, it is linked to
+the _structure_ within the data.
+
+### Lesson2: The Middle Does Not Matter Much
+
+t can be very misleading
+to just report  the middle value of the results generated by a data miner.
+
+To see this, consider the large range performance
+values seen above. All the errors show a large
+variation around the median value. For example,
+observe the huge middle fifty range for coc81 (34%
+to 171%)
+
+The lesson here is that data mining results are not point solutions. Rather, they
+are distributions with (potentially) very large variability. When reporting
+results to users, it is therefore necessary to report not just the central
+tendancy of some results but also the variation around that central point. For example, our software effort estimation colleagues report their estimates
+as the 50th to 75th percentile range.
+
+
+### Lesson3: The Real World is a Mess, Get Used to It.
+
+
+Some degree of uncertainty
+is inherent in the analysis of real world data.
+Some users can handle that, but others are quite shocked by distributions like the above.
+
+We have
+spent years struggling to reduce the large performance ranges in
+these data sets. For
+the cognoscenti, we note that we explored the following technologies:
+feature selection, hundreds of different learners, and outlier removal.
+Very recently, we have seen that ensemble learning or
+spectral clustering might be useful- but those results are so bleeding edge
+that we hesitate to include them here.
+
+Long story short: while not all data has performance ranges as large
+as those seen in above,
+such ranges
+are inherent in real-world data.
+
+Some users are shocked at such large uncertainties.
+"How can we make plans about our projects," they complain,
+"when the uncertainty
+in the estimates is so large?". For these users, we have several answers:
+
+
+_The diplomatic answer:_
+"Our predictions are only as good as the data. As data matures,
+we can make better predictions."
+
+This answer imparts a sense
+of partnership  of the data mining task to the users.
+In a nutshell, it is saying "Us inductive engineers done the best we can with the data you gave us. With
+your help and better data we can do better".
+
+_The statistical answer:_
+"These predictions come from a sampling process
+and, hence, these conclusions are a distribution rather than a single point."
+
+This answer is recommended for  users with some level
+of statistical sophistication.
+
+_The planning answer:_ "These are _prediction_ results and that is a different
+task to _planning."
+
+With grad students at NcState, we are working on ways to
+use data like the above to learn what to change. Surprisingly.
+when applied to data like the above, the variance in the plan
+predictions are much less than prediction.
+
+
+_The organizational answer:_
+"Contingency planning is a common feature in many  organizations."
+That is,
+ now that
+the space of possibilities has been defined, the users can take considered steps
+on how to handle those possibilities.
+
+(My favorite:) _The [Mary Shafer](http://yarchive.net/air/perfect_safety.html) answer:_
+"Insisting on (certainty) is for people who don't have the balls to
+live in the real world."
+
+(Aside: we never actually say this to users, but we might  mutter
+it under our breath in meetings).
+Mary Shafer is a retired NASA aerospace research engineer that worked on the SR-71 and the X-15.
+She accepts risks as the price of exploration:
+
++  No matter what you do, it will never be perfectly, 100% risk-free
+   to fly.  Or to drive, or to walk, or to do anything.
+   One of our pilots here died when he waited too long to eject from a
+   spinning aircraft.  He was wrong; he should have jumped out earlier.
+   He failed in his duty, IMO.
+   One of our engineers was walking his dog when a car driven by a kid
+   jumped the curb and hit him.  Only his leg was broken.  But he walks
+   his dog again, now.  Who know better than him the danger?
+   There's no way to make life perfectly safe; you can't get out of it alive.
+
+In Shafer's work,  risks and uncertainty are factors to enumerate
+and explore.
+She distinguishes between a careless disregard for risk
+and managed risk:
+
++ I have asked myself ``Have I told everybody exactly what we're
+   going to do and what the known risks are and are we agreed that
+   these risks are acceptable''. When I can answer that "yes" I (will accept the risk).
+
+The lesson here is that, like the organizational answer shown above,
+ uncertainty is a factor that must be understood before it can be managed.
+
++ Large performance ranges  should  not be shunned or ignore.
++ Ideally,  they need to be exposed
+and discussed at the highest level of management.
+
+In practice, inductive engineers need
+to know that some users are just not
+ready for the truth about the inherent uncertainties in their environment. For such
+users, we advise  patience and gentle tutoring.
