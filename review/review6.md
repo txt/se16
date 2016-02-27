@@ -7,9 +7,7 @@
 4. How does Proxy handle DRY (Don't Repeat Yourself)?
 5. What is the Singleton design pattern? Give an example of the Singleton pattern and explain it's components.
 6. What are the underlying design pattern(s) common in the following browsing systems? Explain.
-
     <left><img src="/_img/chbrowser.png" width=300></left><right><img src="/_img/filebrowser.png" width=300></right>
-
 7. What is DRY? What problem is anti-DRY in layered architechture?
 8. What is the Visitor pattern? Give an example of the Visitor pattern and explain it's components.
 9. How can polymorphism solve the problem of OO abuse bad smell in switch statements?
