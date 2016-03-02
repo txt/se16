@@ -49,19 +49,19 @@ Consider the following design where every data point is stuffed into one matrix.
 ## ELM and JavaScript
 Consider the following functionality in Javascript, which gets the mouse cursor position upon the cursor move:
  
-   ```javascript
-   $(document).bind('mousemove', function(event) {
-       position = {'x' : event.pageX, 'y': event.pageY};
-   });
-   ```
+```javascript
+$(document).bind('mousemove', function(event) {
+    position = {'x' : event.pageX, 'y': event.pageY};
+});
+```
  
 Now, here is the similar functionality in ELM:
  
-   ```ELM
-   import Mouse
-   main = lift asText Mouse.position
-   ```
+```ELM
+import Mouse
+main = lift asText Mouse.position
+```
  
-  1. How are the different functions retrieving the mouse positions?
-  2. What architecture the `lift` construct in the ELM program is utilizing for this functionality? Explain.
+ 1. How are the different functions retrieving the mouse positions?
+ 2. What architecture the `lift` construct in the ELM program is utilizing for this functionality? Explain.
 
