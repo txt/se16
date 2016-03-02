@@ -46,3 +46,20 @@ Consider the following design where every data point is stuffed into one matrix.
 2. What is delete anomaly? Show how the above design suffers from it. How can SQL solve it.
 3. What is update anomaly? Show how the above design suffers from it. How can SQL solve it.
 
+## ELM and JavaScript
+1. Consider the following functionality in Javascript, which gets the mouse cursor position upon the cursor move:
+ ```
+ $(document).bind('mousemove', function(event) {
+     position = {'x' : event.pageX, 'y': event.pageY};
+ });
+ ```
+ 
+ Now, here is the similar functionality in ELM:
+ ```
+ import Mouse
+ main = lift asText Mouse.position
+ ```
+ 
+  - How are the different functions retrieving the mouse positions?
+  - What architecture the `lift` construct in the ELM program is utilizing for this functionality?
+
