@@ -1,6 +1,6 @@
 # Review1: Week of Jan 14
 
-## Theory
+## Software Process Models
 
 1. What is the Waterfall model?
 2. What are the properties of the Waterfall model?
