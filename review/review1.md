@@ -11,9 +11,10 @@
 7. What are the parts of a 3-tier architechture? Given the middle part (model) as N, how much lines of code is the total?
 8. What is dialog independence?
 9. What is data independence? Name a tool that supports data independence.
-10. What is Booke's law? What are Brooke's rules of thumb?
+10. What is Brook's law? 
 11. Explain why adding more people to a late project does not help.
-12. What is Royce's critique of the Waterfall model? What is his preferre solution?
+11. What are Brook's rules of thumb for software development costs?
+12. What is Royce's critique of the Waterfall model? What is his preferred solution?
 13. List and define three common practices of Agile/XP? [(Hint)](http://www.extremeprogramming.org/rules.html)
 14. What are the advantages of Agile method over other processes?
 15. What are the shortcomings of Agile method?
