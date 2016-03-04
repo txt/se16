@@ -29,7 +29,16 @@ paste in a _shortened_ [^shorter] url to a README.md file with _labeled_ links t
 2. Your repo's milestone pages.
 3. Your repo's
    [contributor's page](https://github.com/opensciences/opensciences.github.io/graphs/contributors).
-4. A pdf version of your report, making a principled case that one of
+4. A code directory with clearly labeled files and/or
+  directories showing
+      + Some common _base_
+      + Code for three different solutions.
+5. [From the presentation sign-up page](https://goo.gl/m8j438)
+  grab a slot to present your material. Your groups' talk will be 20 minutes long
+  (including question time). Your talk should overview and introduce your project
+  then try to convince the audience, using evidence that you collected, that
+  one of your methods is better than the other. 
+6. A pdf version of your report, making a principled case that one of
    your three methods is better than one of the others. This report should:
       + Be laid out in the same way as the January report.
       + Be five to ten pages long (no longer).
@@ -39,16 +48,7 @@ paste in a _shortened_ [^shorter] url to a README.md file with _labeled_ links t
       + Using informative graphics, report the results. Note that such infographics should tell
         a clear and succinct story (so not graphics for graphics sake). And all figures
         should be discussed in the text (so no orphan figures).
-5. [From the presentation sign-up page](https://goo.gl/m8j438)
-grab a slot to present your material. Your groups' talk will be 20 minutes long
-(including question time). Your talk should overview and introduce your project
-then try to convince the audience, using evidence that you collected, that
-one of your methods is better than the other. 
-6. A code directory with clearly labeled files and/or
-  directories showing
-      + Some common _base_
-      + Code for three different solutions.
-
+        
 ## Grading
 
 + Presentation: 10 marks.
