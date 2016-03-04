@@ -23,12 +23,13 @@ _GIRLBOT
 ## What to Hand in
 
 To our [submission spreadsheet](https://goo.gl/kOunui)
-paste in a _shortened_ [^shorter] url to a README.md file with _labeled_ links to:
+paste in a _shortened_  url to a README.md file with _labeled_ links to:
 
 1. Your repo's issues pages.
 2. Your repo's milestone pages.
 3. Your repo's
-   [contributor's page](https://github.com/opensciences/opensciences.github.io/graphs/contributors).
+[contributor's page](https://github.com/opensciences/opensciences.github.io/graphs/contributors).
+4. Your group signed into one of the [presentation slots](https://goo.gl/qO2Jcp).
 4. A code directory with clearly labeled files and/or
   directories showing
       + Some common _base_
