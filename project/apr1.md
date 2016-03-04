@@ -29,16 +29,19 @@ paste in a _shortened_  url to a README.md file with _labeled_ links to:
 2. Your repo's milestone pages.
 3. Your repo's
 [contributor's page](https://github.com/opensciences/opensciences.github.io/graphs/contributors).
-4. Your group signed into one of the [presentation slots](https://goo.gl/qO2Jcp).
 4. A code directory with clearly labeled files and/or
   directories showing
       + Some common _base_
       + Code for three different solutions.
-5. [From the presentation sign-up page](https://goo.gl/m8j438)
-  grab a slot to present your material. Your groups' talk will be 20 minutes long
-  (including question time). Your talk should overview and introduce your project
-  then try to convince the audience, using evidence that you collected, that
-  one of your methods is better than the other. 
+5. A pdf version of your slides
+      + Note that this is a placeholder. You may update your slides at any time
+      between April1 and your presentation time (bit NOT after)
+	  + To find your presentation time, fill in one of the [empty slots on this sheett](https://docs.google.com/spreadsheets/d/1SXVedXWhhpPkiVyrPAni-wF-B9hIr5xiYwsTCLMN58Q/edit?usp=sharing).
+      + Your groups' talk will be 20 minutes long
+	   (including question time).
+      + Your talk should overview and introduce your project
+        then try to convince the audience, using evidence that you collected, that
+        one of your methods is better than the other. 
 6. A pdf version of your report, making a principled case that one of
    your three methods is better than one of the others. This report should:
       + Be laid out in the same way as the January report.
