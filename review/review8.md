@@ -37,12 +37,14 @@
 3. An analyst offers a single MRE as the estimate of an error a project. What are the drawbacks with that single number?
 4. What are ways to generate expected ranges of estimates.
 5. From the following dataset, guesstimate the unknown value of Khours for the last data row with all the independent values given using 1 nearest neighbor. Assume that the new project does multisite development, use some, but not lots, of software tools, the product is very complex. Show all of your work.
-    
+        
+        |-------------------|-----------------------|-------------|--------------------|---------|
         | analystCapability |  multiSiteDevelopment |  useOfTools |  productComplexity |  khours | 
         |-------------------|-----------------------|-------------|--------------------|---------| 
         | 5                 | 1                     | 5           | 1                  | 100     | 
         | 1                 | 5                     | 5           | 5                  | 800     | 
-        | 3                 | 3                     | 3           | 3                  | 500     | 
+        | 3                 | 3                     | 3           | 3                  | 500     |
+        |-------------------|-----------------------|-------------|--------------------|---------|
         
  
 
