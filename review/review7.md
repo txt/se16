@@ -18,7 +18,7 @@
 3. There are many ways to create a closure. Describe one of those ways.
 4. In the following code snippet, the last line of output is wrong. What should it generate (easy)? Explain exactly why it generates that output (harder)?
 
-    ```javascript
+    ```
     var counter = (function() {
     
         var privateCounter = 0;
