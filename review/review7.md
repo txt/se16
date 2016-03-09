@@ -54,7 +54,6 @@ counter.decrement();
 
 console.log(counter.value()); // logs 2
 ```
-    
 5. What features of object-oriented programming are demonstrated by the above example? What features of OO programming are missing from the above?
 
 
