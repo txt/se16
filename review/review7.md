@@ -17,6 +17,7 @@
 2. How can closures be applied? Give an example and explain.
 3. There are many ways to create a closure. Describe one of those ways.
 4. In the following code snippet, the last line of output is wrong. What should it generate (easy)? Explain exactly why it generates that output (harder)?
+
     ```javascript
     var counter = (function() {
 
@@ -53,6 +54,7 @@
     
     console.log(counter.value()); // logs 2
     ```
+    
 5. What features of object-oriented programming are demonstrated by the above example? What features of OO programming are missing from the above?
 
 
