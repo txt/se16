@@ -34,7 +34,7 @@ Its just a notation, not  a magic way to clarify design discussions
 
 ![eg](http://agilemodeling.com/images/models/classDiagramSketch.JPG)
 
-![samples](/_img/uml.pdf)
+![samples](../_img/uml.pdf)
 
 - "There's also a danger when people believe that
   UML is a formal enough notation that they can
