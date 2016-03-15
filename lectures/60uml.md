@@ -34,7 +34,7 @@ Its just a notation, not  a magic way to clarify design discussions
 
 ![eg](http://agilemodeling.com/images/models/classDiagramSketch.JPG)
 
-![samples](../_img/uml.pdf)
+<a href="http://se16.unbox.org/_img/uml.pdf">Details</a>
 
 - "There's also a danger when people believe that
   UML is a formal enough notation that they can
@@ -66,7 +66,7 @@ Consider not writing classes:
 
 <iframe width="420" height="315" src="https://www.youtube.com/embed/o9pEzgHorH0" frameborder="0" allowfullscreen></iframe>
 
-## Alternative:
+## Alternative
 
 Don't write How, write What.
 
