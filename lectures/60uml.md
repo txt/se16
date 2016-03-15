@@ -12,7 +12,7 @@ CRC cards
 
 <img width=500 src="http://www.inf.ed.ac.uk/teaching/courses/inf1/op/Tutorials/2008/blank-crc.png">
 
-<img width=500 src="http://www.inf.ed.ac.uk/teaching/courses/inf1/op/Tutorials/2008/blank-crc.png">
+<img width=500 src="http://www.c-jump.com/CIT73/Week09/images/crc_card3.png">
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/5IpsMwxL37k" frameborder="0" allowfullscreen></iframe>
 
