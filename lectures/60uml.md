@@ -17,8 +17,6 @@ CRC cards
 <iframe width="560" height="315" src="https://www.youtube.com/embed/5IpsMwxL37k" frameborder="0" allowfullscreen></iframe>
 
 
-<img width=500 src="http://www.inf.ed.ac.uk/teaching/courses/inf1/op/Tutorials/2008/blank-crc.png">
-
 
 # Ultra-heavyweight Notation: Unified Modeling Language
 
@@ -32,11 +30,11 @@ Its just a notation, not  a magic way to clarify design discussions
 
 - In fact, it can be harmful since it allows you encode _one_ model and not multiple possible version
 
-<a href="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/OO_Modeling_languages_history.jpg/1024px-OO_Modeling_languages_history.jpg"><img width=500 src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/OO_Modeling_languages_history.jpg/1024px-OO_Modeling_languages_history.jpg"></a>
+<a href="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/OO_Modeling_languages_history.jpg/1024px-OO_Modeling_languages_history.jpg"><img width=600 src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/OO_Modeling_languages_history.jpg/1024px-OO_Modeling_languages_history.jpg"></a>
 
-[eg](http://agilemodeling.com/images/models/classDiagramSketch.JPG)
+![eg](http://agilemodeling.com/images/models/classDiagramSketch.JPG)
 
-[samples](_img/uml.pdf)
+![samples](/_img/uml.pdf)
 
 - "There's also a danger when people believe that
   UML is a formal enough notation that they can
