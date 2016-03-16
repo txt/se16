@@ -34,8 +34,15 @@ And how many do they actually need:
   N can be very very small:
 
 
-![eg](http://se16.unbox.org/_img/pl5.png)
+![eg](http://se16.unbox.org/_img/pl6.png)
 
+Lessons:
+
+1. Possible to reason from very lightweight descriptions (so do not waste time on needless
+elaborations)
+2. Within a system of N variables there are a small number  _M &ll; N_ variables that
+actually matter.
+3. So model a little, run a little, focus on the variables that actually matter.
 
 ## How Not To Document
 
