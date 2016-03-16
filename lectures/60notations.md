@@ -22,7 +22,7 @@ ______
 
 One of the most cited papers in computer science:
 
-+  David Harel, Statecharts: [A visual formalism for complex systems0(http://www.wisdom.weizmann.ac.il/~dharel/SCANNED.PAPERS/Statecharts.pdf). Science of Computer Programming, 8(3):231–274, June 1987.
++  David Harel, Statecharts: [A visual formalism for complex systems0](http://www.wisdom.weizmann.ac.il/~dharel/SCANNED.PAPERS/Statecharts.pdf). Science of Computer Programming, 8(3):231-274, June 1987.
 + 8625 citations (!!!)
 
 Notation:
