@@ -3,7 +3,7 @@
 
 <img align=right src="http://skreened.com/render-product/g/a/i/gaidmmslucnfakiwiklu/image.skreened-t-shirt.white.w460h520b3z1.jpg">
 
-[[TOC]]
+[TOC]
 
 Warning: the following lecture does NOT reflect the widespread consensus of folks in SE
 community.
@@ -14,6 +14,8 @@ a HATE rave against excessive  of modeling in SE.
 + Just to be clear, I LOVE models, just not the crazed obsessive way they are needlessly elaborated in SE.
 
 Oh, and since you ask, now that this is written, I feel much better.
+
+______
 
 ## _model-itis_
 
