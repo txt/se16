@@ -2,11 +2,26 @@
 
 ## How Not To Document
 
+## Use Test Cases
+
 Don't write in words, write in test cases.
 
+## Use Config Options
 
-## Ultra lightweight Notation
+When mashing up N tools, drive things via the config files of those tools.
 
+![eg](http://se16.unbox.org/_img/fm1.png)
+
+![eg](http://se16.unbox.org/_img/fm2.png)
+
+
+### Ultra-lightweight
+
+
+
+
+
+### Ulta-lightweight OO
 
 CRC cards
 
