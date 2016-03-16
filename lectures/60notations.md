@@ -94,6 +94,7 @@ BUT:
 + Cannot be used when interfacing to another black-box system you know nothing about
 + Irrelevant for the mash-up world (no knowledge of internals)
 
+_________
 
 ## _model-itis_
 
@@ -150,6 +151,8 @@ elaborations)
 actually matter.
 3. So model a little, run a little, focus on the variables that actually matter.
 
+__________
+
 ## Lightweight modeling Options
 
 ### Use Test Cases
@@ -204,10 +207,6 @@ Its just a notation, not  a magic way to clarify design discussions
 
 Best to understand UML as "notation envy" from ER.
 
-Also, beware of class-itis (excessive generation of classes)
-
-
-<iframe width="420" height="315" src="https://www.youtube.com/embed/o9pEzgHorH0" frameborder="0" allowfullscreen></iframe>
 
 
 ### UML Details
@@ -216,9 +215,11 @@ Also, beware of class-itis (excessive generation of classes)
 
 ![eg](http://agilemodeling.com/images/models/classDiagramSketch.JPG)
 
-### UNL Critique
 
 <a href="http://se16.unbox.org/_img/uml.pdf">Details</a>
+
+### UML Critique
+
 
 - "There's also a danger when people believe that
   UML is a formal enough notation that they can
@@ -245,11 +246,10 @@ If you must use UML...
 
 + Don't add gets/setters to class methods
 + If there is a relationship classX to classY, don't add relationship variables to X,Y. Instead connect them with a line and lable if with a line.
++ Also, consider writing fewer classes:
 
-Consider not writing classes:
 
-### Ultra-lightweight
-
+<iframe width="420" height="315" src="https://www.youtube.com/embed/o9pEzgHorH0" frameborder="0" allowfullscreen></iframe>
 
 
 
@@ -264,7 +264,7 @@ CRC cards
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/5IpsMwxL37k" frameborder="0" allowfullscreen></iframe>
 
-
+_________
 ## Alternatives
 
 Don't write How, write What.
