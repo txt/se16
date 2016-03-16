@@ -6,6 +6,57 @@
 [TOC]
 
 _____
+
+The dream:
+
++ Fast deployment ideas to code
++ Some high-level notation where you quickly sketch some ideas, and then it all runs automatically.
++ <em>"Pictures are superior to texts in a sense that they are abstract, instantly
+comprehensible, and universal."</em>
++ <em>"When we use visual expressions as a means of communication, there is
+  no need to learn computer-specific concepts beforehand, resulting in a
+  friendly computing environment which enables immediate access to computers
+  even for computer non-specialists who pursue application."</em>
+
+The reality:
+
++ The above is just nonsense
+       + See Menzies, Tim. ["Evaluation issues for visual programming languages."](https://goo.gl/XoqH5y)
+       Handbook of Software Engineering and Knowledge Engineering 2 (1998): 93-101.
++ The good news
+	   + Visual systems are more motivating for beginners than textual systems. 
+       + In the case of _spatial reasoning problems_ (e.g. finding an "as the crow flies" path between
+	     two points on a paper), a picture may indeed be worth 10,000
+         words. Given some 2-D representation of a problem (e.g. an array representation),
+         spatial reasoning can make certain inferences very cheaply. 
+      + Also, ill-structured diagramming tools are a very useful tool for brainstorming
+        ideas
++ The bad news:
+      + Many software engineering and knowledge engineering problems are not inherently
+        spatial. 
+      + Many visual programming systems do not support mucking around with ill-structured approach
+        to brainstorming. 
+      + Claims as to the efficacy of VP systems have been
+        poorly documented. 
+
+More specifically:
+
++ Diagrams often over-elaborated with spurious detail (see case study at end on model-itis)
++ Diagramming can work well for small tasks but scale up is a problem
++ Writing diagrams can be slow
+      + Getting all that detail
++ Diagrams are incomplete and have to be augmented with other bits in (e.g.) a procedural language
+      + e.g. while we have mature OO diagrams, notations for functional languages are .... missing
+      + e.g. UML lets us describe one design... but what about all the multiple ideas of multiple stakeholders
+	    and their incompatibilities?
+      + High-level languages are getting very succinct. Why not jot down code in those direct?
++ Auto-translation rarely works without some tweaks
+  to the auto-generated code... which has to be
+  retweaked after each change to the high-level model
++ And, in the age of the mash up,  here's the real killer:
+       + Even if you found a perfect way to diagram _your_ system, as soon as you
+         have to integrate to someone up _your
+
 Warning: the following lecture does NOT reflect the widespread consensus of folks in SE
 community.
 
