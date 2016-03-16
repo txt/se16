@@ -18,7 +18,7 @@ comprehensible, and universal."</em>
   friendly computing environment which enables immediate access to computers
   even for computer non-specialists who pursue application."</em>
 
-![eg](http://se16.unbox.org/_img/easy.easy.jpg)
+![eg](http://se16.unbox.org/_img/easy.jpg)
 
 The reality:
 
