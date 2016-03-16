@@ -18,12 +18,94 @@ Oh, and since you ask, now that this is written, I feel much better.
 
 ______
 
+## State charts: A Good Model?
+
+One of the most cited papers in computer science:
+
++  David Harel, Statecharts: [A visual formalism for complex systems0(http://www.wisdom.weizmann.ac.il/~dharel/SCANNED.PAPERS/Statecharts.pdf). Science of Computer Programming, 8(3):231–274, June 1987.
++ 8625 citations (!!!)
+
+Notation:
+
++ Black dot = state
++ Dashed lines: parallel work
++ Words on arcs: transition guards
++ Solid line: nested sub-state machines (and all transitions on super-states apply to sub-states
+
+![eg](http://se16.unbox.org/_img/state.png)
+
++ Directly translatable to executable code. 
+
+```c
+int entry_state(void);
+int foo_state(void);
+int bar_state(void);
+int exit_state(void);
+
+/* array and enum below must be in sync! */
+int (* state[])(void) = { entry_state, foo_state, bar_state, exit_state};
+enum state_codes { entry, foo, bar, end};
+
+enum ret_codes { ok, fail, repeat};
+struct transition {
+    enum state_codes src_state;
+    enum ret_codes   ret_code;
+    enum state_codes dst_state;
+};
+/* transitions from end state aren't needed */
+struct transition state_transitions[] = {
+    {entry, ok,     foo},
+    {entry, fail,   end},
+    {foo,   ok,     bar},
+    {foo,   fail,   end},
+    {foo,   repeat, foo},
+    {bar,   ok,     end},
+    {bar,   fail,   end},
+    {bar,   repeat, foo}};
+
+#define EXIT_STATE end
+#define ENTRY_STATE entry
+
+int main(int argc, char *argv[]) {
+    enum state_codes cur_state = ENTRY_STATE;
+    enum ret_codes rc;
+    int (* state_fun)(void);
+
+    for (;;) {
+        state_fun = state[cur_state];
+        rc = state_fun();
+        if (EXIT_STATE == cur_state)
+            break;
+        cur_state = lookup_transitions(cur_state, rc);
+    }
+
+    return EXIT_SUCCESS;
+}
+```	
+
++ Many tools from the formal verification community to prove properties across FSMs
+      + WHich is very important for safety critical software
+
+BUT:
+
++ hard to maintain unless auto-generated from some higher-level spec
++ hard to scale (all that detail! oh my!)
++ also, very low-level: hard to get that much information about all systems.
++ Cannot be used when interfacing to another black-box system you know nothing about
++ Irrelevant for the mash-up world (no knowledge of internals)
+
+
 ## _model-itis_
+
+The success of Harel state charts for some small safety-critical applications has lead
+to a sad disease.
 
 Definition: the obsessive and needless over-elaboration of descriptions of a system
 
 + Models become out of data, no one uses them
 + Time is wasted maintaining dull models.
+
+
 
 ### Case study of _model-itis_: options for software configuration:
 
