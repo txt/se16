@@ -1,5 +1,42 @@
 # Modeling
 
+## _model-itis_
+
+Definition: the obsessive and needless over-elaboration of descriptions of a system
+
+Case study: options for software configuration:
+
++ Kang's feature maps:
+
+![eg](http://se16.unbox.org/_img/fm1.png)
+
+![eg](http://se16.unbox.org/_img/fm2.png)
+
+Some real world feature maps (for software you might be using today): 
+
+![eg](http://se16.unbox.org/_img/pl1.png)
+
+How many of those config options do people get:
+
+
+![eg](http://se16.unbox.org/_img/pl4.png)
+
+But how many do they actually use:
+
+![eg](http://se16.unbox.org/_img/pl5.png)
+
+And how many do they actually need:
+
+- Current research at NCSU.
+- Relevant options very small subset of total options
+- Task: pick N, then 2N, then 4N, then 8N etc configurations till a data mining can take those N examples are generate a model withe less than 5% estimation error.
+- Observation: with clever sampling methods (here called S1 and S2),
+  N can be very very small:
+
+
+![eg](http://se16.unbox.org/_img/pl5.png)
+
+
 ## How Not To Document
 
 ## Use Test Cases
@@ -10,10 +47,20 @@ Don't write in words, write in test cases.
 
 When mashing up N tools, drive things via the config files of those tools.
 
-![eg](http://se16.unbox.org/_img/fm1.png)
 
-![eg](http://se16.unbox.org/_img/fm2.png)
 
+Current research at NCSU:
+
++ How to sample just enough of the possible configurations to learn..
+
+
+## Don't Document Code, Document Data
+
+________
+
+## The OO Approach
+
+Note: just one of a large space
 
 ### Ultra-lightweight
 
