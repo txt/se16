@@ -52,7 +52,9 @@ Notation:
 
 ![eg](http://se16.unbox.org/_img/state.png)
 
-+ Directly translatable to executable code. 
+Directly translatable to executable code. 
+
+_____
 
 ```c
 int entry_state(void);
@@ -100,7 +102,7 @@ int main(int argc, char *argv[]) {
     return EXIT_SUCCESS;
 }
 ```	
-
+_____
 ```lua
 function state(t,name)
   t[name] = {name=name,out={},visits=0,
@@ -156,7 +158,9 @@ end
 run(fsm0({}), tonumber(arg[1]))
 ```
 
-+ Many tools from the formal verification community to prove properties across FSMs
+_____
+
+Many tools from the formal verification community to prove properties across FSMs
       + WHich is very important for safety critical software
 
 BUT:
