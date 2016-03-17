@@ -208,45 +208,63 @@ Turns out, many (most) programming tasks are time-less. So CM is not applicable 
 _________
 __________
 
-## Lightweight modeling Options
-
-### Use Test Cases
-
-Don't write in words, write in test cases.
-
-### Use Config Options
-
-Take the Parnas route
-
-+ Do not offer models of the internal structure
-+ Instead, just model the interfaces
-+ When mashing up N tools, drive things via the config files of those tools.
-+ E.g. the above study
-
-
-#
 
 ________
 
-# The OO Approach
+## OO Notations
 
 
-
-
-# A Heavyweight Notation: Unified Modeling Language
-
-Full disclosure: Lecturer made a lot on money in the 19XXs teaching UML.
-
-Lot of money in selling industrial design tools.
+1980s, 1990s, 2000s, Lot of money in selling industrial design tools.
 
 - To broaden market, unify design notations
 
-Its just a notation, not  a magic way to clarify design discussions
+In the age of agile, that kind of tool less fashionable.
 
-- In fact, it can be harmful since it allows you encode _one_ model and not multiple possible version
+- Its all about the code man
 
-Best to understand UML as "notation envy" from ER.
+But one notation, somewhere, you are going to be asked to read/rewrite.
 
+Welcome to UML, the unified modeling language.
+
+- Its just a notation, not  a magic way to clarify design discussions
+- Best to understand those obsessed with UML as suffering from "notation envy" from
+  state charts, ER, etc
+
+Marian Petre: "UML in practice" ICSE'13, 2013. http://oro.open.ac.uk/35805/.
+
+UML has been described by some as "the lingua franca of software engineering". Evidence from industry does not necessarily support such endorsements. How exactly is UML being used in industry — if it is? This paper presents a corpus of interviews with 50 professional software engineers in 50 companies and identifies 5 patterns of UML use.
+The abstract for this distinguished paper doesn't do it justice. Over two years, the author interviewed over 50 developers from a broad cross-section of industries and countries. She found their use fell into five broad categories:
+
+Category	Number
+no UML	35
+selective	11
+automated code generation	3
+retrofit	1
+wholehearted	0
+Among the reasons given for not using it were:
+
+Lack of context: UML deals with architecture, rather than with the whole system.
+The overheads of understanding the notation.
+Issues of synchronization and consistency.
+Perhaps the most interesting category is the second: those people who selectively use some elements of UML, but not the whole notation. Some of the partial uses identified were:
+
+UML as a 'thought tool'
+communicating with stakeholders
+collaborative dialogs
+adaptation (i.e., using a homegrown variant of the "real" notation), and
+selective traction (i.e., using it just as long as is useful, then moving on)
+while the parts used were:
+
+Diagram	Number
+Class diagrams	7
+Sequence diagrams	6
+Activity diagrams	6
+State machine diagrams	3
+Use case diagrams	1
+But there is much more in this paper than merely statistics. One of Petre's many insightful comments is:
+
+Responses concerning UML use tend to be polarized, between design use and implementation use... Despite the notional accommodation of the whole process, informants tend to use UML either in early design, or in implementation, rarely both (even when informants' roles include the whole process).
+There are two ways to react to this work. The first is to read it as an indictment: after 20 years, UML is still mostly not used and not valued. The second, and more hopeful, is as a concrete step toward improving it. Parts of UML are used; the more we learn about which ones, where, why, and how, the better our chances of building something better.
 
 
 ### UML Details
@@ -255,35 +273,79 @@ Best to understand UML as "notation envy" from ER.
 
 <a href="http://se16.unbox.org/_img/uml.pdf">Details</a>
 
-### UML Critique
-
-
-- "There's also a danger when people believe that
-  UML is a formal enough notation that they can
-  specify precisely what they mean. This leads to
-  people who on the one hand are aware that natural
-  languages are always ambiguous but on the other
-  hand believe that because the UML is a (more or
-  less) formal syntax it eliminates ambiguity."
-- "I've just finished teaching a week-long UML course
-   and one of the points that came out of it was the
-realisation that it's very hard to precisely specify
-semantics with diagrams. There are long debates
-about how to interpret associations (such as the
-difference between the <<import> and <<access>>
-stereotypes) or when to use a dependency or
-one-directional association. Sooner or later people
-fall back to natural language text to
-illustrate/elucidate the diagrams. Then we're in a
-position where we are specifying the same thing
-twice. Once in the diagram and again in the
-accompanying text."
-
-If you must use UML...
+Hints for writing small class diagrams:
 
 + Don't add gets/setters to class methods
 + If there is a relationship classX to classY, don't add relationship variables to X,Y. Instead connect them with a line and lable if with a line.
 + Also, consider writing fewer classes:
+
+
+### UML Critique
+
+
+This rest of this section from [Greg Wilson])http://neverworkintheory.org/2013/06/13/uml-in-practice-2.html)
+
+Marian Petre: "UML in practice" ICSE'13, 2013. http://oro.open.ac.uk/35805/.
+
+<em>UML has been described by some as "the lingua franca
+of software engineering". Evidence from industry
+does not necessarily support such endorsements. How
+exactly is UML being used in industry — if it is?
+This paper presents a corpus of interviews with 50
+professional software engineers in 50 companies and
+identifies 5 patterns of UML use.  </em>
+
+he abstract for
+this distinguished paper doesn't do it justice. Over
+two years, the author interviewed over 50 developers
+from a broad cross-section of industries and
+countries. She found their use fell into five broad
+categories:
+
+```
+Category	Number
+no UML	        35
+selective	    11
+auto-code gen	 3
+retrofit	     1
+wholehearted	 0
+```
+
+Among the reasons given for not using it were:
+
+- Lack of context: UML deals with architecture, rather than with the whole system.
+- The overheads of understanding the notation.
+- Issues of synchronization and consistency.
+
+Perhaps the most interesting category is the second: those people who selectively use some elements of UML, but not the whole notation. Some of the partial uses identified were:
+
+- UML as a 'thought tool'
+- communicating with stakeholders
+- collaborative dialogs
+- adaptation (i.e., using a homegrown variant of the "real" notation), and
+- selective traction (i.e., using it just as long as is useful, then moving on)
+
+while the parts used were:
+
+```
+Diagram	           Number
+Class diagrams	        7
+Sequence diagrams 	    6
+Activity diagrams	    6  
+State machine diagrams	3
+Use case diagrams	    1 
+```
+
+But there is much more in this paper than merely statistics. One of Petre's many insightful comments is:
+
++ <em> Responses concerning UML use tend to be polarized, between design use and implementation use... Despite the notional accommodation of the whole process, informants tend to use UML either in early design, or in implementation, rarely both (even when informants' roles include the whole process).</em>
+
+There are two ways to react to this work.
+
++ The first is to read it as an indictment: after 20 years, UML is still mostly not used and not valued.
++ The second, and more hopeful, is as a concrete step toward improving it. Parts of UML are used; the more we learn about which ones, where, why, and how, the better our chances of building something better.
+
+
 
 
 <iframe width="420" height="315" src="https://www.youtube.com/embed/o9pEzgHorH0" frameborder="0" allowfullscreen></iframe>
@@ -293,7 +355,7 @@ If you must use UML...
 
 ### Ulta-lightweight OO
 
-CRC cards
+If you like using only PARTS of UML: CRC cards
 
 <img width=500 src="http://www.inf.ed.ac.uk/teaching/courses/inf1/op/Tutorials/2008/blank-crc.png">
 
@@ -302,15 +364,9 @@ CRC cards
 <iframe width="560" height="315" src="https://www.youtube.com/embed/5IpsMwxL37k" frameborder="0" allowfullscreen></iframe>
 
 _________
-## Alternatives
-
-Don't write How, write What.
-
-Which takes us to requirements engineering.....
 
 
-
-## _model-itis_
+## Case study: _model-itis_
 
 The success of Harel state charts for some small safety-critical applications has lead
 to a sad disease.
@@ -367,6 +423,28 @@ actually matter.
 
 
 ## In summary
+
+
+### Formal Studies
+
+On the use of software design models in software
+development practice: an empirical investigation
+
++ Tony Gorschek, Ewan Tempero, and Lefteris Angelis. 2014. On the use of software design models in software development practice: An empirical investigation. J. Syst. Softw. 95 (September 2014), 176-193.
+
+Summarizing the answers of 3785
+developers answering the simple question on the extent to which design models
+are used before coding
+
++ The use of models decreased with an increase in experience and increased with higher level of qualification.
++ Overall we found that models are used primarily as a communication and collaboration
+mechanism where there is a need to solve problems and/or get a
+joint understanding of the overall design in a group.
++ We also conclude that
+models are seldom updated after initially created and are usually drawn on a
+whiteboard or on paper.
+
+### Other Nodes
 
 Diagrams! Visual Programming! Great!
 
