@@ -207,6 +207,11 @@ ________
 ## OO Notations
 
 
+
+![eg](http://agilemodeling.com/images/models/classDiagramSketch.JPG)
+
+
+
 1980s, 1990s, 2000s, Lot of money in selling industrial design tools.
 
 - To broaden market, unify design notations
@@ -450,5 +455,4 @@ who cares about the internals? Its just the interface man!
 
 + And in the age of agile, an obsession with complex documents and diagrams is not popular.
 
-![eg](http://agilemodeling.com/images/models/classDiagramSketch.JPG)
-
+![eg](http://se16.unbox.org/_img/agilemanifesto.png)
