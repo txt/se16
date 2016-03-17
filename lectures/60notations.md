@@ -456,6 +456,8 @@ actually matter.
 
 ### Formal Studies
 
+#### Gorshek et al 2014
+
 On the use of software design models in software
 development practice: an empirical investigation
 
@@ -473,7 +475,7 @@ joint understanding of the overall design in a group.
 models are seldom updated after initially created and are usually drawn on a
 whiteboard or on paper.
 
-### Other Nodes
+#### Menzies 2000
 
 Diagrams! Visual Programming! Great!
 
@@ -497,7 +499,8 @@ Great?
       + Claims as to the efficacy of VP systems have been
         poorly documented. 
 
-More specifically:
+### Other Notes
+
 
 + Diagrams often over-elaborated with spurious detail (see case study at end on model-itis)
 + Diagramming can work well for small tasks but scale up is a problem
