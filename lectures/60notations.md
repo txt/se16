@@ -204,11 +204,6 @@ But when was the last time you coded anything that had a variable called _time_ 
 
 Turns out, many (most) programming tasks are time-less. So CM is not applicable to general models.
 
-
-_________
-__________
-
-
 ________
 
 ## OO Notations
@@ -242,6 +237,11 @@ Hints for writing small class diagrams:
 + Don't add gets/setters to class methods
 + If there is a relationship classX to classY, don't add relationship variables to X,Y. Instead connect them with a line and lable if with a line.
 + Also, consider writing fewer classes:
+
+
+
+<iframe width="420" height="315" src="https://www.youtube.com/embed/o9pEzgHorH0" frameborder="0" allowfullscreen></iframe>
+
 
 
 ### UML Critique
@@ -309,10 +309,6 @@ There are two ways to react to this work.
 + The first is to read it as an indictment: after 20 years, UML is still mostly not used and not valued.
 + The second, and more hopeful, is as a concrete step toward improving it. Parts of UML are used; the more we learn about which ones, where, why, and how, the better our chances of building something better.
 
-
-
-
-<iframe width="420" height="315" src="https://www.youtube.com/embed/o9pEzgHorH0" frameborder="0" allowfullscreen></iframe>
 
 
 
