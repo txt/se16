@@ -455,4 +455,4 @@ who cares about the internals? Its just the interface man!
 
 + And in the age of agile, an obsession with complex documents and diagrams is not popular.
 
-![eg](http://se16.unbox.org/_img/agilemanifesto.png)
+<img src="http://se16.unbox.org/_img/agilemanifesto.png" width=600>
