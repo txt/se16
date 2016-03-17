@@ -230,42 +230,6 @@ Welcome to UML, the unified modeling language.
 - Best to understand those obsessed with UML as suffering from "notation envy" from
   state charts, ER, etc
 
-Marian Petre: "UML in practice" ICSE'13, 2013. http://oro.open.ac.uk/35805/.
-
-UML has been described by some as "the lingua franca of software engineering". Evidence from industry does not necessarily support such endorsements. How exactly is UML being used in industry — if it is? This paper presents a corpus of interviews with 50 professional software engineers in 50 companies and identifies 5 patterns of UML use.
-The abstract for this distinguished paper doesn't do it justice. Over two years, the author interviewed over 50 developers from a broad cross-section of industries and countries. She found their use fell into five broad categories:
-
-Category	Number
-no UML	35
-selective	11
-automated code generation	3
-retrofit	1
-wholehearted	0
-Among the reasons given for not using it were:
-
-Lack of context: UML deals with architecture, rather than with the whole system.
-The overheads of understanding the notation.
-Issues of synchronization and consistency.
-Perhaps the most interesting category is the second: those people who selectively use some elements of UML, but not the whole notation. Some of the partial uses identified were:
-
-UML as a 'thought tool'
-communicating with stakeholders
-collaborative dialogs
-adaptation (i.e., using a homegrown variant of the "real" notation), and
-selective traction (i.e., using it just as long as is useful, then moving on)
-while the parts used were:
-
-Diagram	Number
-Class diagrams	7
-Sequence diagrams	6
-Activity diagrams	6
-State machine diagrams	3
-Use case diagrams	1
-But there is much more in this paper than merely statistics. One of Petre's many insightful comments is:
-
-Responses concerning UML use tend to be polarized, between design use and implementation use... Despite the notional accommodation of the whole process, informants tend to use UML either in early design, or in implementation, rarely both (even when informants' roles include the whole process).
-There are two ways to react to this work. The first is to read it as an indictment: after 20 years, UML is still mostly not used and not valued. The second, and more hopeful, is as a concrete step toward improving it. Parts of UML are used; the more we learn about which ones, where, why, and how, the better our chances of building something better.
-
 
 ### UML Details
 
@@ -287,7 +251,7 @@ This rest of this section from [Greg Wilson])http://neverworkintheory.org/2013/0
 
 Marian Petre: "UML in practice" ICSE'13, 2013. http://oro.open.ac.uk/35805/.
 
-<em>UML has been described by some as "the lingua franca
++ <em>UML has been described by some as "the lingua franca
 of software engineering". Evidence from industry
 does not necessarily support such endorsements. How
 exactly is UML being used in industry — if it is?
