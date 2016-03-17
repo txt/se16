@@ -1,7 +1,7 @@
 # Visual Notations for Programming
 
 
-<img align=right src="http://skreened.com/render-product/g/a/i/gaidmmslucnfakiwiklu/image.skreened-t-shirt.white.w460h520b3z1.jpg">
+<img align=right src="http://se16.unbox.org/_img/easy.png">
 
 [TOC]
 
@@ -22,8 +22,6 @@ comprehensible, and universal."</em>
   even for computer non-specialists who pursue application."</em>
 
 And the reality?
-
-![eg](http://se16.unbox.org/_img/easy.png)
 
 Lets see....
 
