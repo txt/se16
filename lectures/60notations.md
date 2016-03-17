@@ -38,7 +38,7 @@ Some diagrams are actually accurate representations of underlying semantics
 + Compartmental Models.
 
 
-## State charts: A Good Model?
+### State charts: A Good Model?
 
 One of the most cited papers in computer science:
 
@@ -136,7 +136,7 @@ Note for the above:
 
 Stocks, flows, stuff sloshing around some pipes. Simple, right?
 
-![eg](http://se16.unbox.org/_img/state.png)
+![eg](https://github.com/txt/mase/raw/master/img/simpleCm.png)
 
 Easy to code:
 
