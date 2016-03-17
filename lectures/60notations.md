@@ -1,11 +1,14 @@
-# Modeling
+# Visual Notations for Programming
 
 
 <img align=right src="http://skreened.com/render-product/g/a/i/gaidmmslucnfakiwiklu/image.skreened-t-shirt.white.w460h520b3z1.jpg">
 
 [TOC]
 
+<br clear=all>
 _____
+
+![eg](http://se16.unbox.org/_img/vis.gif)
 
 The dream:
 
@@ -18,58 +21,22 @@ comprehensible, and universal."</em>
   friendly computing environment which enables immediate access to computers
   even for computer non-specialists who pursue application."</em>
 
+And the reality?
+
 ![eg](http://se16.unbox.org/_img/easy.png)
 
-The reality:
-
-+ The above is just nonsense
-       + See Menzies, Tim. ["Evaluation issues for visual programming languages."](https://goo.gl/XoqH5y)
-       Handbook of Software Engineering and Knowledge Engineering 2 (1998): 93-101.
-+ The good news
-	   + Visual systems are more motivating for beginners than textual systems. 
-       + In the case of _spatial reasoning problems_ (e.g. finding an "as the crow flies" path between
-	     two points on a paper), a picture may indeed be worth 10,000
-         words. Given some 2-D representation of a problem (e.g. an array representation),
-         spatial reasoning can make certain inferences very cheaply. 
-      + Also, ill-structured diagramming tools are a very useful tool for brainstorming
-        ideas
-+ The bad news:
-      + Many software engineering and knowledge engineering problems are not inherently
-        spatial. 
-      + Many visual programming systems do not support mucking around with ill-structured approach
-        to brainstorming. 
-      + Claims as to the efficacy of VP systems have been
-        poorly documented. 
-
-More specifically:
-
-+ Diagrams often over-elaborated with spurious detail (see case study at end on model-itis)
-+ Diagramming can work well for small tasks but scale up is a problem
-+ Writing diagrams can be slow
-      + Getting all that detail
-+ Diagrams are incomplete and have to be augmented with other bits in (e.g.) a procedural language
-      + e.g. while we have mature OO diagrams, notations for functional languages are .... missing
-      + e.g. UML lets us describe one design... but what about all the multiple ideas of multiple stakeholders
-	    and their incompatibilities?
-      + High-level languages are getting very succinct. Why not jot down code in those direct?
-+ Auto-translation rarely works without some tweaks
-  to the auto-generated code... which has to be
-  retweaked after each change to the high-level model
-+ And, in the age of the mash up,  here's the real killer:
-       + Even if you found a perfect way to diagram _your_ system, as soon as you
-         have to integrate to someone up _your
-
-Warning: the following lecture does NOT reflect the widespread consensus of folks in SE
-community.
-
-+ It started out as a lecture on notations for requirements engineering.
-+ Then things got... nasty. It turned into
-a HATE rave against excessive  of modeling in SE.
-+ Just to be clear, I LOVE models, just not the crazed obsessive way they are needlessly elaborated in SE.
-
-Oh, and since you ask, now that this is written, I feel much better.
+Lets see....
 
 ______
+
+## Some Unusually Useful Diagrams
+
+Some diagrams are actually accurate representations of underlying semantics
+
++ Harel state charts
++ ER diagrams
++ Compartmental Models.
+
 
 ## State charts: A Good Model?
 
@@ -147,7 +114,201 @@ BUT:
 + Cannot be used when interfacing to another black-box system you know nothing about
 + Irrelevant for the mash-up world (no knowledge of internals)
 
+### ER Diagrams
+
+Code changes all the time.
+
+_ so don't document code, document the data it runs on.
+
+<img src="http://www.danielauener.com/wp-content/uploads/2012/11/erauthors.png">
+
+<img src="http://i.stack.imgur.com/giz3A.png" width=500>
+
+Note for the above:
+
+- Diagram that can be directly implemented in SQL tools (design straight to running code! hooray!)
+- We've discussed before how this kind of ER modeling (and SQL) can actually slow up agile development
+  (everybody start chanting NOSQL! NOSQL!)
+- Also, Once the data is modeled this way, you still need to write the associated procedural code
+  for GUIs, intricate business logic etc etc 
+
+### Compartmental Models
+
+Stocks, flows, stuff sloshing around some pipes. Simple, right?
+
+![eg](http://se16.unbox.org/_img/state.png)
+
+Easy to code:
+
++ _Flows_ change stuff (and stuff is called _Stocks_).
++ _Stocks_ are real-valued variables , some entity that is accumulated over time by inflows and/or depleted by outflows.
++ To code a CM,
+   + sum the  in and outflows around each stock;
+   + multiply that by the time tick `dt`
+   +  add the result back to the stock
+   + e.g. `v.C += dt*(u.q - u.r)`
+
+
+```
+ q   +-----+  r  +-----+
+---->|  C  |---->|  D  |--> s
+ ^   +-----+     +-+---+
+ |                 |
+ +-----------------+ 
+
+C = stock of clean diapers
+D = stock of dirty diapers
+q = inflow of clean diapers
+r = flow of clean diapers to dirty diapers
+s = out-flow of dirty diapers
+```
+
+This can ne modeled as one `have` methods that initializes:
+
++ `C,D` as a `Stock` with initial levels 100,0;
++ `q,r,s` as a `Flow` with initial rates of 0,8,0
+
+and as a `step` method that  takes state `u`
+and computes a new state `v` at
+time `t+dt`.
+
+
+```python
+class Diapers(Model):
+
+  def have(i):
+    return o(C = S(100), D = S(0),
+                q = F(0),  r = F(8), s = F(0))
+
+  def step(i,dt,t,u,v):
+    def saturday(x): return int(x) % 7 == 6
+    v.C +=  dt*(u.q - u.r)
+    v.D +=  dt*(u.r - u.s)
+    v.q  =  70  if saturday(t) else 0 
+    v.s  =  u.D if saturday(t) else 0
+    if t == 27: # special case (the day i forget)
+      v.s = 0
+```
+
+
+Note that the model is just some Python code so we can
+introduce any shortcut function (e.g. `saturday`).
+
+Can be used to model (e.g.) time-dependent business processes
+
+![](https://github.com/txt/mase/raw/master/img/complexCm.png)
+
+Sounds great, right?
+
+But when was the last time you coded anything that had a variable called _time_ in it?
+
+Turns out, many (most) programming tasks are time-less. So CM is not applicable to general models.
+
+
 _________
+__________
+
+## Lightweight modeling Options
+
+### Use Test Cases
+
+Don't write in words, write in test cases.
+
+### Use Config Options
+
+Take the Parnas route
+
++ Do not offer models of the internal structure
++ Instead, just model the interfaces
++ When mashing up N tools, drive things via the config files of those tools.
++ E.g. the above study
+
+
+#
+
+________
+
+# The OO Approach
+
+
+
+
+# A Heavyweight Notation: Unified Modeling Language
+
+Full disclosure: Lecturer made a lot on money in the 19XXs teaching UML.
+
+Lot of money in selling industrial design tools.
+
+- To broaden market, unify design notations
+
+Its just a notation, not  a magic way to clarify design discussions
+
+- In fact, it can be harmful since it allows you encode _one_ model and not multiple possible version
+
+Best to understand UML as "notation envy" from ER.
+
+
+
+### UML Details
+
+<a href="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/OO_Modeling_languages_history.jpg/1024px-OO_Modeling_languages_history.jpg"><img width=600 src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/OO_Modeling_languages_history.jpg/1024px-OO_Modeling_languages_history.jpg"></a>
+
+<a href="http://se16.unbox.org/_img/uml.pdf">Details</a>
+
+### UML Critique
+
+
+- "There's also a danger when people believe that
+  UML is a formal enough notation that they can
+  specify precisely what they mean. This leads to
+  people who on the one hand are aware that natural
+  languages are always ambiguous but on the other
+  hand believe that because the UML is a (more or
+  less) formal syntax it eliminates ambiguity."
+- "I've just finished teaching a week-long UML course
+   and one of the points that came out of it was the
+realisation that it's very hard to precisely specify
+semantics with diagrams. There are long debates
+about how to interpret associations (such as the
+difference between the <<import> and <<access>>
+stereotypes) or when to use a dependency or
+one-directional association. Sooner or later people
+fall back to natural language text to
+illustrate/elucidate the diagrams. Then we're in a
+position where we are specifying the same thing
+twice. Once in the diagram and again in the
+accompanying text."
+
+If you must use UML...
+
++ Don't add gets/setters to class methods
++ If there is a relationship classX to classY, don't add relationship variables to X,Y. Instead connect them with a line and lable if with a line.
++ Also, consider writing fewer classes:
+
+
+<iframe width="420" height="315" src="https://www.youtube.com/embed/o9pEzgHorH0" frameborder="0" allowfullscreen></iframe>
+
+
+
+
+### Ulta-lightweight OO
+
+CRC cards
+
+<img width=500 src="http://www.inf.ed.ac.uk/teaching/courses/inf1/op/Tutorials/2008/blank-crc.png">
+
+<img width=500 src="http://www.c-jump.com/CIT73/Week09/images/crc_card3.png">
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5IpsMwxL37k" frameborder="0" allowfullscreen></iframe>
+
+_________
+## Alternatives
+
+Don't write How, write What.
+
+Which takes us to requirements engineering.....
+
+
 
 ## _model-itis_
 
@@ -204,123 +365,53 @@ elaborations)
 actually matter.
 3. So model a little, run a little, focus on the variables that actually matter.
 
-__________
 
-## Lightweight modeling Options
+## In summary
 
-### Use Test Cases
+Diagrams! Visual Programming! Great!
 
-Don't write in words, write in test cases.
++ The good news
+	   + Visual systems are more motivating for beginners than textual systems. 
+       + In the case of _spatial reasoning problems_ (e.g. finding an "as the crow flies" path between
+	     two points on a paper), a picture may indeed be worth 10,000
+         words. Given some 2-D representation of a problem (e.g. an array representation),
+         spatial reasoning can make certain inferences very cheaply. 
+      + Also, ill-structured diagramming tools are a very useful tool for brainstorming
+        ideas
++ The bad news:
+	  + From  Menzies, Tim. ["Evaluation issues for visual programming languages."](https://goo.gl/XoqH5y)
+       Handbook of Software Engineering and Knowledge Engineering 2 (1998): 93-101.
+      + Many software engineering and knowledge engineering problems are not inherently
+        spatial. 
+      + Many visual programming systems do not support mucking around with ill-structured approach
+        to brainstorming. 
+      + Claims as to the efficacy of VP systems have been
+        poorly documented. 
 
-### Use Config Options
+More specifically:
 
-Take the Parnas route
++ Diagrams often over-elaborated with spurious detail (see case study at end on model-itis)
++ Diagramming can work well for small tasks but scale up is a problem
++ Writing diagrams can be slow
+    + Getting all that detail
++ Diagrams are be completed (hooray!) and still miss important aspects of the system
+      + LIke the whole design won't work cause of 	
++ Diagrams are incomplete and have to be augmented with other bits in (e.g.) a procedural language
+      + e.g. while we have mature OO diagrams, notations for functional languages are .... missing
+      + e.g. UML lets us describe one design... but what about all the multiple ideas of multiple stakeholders
+	    and their incompatibilities?
+      + High-level languages are getting very succinct. Why not jot down code in those direct?
++ Auto-translation rarely works without some tweaks
+  to the auto-generated code... which has to be
+  retweaked after each change to the high-level model
++ In the age of the mash up,  here's a real killer:
+       + Even if you found a perfect way to diagram _your_ system, as soon as your code
+         becomes a small part of a large mass-up then your diagrams become a great summary of a teeny-tiny part
+		 of the whole system.
+	    -  In the land of the app, have to model functionality etc. Also, with RESTFUL interfaces,
+who cares about the internals? Its just the interface man!
 
-+ Do not offer models of the internal structure
-+ Instead, just model the interfaces
-+ When mashing up N tools, drive things via the config files of those tools.
-+ E.g. the above study
-
-
-### Don't Document Code, Document Data
-
-Code changes all the time.
-
-But what can matter just as much is the data the code is applied too.
-
-<img src="http://www.danielauener.com/wp-content/uploads/2012/11/erauthors.png">
-
-<img src="http://i.stack.imgur.com/giz3A.png" width=500>
-
-Note for the above:
-
-- Diagram that can be directly implemented in SQL tools (design straight to running code! hooray!)
-- Really only recommended for simple apps
-- In the land of the app, have to model functionality etc. Also, with RESTFUL interfaces,
-  who cares about the internals? Its just the interface man!
-
-________
-
-# The OO Approach
-
-
-
-
-# A Heavyweight Notation: Unified Modeling Language
-
-Full disclosure: Lecturer made a lot on money in the 19XXs teaching UML.
-
-Lot of money in selling industrial design tools.
-
-- To broaden market, unify design notations
-
-Its just a notation, not  a magic way to clarify design discussions
-
-- In fact, it can be harmful since it allows you encode _one_ model and not multiple possible version
-
-Best to understand UML as "notation envy" from ER.
-
-
-
-### UML Details
-
-<a href="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/OO_Modeling_languages_history.jpg/1024px-OO_Modeling_languages_history.jpg"><img width=600 src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/OO_Modeling_languages_history.jpg/1024px-OO_Modeling_languages_history.jpg"></a>
++ And in the age of agile, an obsession with complex documents and diagrams is not popular.
 
 ![eg](http://agilemodeling.com/images/models/classDiagramSketch.JPG)
-
-
-<a href="http://se16.unbox.org/_img/uml.pdf">Details</a>
-
-### UML Critique
-
-
-- "There's also a danger when people believe that
-  UML is a formal enough notation that they can
-  specify precisely what they mean. This leads to
-  people who on the one hand are aware that natural
-  languages are always ambiguous but on the other
-  hand believe that because the UML is a (more or
-  less) formal syntax it eliminates ambiguity."
-- "I've just finished teaching a week-long UML course
-   and one of the points that came out of it was the
-realisation that it's very hard to precisely specify
-semantics with diagrams. There are long debates
-about how to interpret associations (such as the
-difference between the <<import> and <<access>>
-stereotypes) or when to use a dependency or
-one-directional association. Sooner or later people
-fall back to natural language text to
-illustrate/elucidate the diagrams. Then we're in a
-position where we are specifying the same thing
-twice. Once in the diagram and again in the
-accompanying text."
-
-If you must use UML...
-
-+ Don't add gets/setters to class methods
-+ If there is a relationship classX to classY, don't add relationship variables to X,Y. Instead connect them with a line and lable if with a line.
-+ Also, consider writing fewer classes:
-
-
-<iframe width="420" height="315" src="https://www.youtube.com/embed/o9pEzgHorH0" frameborder="0" allowfullscreen></iframe>
-
-
-
-
-### Ulta-lightweight OO
-
-CRC cards
-
-<img width=500 src="http://www.inf.ed.ac.uk/teaching/courses/inf1/op/Tutorials/2008/blank-crc.png">
-
-<img width=500 src="http://www.c-jump.com/CIT73/Week09/images/crc_card3.png">
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/5IpsMwxL37k" frameborder="0" allowfullscreen></iframe>
-
-_________
-## Alternatives
-
-Don't write How, write What.
-
-Which takes us to requirements engineering.....
 
