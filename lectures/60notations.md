@@ -104,41 +104,11 @@ int main(int argc, char *argv[]) {
 ```	
 _____
 ```lua
-function state(t,name)
-  t[name] = {name=name,out={},visits=0,
-	     done=true,abort=true,working=true}
-  t["_start"] = t["t._start"] or t[name]
-  return t[name]
-end
-
-function trans(t,arcs)
-  for _,arc in pairs(arcs) do
-    old = t[arc[1].name].out
-    old[#old + 1] = {from = arc[1], to=arc[3], gaurd=arc[2]}
-end end
-
-function shuffle(t)
-  table.sort(t,function (x,y) return math.random() > 0.5 end)
-  return t
-end
-
-function run(t,seed)
-  math.randomseed(seed)
-  local w,here = {},t["entry"]
-  while true do
-    print(here.name)
-    here.visits = here.visits + 1
-    if here.visits > 5 then return true end
-    for _,arc in pairs( shuffle(t[here.name].out)) do
-      if arc.gaurd(w,arc) then
-	here=arc.to
-	break
-end end end end
-
 function fsm0(t)
-  local function ok (w,a)   return a.from.done end
-  local function fail(w,a)  return a.from.abort end
-  local function again(w,a) return a.from.working end
+  local function maybe()    return math.random() > 0.5 end
+  local function ok (w,a)   return maybe() end
+  local function fail(w,a)  return maybe() end
+  local function again(w,a) return maybe() end
   local entry = state(t,"entry")
   local foo   = state(t,"foo")
   local bar   = state(t,"bar")
@@ -155,7 +125,43 @@ function fsm0(t)
   return t
 end
 
-run(fsm0({}), tonumber(arg[1]))
+function state(t,name)
+  local new = {name=name,out={}, visits=0}
+  t[name] = new
+  return new
+end
+
+function trans(t,arcs)
+  for _,arc in pairs(arcs) do
+    local out = t[arc[1].name].out
+    out[#out + 1] = {from = arc[1], to=arc[3], gaurd=arc[2]}
+end end
+
+function shuffle( t )
+  for i = #t, 2, -1 do
+    local j = math.random(i)
+    t[i], t[j] = t[j], t[i]
+  end
+  return t
+end
+
+function rseed() math.randomseed(tonumber(arg[1]) or 1) end
+
+function run(t)
+  rseed()
+  local w,here = {},t["entry"]
+  while true do
+    print(here.name)
+    here.visits = here.visits + 1
+    if here.visits > 5 then return true end
+    local arcs= t[here.name].out
+    for _,arc in pairs( shuffle(arcs) ) do
+      if arc.gaurd(w,arc) then
+	here=arc.to
+	break
+end end end end
+
+run(fsm0({}))
 ```
 
 _____
@@ -498,7 +504,8 @@ More specifically:
 + Writing diagrams can be slow
     + Getting all that detail
 + Diagrams are be completed (hooray!) and still miss important aspects of the system
-      + LIke the whole design won't work cause of 	
+    + LIke the whole design won't work cause of 	some networks scale issues
+    + "Bubbles and arcs don't crash" -- Bertrand Meyer
 + Diagrams are incomplete and have to be augmented with other bits in (e.g.) a procedural language
       + e.g. while we have mature OO diagrams, notations for functional languages are .... missing
       + e.g. UML lets us describe one design... but what about all the multiple ideas of multiple stakeholders
@@ -513,7 +520,6 @@ More specifically:
 		 of the whole system.
 	    -  In the land of the app, have to model functionality etc. Also, with RESTFUL interfaces,
 who cares about the internals? Its just the interface man!
-
 + And in the age of agile, an obsession with complex documents and diagrams is not popular.
 
 <img src="http://se16.unbox.org/_img/agilemanifesto.png" width=600>
