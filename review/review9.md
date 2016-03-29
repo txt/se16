@@ -13,7 +13,7 @@
 9. Why it is bad to get the entity wrong early in the development cycle in ER diagrams?
 10. What kind of visual notation is the following diagram? State and explain all of it's parts.
     
-    ![eg](../_img/crc_ex.JPG)
+    ![](../_img/crc_ex.JPG)
 
 11. Propose and draw a class diagram equivalent to the above diagram.
 
