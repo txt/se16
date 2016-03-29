@@ -19,4 +19,4 @@
 
 ## Theory
 1. Why we should not build dialogs directly from the data?
-2. When and for what purposes should you use 
+2. When and for what purposes should you use visual notations?
