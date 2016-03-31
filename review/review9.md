@@ -72,7 +72,7 @@
     
 5. Explain what the following prolog code does.
 
-        ```prolog
+        ```
         append([], List, List).
         append([Head|Tail], List, [Head|Rest]) :- append(Tail, List, Rest).
         ```
