@@ -72,10 +72,9 @@
     
 5. Explain what the following prolog code does.
 
-        ```
         append([], List, List).
         append([Head|Tail], List, [Head|Rest]) :- append(Tail, List, Rest).
-        ```
+        
     
 6. `A predicate is not a function` - discuss.
 
