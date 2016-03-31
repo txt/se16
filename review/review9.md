@@ -41,41 +41,41 @@
     - Use your function to find the the foods of 'savory' flavor.
 4. Consider the following facts and function in Prolog. Will the following two coloring result in 'Yes' or 'No' in Prolog?
 
-    ```Prolog
-    different(red, green). different(red, blue).
-    different(green, red). different(green, blue).
-    different(blue, red). different(blue, green).
-    coloring(Alabama, Mississippi, Georgia, Tennessee, Florida) :-
-        different(Mississippi, Tennessee),
-        different(Mississippi, Alabama),
-        different(Alabama, Tennessee),
-        different(Alabama, Mississippi),
-        different(Alabama, Georgia),
-        different(Alabama, Florida),
-        different(Georgia, Florida),
-        different(Georgia, Tennessee).
+        ```Prolog
+        different(red, green). different(red, blue).
+        different(green, red). different(green, blue).
+        different(blue, red). different(blue, green).
+        coloring(Alabama, Mississippi, Georgia, Tennessee, Florida) :-
+            different(Mississippi, Tennessee),
+            different(Mississippi, Alabama),
+            different(Alabama, Tennessee),
+            different(Alabama, Mississippi),
+            different(Alabama, Georgia),
+            different(Alabama, Florida),
+            different(Georgia, Florida),
+            different(Georgia, Tennessee).
+            
+        % Coloring 1
+        Alabama = blue.
+        Florida = green.
+        Georgia = red.
+        Mississippi = red.
+        Tennessee = green.
         
-    % Coloring 1
-    Alabama = blue.
-    Florida = green.
-    Georgia = red.
-    Mississippi = red.
-    Tennessee = green.
-    
-    % Coloring 2
-    Alabama = red.
-    Florida = green.
-    Georgia = green.
-    Mississippi = red.
-    Tennessee = blue.
-    ```
+        % Coloring 2
+        Alabama = red.
+        Florida = green.
+        Georgia = green.
+        Mississippi = red.
+        Tennessee = blue.
+        ```
     
 5. Explain what the following prolog code does.
 
-    ```prolog
-    append([], List, List).
-    append([Head|Tail], List, [Head|Rest]) :- append(Tail, List, Rest).
-    ```
+        ```prolog
+        append([], List, List).
+        append([Head|Tail], List, [Head|Rest]) :- append(Tail, List, Rest).
+        ```
     
 6. `A predicate is not a function` - discuss.
 
