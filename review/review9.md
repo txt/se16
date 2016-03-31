@@ -24,16 +24,16 @@
 2. What is clause reordering in Prolog? Why is it important? Give an example. What other languages uses clause reordering?
 3. From the given facts below, write a function in Prolog to find a food's flavor.
 
-    food_type(velveeta, cheese).
-    food_type(ritz, cracker).
-    food_type(spam, meat).
-    food_type(sausage, meat).
-    food_type(jolt, soda).
-    food_type(twinkie, dessert).
-    flavor(sweet, dessert).
-    flavor(savory, meat).
-    flavor(savory, cheese).
-    flavor(sweet, soda).
+        food_type(velveeta, cheese).
+        food_type(ritz, cracker).
+        food_type(spam, meat).
+        food_type(sausage, meat).
+        food_type(jolt, soda).
+        food_type(twinkie, dessert).
+        flavor(sweet, dessert).
+        flavor(savory, meat).
+        flavor(savory, cheese).
+        flavor(sweet, soda).
     
     - Use your function to find the flavor of 'velveeta'.
     - Use your function to find the the foods of 'savory' flavor.
