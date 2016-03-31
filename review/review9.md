@@ -36,6 +36,7 @@
     flavor(savory, cheese).
     flavor(sweet, soda).
     ```
+    
     - Use your function to find the flavor of 'velveeta'.
     - Use your function to find the the foods of 'savory' flavor.
 4. Consider the following facts and function in Prolog. Will the following two coloring result in 'Yes' or 'No' in Prolog?
@@ -68,6 +69,7 @@
     Mississippi = red.
     Tennessee = blue.
     ```
+    
 5. Explain what the following prolog code does.
 
     ```Prolog
@@ -75,6 +77,7 @@
     append([Head|Tail], List, [Head|Rest]) :-
         append(Tail, List, Rest).
     ```
+    
 6. `A predicate is not a function` - discuss.
 
 ## Requirements Engineering
