@@ -34,6 +34,7 @@
         flavor(savory, meat).
         flavor(savory, cheese).
         flavor(sweet, soda).
+        
     
     - Use your function to find the flavor of 'velveeta'.
     - Use your function to find the the foods of 'savory' flavor.
