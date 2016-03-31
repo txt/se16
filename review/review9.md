@@ -34,7 +34,6 @@
         flavor(savory, meat).
         flavor(savory, cheese).
         flavor(sweet, soda).
-        
     
 4. Consider the following facts and function in Prolog. Will the following two coloring result in 'Yes' or 'No' in Prolog?
 
