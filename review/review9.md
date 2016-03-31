@@ -24,7 +24,6 @@
 2. What is clause reordering in Prolog? Why is it important? Give an example. What other languages uses clause reordering?
 3. From the given facts below, write a function in Prolog to find a food's flavor.
 
-    ```Prolog
     food_type(velveeta, cheese).
     food_type(ritz, cracker).
     food_type(spam, meat).
@@ -35,13 +34,11 @@
     flavor(savory, meat).
     flavor(savory, cheese).
     flavor(sweet, soda).
-    ```
     
     - Use your function to find the flavor of 'velveeta'.
     - Use your function to find the the foods of 'savory' flavor.
 4. Consider the following facts and function in Prolog. Will the following two coloring result in 'Yes' or 'No' in Prolog?
 
-        ```Prolog
         different(red, green). different(red, blue).
         different(green, red). different(green, blue).
         different(blue, red). different(blue, green).
@@ -68,7 +65,6 @@
         Georgia = green.
         Mississippi = red.
         Tennessee = blue.
-        ```
     
 5. Explain what the following prolog code does.
 
