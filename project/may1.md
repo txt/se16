@@ -6,12 +6,14 @@ _GIRLBOT
 
 ## Overview
 
--  Project1: do something\
--   Project2: reflect on what others did, observe "bad smells", suggest
-    improvements.
 
 Now that Project1 is over, we have some data on the patterns of issues
 made in projects in this subject.
+
+-  Project1: do something
+-   Project2: reflect on what others did, observe "bad smells", suggest
+    improvements.
+
 
 Your task: to write scripts that
 
@@ -133,3 +135,11 @@ these bad smells occur.
 
 Now, how early before t1,t2, etc can you raise a red flag saying "bad
 smell ahead?"
+
+## What to Hand in
+
+In our [submissions sheet](https://goo.gl/xVW0tN),
+paste a link to a PDF file in our usual format. We
+are expecting 8+ pages, double column with LOTS of
+illustrations. 
+
