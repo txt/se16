@@ -136,10 +136,16 @@ these bad smells occur.
 Now, how early before t1,t2, etc can you raise a red flag saying "bad
 smell ahead?"
 
+________
+
 ## What to Hand in
 
 In our [submissions sheet](https://goo.gl/xVW0tN),
 paste a link to a PDF file in our usual format. We
 are expecting 8+ pages, double column with LOTS of
-illustrations. 
+illustrations.
+
+Also paste in a link to your code repo containing all your scripts (so if you do something cool, others can build on your work, next year).
+
+
 
