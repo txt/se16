@@ -37,7 +37,7 @@ paste in a _shortened_  url to a README.md file with _labeled_ links to:
       + Note that this is a placeholder. Your slides will not be graded till
         after you present your work. So you may update your slides at any time
       between April1 and the time of your presentation (but NOT after). 
-	  + To find your presentation time, fill in one of the [empty slots on this sheett](https://docs.google.com/spreadsheets/d/1SXVedXWhhpPkiVyrPAni-wF-B9hIr5xiYwsTCLMN58Q/edit?usp=sharing).
+	  + To find your presentation time, fill in one of the [empty slots on this sheet](https://docs.google.com/spreadsheets/d/1SXVedXWhhpPkiVyrPAni-wF-B9hIr5xiYwsTCLMN58Q/edit?usp=sharing).
       + Your groups' talk will be 20 minutes long
 	   (including question time).
       + Your talk should overview and introduce your project
