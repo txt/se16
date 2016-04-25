@@ -39,6 +39,5 @@
     - a = -3, b = -6
     - Both of the above.
 7. Define branch coverage. 
-8. For the above code, give tests that gets you greater than50% and less than 100% coverage.
 8. '100%  Branch coverage ensures 100% statement coverage' - discuss.
 9. Define semantic coverage. What kind of testing methods can be used to achieve semantic coverage?
